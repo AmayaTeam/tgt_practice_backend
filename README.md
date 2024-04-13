@@ -14,3 +14,13 @@
      ```commandline
      docker-compose stop
      ```
+
+## Перед коммитом
+*  Отформатируй код с помощью команды:
+    ```commandline
+    black .
+    ```
+*  Используй линтер для дополнительной проверки:
+    ```commandline
+    flake8 .
+    ```
