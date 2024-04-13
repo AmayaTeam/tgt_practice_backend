@@ -24,3 +24,9 @@
     ```commandline
     flake8 .
     ```
+
+Дополнительно:
+* запуск консоли изнутри контейнера:
+  ```commandline
+  docker-compose exec web poetry run python manage.py shell 
+  ```
