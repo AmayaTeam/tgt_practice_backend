@@ -9,65 +9,127 @@ class Migration(migrations.Migration):
 
     initial = True
 
-    dependencies = [
-    ]
+    dependencies = []
 
     operations = [
         migrations.CreateModel(
-            name='ToolModuleGroup',
+            name="ToolModuleGroup",
             fields=[
-                ('id', models.UUIDField(default=uuid.uuid4, editable=False, primary_key=True, serialize=False)),
-                ('name', models.TextField(blank=True, null=True)),
+                (
+                    "id",
+                    models.UUIDField(
+                        default=uuid.uuid4,
+                        editable=False,
+                        primary_key=True,
+                        serialize=False,
+                    ),
+                ),
+                ("name", models.TextField(blank=True, null=True)),
             ],
         ),
         migrations.CreateModel(
-            name='ToolSensorType',
+            name="ToolSensorType",
             fields=[
-                ('id', models.UUIDField(default=uuid.uuid4, editable=False, primary_key=True, serialize=False)),
-                ('name', models.TextField(blank=True, null=True)),
+                (
+                    "id",
+                    models.UUIDField(
+                        default=uuid.uuid4,
+                        editable=False,
+                        primary_key=True,
+                        serialize=False,
+                    ),
+                ),
+                ("name", models.TextField(blank=True, null=True)),
             ],
         ),
         migrations.CreateModel(
-            name='ToolModuleType',
+            name="ToolModuleType",
             fields=[
-                ('id', models.UUIDField(default=uuid.uuid4, editable=False, primary_key=True, serialize=False)),
-                ('name', models.TextField(blank=True, null=True)),
-                ('module_type_id', models.TextField(blank=True, null=True)),
-                ('hash_code', models.TextField(blank=True, null=True)),
-                ('r_modules_group_id', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='api.toolmodulegroup')),
+                (
+                    "id",
+                    models.UUIDField(
+                        default=uuid.uuid4,
+                        editable=False,
+                        primary_key=True,
+                        serialize=False,
+                    ),
+                ),
+                ("name", models.TextField(blank=True, null=True)),
+                ("module_type_id", models.TextField(blank=True, null=True)),
+                ("hash_code", models.TextField(blank=True, null=True)),
+                (
+                    "r_modules_group_id",
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE,
+                        to="api.toolmodulegroup",
+                    ),
+                ),
             ],
         ),
         migrations.CreateModel(
-            name='ToolModule',
+            name="ToolModule",
             fields=[
-                ('id', models.UUIDField(default=uuid.uuid4, editable=False, primary_key=True, serialize=False)),
-                ('sn', models.TextField(blank=True, max_length=255, null=True)),
-                ('dbdate', models.DateField(blank=True, null=True)),
-                ('dbversion', models.DateField(blank=True, null=True)),
-                ('dbsn', models.TextField(blank=True, null=True)),
-                ('dbcomment', models.TextField(blank=True, null=True)),
-                ('dbtname', models.TextField(blank=True, null=True)),
-                ('dbtlength', models.FloatField(blank=True, null=True)),
-                ('dbtweight', models.FloatField(blank=True, null=True)),
-                ('dbtmax_od', models.FloatField(blank=True, null=True)),
-                ('dbtmax_od_collapsed', models.FloatField(blank=True, null=True)),
-                ('dbtmax_od_opened', models.FloatField(blank=True, null=True)),
-                ('dbtimage2d', models.FloatField(blank=True, null=True)),
-                ('dbtimage_h_shift', models.FloatField(blank=True, null=True)),
-                ('dbtimage_h_scale', models.FloatField(blank=True, null=True)),
-                ('dbtimage_h_y1', models.FloatField(blank=True, null=True)),
-                ('dbtimage_h_y2', models.FloatField(blank=True, null=True)),
-                ('dbtcomp_str', models.FloatField(blank=True, null=True)),
-                ('r_module_type_id', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='api.toolmoduletype')),
+                (
+                    "id",
+                    models.UUIDField(
+                        default=uuid.uuid4,
+                        editable=False,
+                        primary_key=True,
+                        serialize=False,
+                    ),
+                ),
+                ("sn", models.TextField(blank=True, max_length=255, null=True)),
+                ("dbdate", models.DateField(blank=True, null=True)),
+                ("dbversion", models.DateField(blank=True, null=True)),
+                ("dbsn", models.TextField(blank=True, null=True)),
+                ("dbcomment", models.TextField(blank=True, null=True)),
+                ("dbtname", models.TextField(blank=True, null=True)),
+                ("dbtlength", models.FloatField(blank=True, null=True)),
+                ("dbtweight", models.FloatField(blank=True, null=True)),
+                ("dbtmax_od", models.FloatField(blank=True, null=True)),
+                ("dbtmax_od_collapsed", models.FloatField(blank=True, null=True)),
+                ("dbtmax_od_opened", models.FloatField(blank=True, null=True)),
+                ("dbtimage2d", models.FloatField(blank=True, null=True)),
+                ("dbtimage_h_shift", models.FloatField(blank=True, null=True)),
+                ("dbtimage_h_scale", models.FloatField(blank=True, null=True)),
+                ("dbtimage_h_y1", models.FloatField(blank=True, null=True)),
+                ("dbtimage_h_y2", models.FloatField(blank=True, null=True)),
+                ("dbtcomp_str", models.FloatField(blank=True, null=True)),
+                (
+                    "r_module_type_id",
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE,
+                        to="api.toolmoduletype",
+                    ),
+                ),
             ],
         ),
         migrations.CreateModel(
-            name='ToolInstalledSensor',
+            name="ToolInstalledSensor",
             fields=[
-                ('id', models.UUIDField(default=uuid.uuid4, editable=False, primary_key=True, serialize=False)),
-                ('record_point', models.FloatField(blank=True, null=True)),
-                ('r_toolmodule_id', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='api.toolmodule')),
-                ('r_toolsensortype_id', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='api.toolsensortype')),
+                (
+                    "id",
+                    models.UUIDField(
+                        default=uuid.uuid4,
+                        editable=False,
+                        primary_key=True,
+                        serialize=False,
+                    ),
+                ),
+                ("record_point", models.FloatField(blank=True, null=True)),
+                (
+                    "r_toolmodule_id",
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE, to="api.toolmodule"
+                    ),
+                ),
+                (
+                    "r_toolsensortype_id",
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE,
+                        to="api.toolsensortype",
+                    ),
+                ),
             ],
         ),
     ]
