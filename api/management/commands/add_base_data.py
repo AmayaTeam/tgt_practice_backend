@@ -107,7 +107,6 @@ class Command(BaseCommand):
         tool_module_type_filepath = "api/management/data/tool_module_type.json"
         tool_sensor_type_filepath = "api/management/data/tool_sensor_type.json"
         tool_module_filepath = "api/management/data/tool_module.json"
-        tool_installed_sensor_filepath = "api/management/data/tool_installed_sensor.json"
 
         with open(tool_module_group_filepath, "r", encoding="utf-8") as tool_module_group_file:
             tool_module_group_data = json.load(tool_module_group_file)
@@ -121,12 +120,7 @@ class Command(BaseCommand):
         with open(tool_module_filepath, "r", encoding="utf-8") as tool_module_file:
             tool_module_data = json.load(tool_module_file)
 
-        with open(tool_installed_sensor_filepath, "r", encoding="utf-8") as tool_installed_sensor_file:
-            tool_installed_sensor_data = json.load(tool_installed_sensor_file)
-
-
         self.add_tool_module_group(tool_module_group_data)
         self.add_tool_module_type(tool_module_type_data)
         self.add_tool_sensor_type(tool_sensor_type_data)
         self.add_tool_module(tool_module_data)
-        self.add_tool_installed_sensor(tool_installed_sensor_data)

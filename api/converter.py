@@ -2,10 +2,13 @@ import binascii
 
 from graphene.types import Scalar
 from graphql.language import ast
+
+
 class Binary(Scalar):
     """
     BinaryArray is used to convert a BinaryField to the string form
     """
+
     @staticmethod
     def binary_to_string(value):
         return binascii.hexlify(value).decode("utf-8")
