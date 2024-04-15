@@ -1,4 +1,7 @@
 import graphene
+from graphene_django.converter import convert_django_field
+
+from .converter import Binary
 from .types import *
 
 
@@ -25,4 +28,9 @@ class Query(graphene.ObjectType):
         return ToolInstalledSensor.objects.all()
 
 
+@convert_django_field.register(models.BinaryField)
+def convert_column_to_string(typ, column, registry=None):
+    return graphene.Field(Binary)
+
 schema = graphene.Schema(query=Query)
+

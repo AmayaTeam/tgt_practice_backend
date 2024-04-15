@@ -32,9 +32,67 @@ class Command(BaseCommand):
                 r_modules_group_id=tool_module_group,
             )
 
+    def add_tool_sensor_type(self, tool_sensor_type_data):
+        for tool_sensor_type_element in tool_sensor_type_data:
+            id = tool_sensor_type_element["id"]
+            name = tool_sensor_type_element["name"]
+            sensor_type_id = tool_sensor_type_element["sensor_type_id"]
+            ToolSensorType.objects.create(
+                id=id,
+                name=name,
+                sensor_type_id=sensor_type_id,
+            )
+
+    def add_tool_module(self, tool_module_data):
+        for tool_module_element in tool_module_data:
+            id = tool_module_element["id"]
+            r_module_type_id = tool_module_element["r_module_type_id"]
+            sn_ = tool_module_element["sn_"]
+            dbdate_ = tool_module_element["dbdate_"]
+            dbversion_ = tool_module_element["dbversion_"]
+            dbsn_ = tool_module_element["dbsn_"]
+            dbcomment_ = tool_module_element["dbcomment_"]
+            dbtname_ = tool_module_element["dbtname_"]
+            dbtlength_ = tool_module_element["dbtlength_"]
+            dbtweight_ = tool_module_element["dbtweight_"]
+            dbtmax_od_ = tool_module_element["dbtmax_od_"]
+            dbtmax_od_collapsed_ = tool_module_element["dbtmax_od_collapsed_"]
+            dbtmax_od_opened_ = tool_module_element["dbtmax_od_opened_"]
+            dbtimage2d_ = tool_module_element["dbtimage2d_"]
+            dbtimage_h_shift = tool_module_element["dbtimage_h_shift"]
+            dbtimage_h_scale = tool_module_element["dbtimage_h_scale"]
+            dbtimage_h_y1 = tool_module_element["dbtimage_h_y1"]
+            dbtimage_h_y2 = tool_module_element["dbtimage_h_y2"]
+            dbtcomp_str = tool_module_element["dbtcomp_str"]
+            image = tool_module_element["image"]
+            ToolModule.objects.create(
+                id=id,
+                r_module_type_id=r_module_type_id,
+                sn_=sn_,
+                dbdate_=dbdate_,
+                dbversion_=dbversion_,
+                dbsn_=dbsn_,
+                dbcomment_=dbcomment_,
+                dbtname_=dbtname_,
+                dbtlength_=dbtlength_,
+                dbtweight_=dbtweight_,
+                dbtmax_od_=dbtmax_od_,
+                dbtmax_od_collapsed_=dbtmax_od_collapsed_,
+                dbtmax_od_opened_=dbtmax_od_opened_,
+                dbtimage2d_=dbtimage2d_,
+                dbtimage_h_shift=dbtimage_h_shift,
+                dbtimage_h_scale=dbtimage_h_scale,
+                dbtimage_h_y1=dbtimage_h_y1,
+                dbtimage_h_y2=dbtimage_h_y2,
+                dbtcomp_str=dbtcomp_str,
+                image=image,
+            )
+
     def handle(self, *args, **kwargs):
         tool_module_group_filepath = "api/management/data/tool_module_group.json"
         tool_module_type_filepath = "api/management/data/tool_module_type.json"
+        tool_sensor_type_filepath = "api/management/data/tool_sensor_type.json"
+        tool_module_filepath = "api/management/data/tool_module.json"
 
         with open(tool_module_group_filepath, "r", encoding="utf-8") as tool_module_group_file:
             tool_module_group_data = json.load(tool_module_group_file)
@@ -42,5 +100,14 @@ class Command(BaseCommand):
         with open(tool_module_type_filepath, "r", encoding="utf-8") as tool_module_type_file:
             tool_module_type_data = json.load(tool_module_type_file)
 
+        with open(tool_sensor_type_filepath, "r", encoding="utf-8") as tool_sensor_type_file:
+            tool_sensor_type_data = json.load(tool_sensor_type_file)
+
+        with open(tool_module_filepath, "r", encoding="utf-8") as tool_module_file:
+            tool_module_data = json.load(tool_module_file)
+
+
         self.add_tool_module_group(tool_module_group_data)
         self.add_tool_module_type(tool_module_type_data)
+        self.add_tool_sensor_type(tool_sensor_type_data)
+        self.add_tool_module(tool_module_data)

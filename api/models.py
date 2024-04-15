@@ -48,6 +48,7 @@ class ToolModule(models.Model):
     dbtimage_h_y1 = models.FloatField(null=True, blank=True)
     dbtimage_h_y2 = models.FloatField(null=True, blank=True)
     dbtcomp_str = models.FloatField(null=True, blank=True)
+    image = models.BinaryField(null=True, blank=True)
 
     def __str__(self):
         return self.sn
