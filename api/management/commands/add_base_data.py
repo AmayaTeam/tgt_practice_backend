@@ -1,12 +1,19 @@
+import datetime
+
 from django.core.management import BaseCommand
 import json
+
+from django.db import transaction
+from setuptools._vendor.more_itertools.recipes import grouper
+
 from api.models import *
 
 
 class Command(BaseCommand):
     help = 'add_base_data'
 
-    def add_tool_module_group(self, tool_module_group_data):
+    @staticmethod
+    def add_tool_module_group(tool_module_group_data):
         for tool_module_group_element in tool_module_group_data:
             id = tool_module_group_element["id"]
             name = tool_module_group_element["name"]
@@ -15,7 +22,8 @@ class Command(BaseCommand):
                 name=name
             )
 
-    def add_tool_module_type(self, tool_module_type_data):
+    @staticmethod
+    def add_tool_module_type(tool_module_type_data):
         for tool_module_type_element in tool_module_type_data:
             id = tool_module_type_element["id"]
             name = tool_module_type_element["name"]
@@ -32,42 +40,49 @@ class Command(BaseCommand):
                 r_modules_group_id=tool_module_group,
             )
 
-    def add_tool_sensor_type(self, tool_sensor_type_data):
+    @staticmethod
+    def add_tool_sensor_type(tool_sensor_type_data):
         for tool_sensor_type_element in tool_sensor_type_data:
             id = tool_sensor_type_element["id"]
             name = tool_sensor_type_element["name"]
-            sensor_type_id = tool_sensor_type_element["sensor_type_id"]
+            sensor_id = tool_sensor_type_element["sensor_id"]
             ToolSensorType.objects.create(
                 id=id,
                 name=name,
-                sensor_type_id=sensor_type_id,
+                sensor_id=sensor_id,
             )
 
-    def add_tool_module(self, tool_module_data):
+    @staticmethod
+    def add_tool_module(tool_module_data):
+        tool_modules = []
         for tool_module_element in tool_module_data:
             id = tool_module_element["id"]
             r_module_type_id = tool_module_element["r_module_type_id"]
+            tool_module_type = ToolModuleType.objects.filter(id=r_module_type_id).first()
             sn_ = tool_module_element["sn_"]
-            dbdate_ = tool_module_element["dbdate_"]
-            dbversion_ = tool_module_element["dbversion_"]
+            dbdate_ = datetime.datetime.strptime(tool_module_element["dbdate_"], "%Y-%m-%d").date() if tool_module_element["dbdate_"] else None
+            # TODO: В схеме дата, а в тестовым нули и нулы
+            # dbversion_ = datetime.datetime.strptime(tool_module_element["dbversion_"], "%Y-%m-%d").date()
+            dbversion_ = None
             dbsn_ = tool_module_element["dbsn_"]
             dbcomment_ = tool_module_element["dbcomment_"]
             dbtname_ = tool_module_element["dbtname_"]
-            dbtlength_ = tool_module_element["dbtlength_"]
-            dbtweight_ = tool_module_element["dbtweight_"]
+            dbtlength_ = tool_module_element["dbtlength"]
+            dbtweight_ = tool_module_element["dbtweight"]
             dbtmax_od_ = tool_module_element["dbtmax_od_"]
             dbtmax_od_collapsed_ = tool_module_element["dbtmax_od_collapsed_"]
             dbtmax_od_opened_ = tool_module_element["dbtmax_od_opened_"]
-            dbtimage2d_ = tool_module_element["dbtimage2d_"]
+            # dbtimage2d_ = tool_module_element["dbtimage2d_"]
+            dbtimage2d_ = None
             dbtimage_h_shift = tool_module_element["dbtimage_h_shift"]
             dbtimage_h_scale = tool_module_element["dbtimage_h_scale"]
             dbtimage_h_y1 = tool_module_element["dbtimage_h_y1"]
             dbtimage_h_y2 = tool_module_element["dbtimage_h_y2"]
             dbtcomp_str = tool_module_element["dbtcomp_str"]
-            image = tool_module_element["image"]
-            ToolModule.objects.create(
+            image = None
+            tool_module = ToolModule(
                 id=id,
-                r_module_type_id=r_module_type_id,
+                r_module_type_id=tool_module_type,
                 sn=sn_,
                 dbdate=dbdate_,
                 dbversion=dbversion_,
@@ -87,26 +102,34 @@ class Command(BaseCommand):
                 dbtcomp_str=dbtcomp_str,
                 image=image,
             )
+            tool_modules.append(tool_module)
+        ToolModule.objects.bulk_create(tool_modules)
 
-    def add_tool_installed_sensor(self, tool_installed_sensor_data):
+    @staticmethod
+    def add_tool_installed_sensor(tool_installed_sensor_data):
+        sensors = []
         for tool_installed_sensor_element in tool_installed_sensor_data:
             id = tool_installed_sensor_element["id"]
             r_toolmodule_id = tool_installed_sensor_element["r_toolmodule_id"]
+            tool_module = ToolModule.objects.filter(id=r_toolmodule_id).first()
             r_toolsensortype_id = tool_installed_sensor_element["r_toolsensortype_id"]
+            toolsensortype = ToolSensorType.objects.filter(id=r_toolsensortype_id).first()
             record_point_ = tool_installed_sensor_element["record_point_"]
-            ToolInstalledSensor.objects.create(
+            sensor = ToolInstalledSensor(
                 id=id,
-                r_toolmodule_id=r_toolmodule_id,
-                r_toolsensortype_id=r_toolsensortype_id,
+                r_toolmodule_id=tool_module,
+                r_toolsensortype_id=toolsensortype,
                 record_point=record_point_,
             )
-
+            sensors.append(sensor)
+        ToolInstalledSensor.objects.bulk_create(sensors)
 
     def handle(self, *args, **kwargs):
         tool_module_group_filepath = "api/management/data/tool_module_group.json"
         tool_module_type_filepath = "api/management/data/tool_module_type.json"
         tool_sensor_type_filepath = "api/management/data/tool_sensor_type.json"
         tool_module_filepath = "api/management/data/tool_module.json"
+        tool_installed_sensor_filepath = "api/management/data/tool_installed_sensor.json"
 
         with open(tool_module_group_filepath, "r", encoding="utf-8") as tool_module_group_file:
             tool_module_group_data = json.load(tool_module_group_file)
@@ -120,7 +143,11 @@ class Command(BaseCommand):
         with open(tool_module_filepath, "r", encoding="utf-8") as tool_module_file:
             tool_module_data = json.load(tool_module_file)
 
+        with open(tool_installed_sensor_filepath, "r", encoding="utf-8") as tool_installed_sensor_file:
+            tool_installed_sensor_data = json.load(tool_installed_sensor_file)
+
         self.add_tool_module_group(tool_module_group_data)
         self.add_tool_module_type(tool_module_type_data)
         self.add_tool_sensor_type(tool_sensor_type_data)
         self.add_tool_module(tool_module_data)
+        self.add_tool_installed_sensor(tool_installed_sensor_data)
