@@ -68,18 +68,18 @@ class Command(BaseCommand):
             ToolModule.objects.create(
                 id=id,
                 r_module_type_id=r_module_type_id,
-                sn_=sn_,
-                dbdate_=dbdate_,
-                dbversion_=dbversion_,
-                dbsn_=dbsn_,
-                dbcomment_=dbcomment_,
-                dbtname_=dbtname_,
-                dbtlength_=dbtlength_,
-                dbtweight_=dbtweight_,
-                dbtmax_od_=dbtmax_od_,
-                dbtmax_od_collapsed_=dbtmax_od_collapsed_,
-                dbtmax_od_opened_=dbtmax_od_opened_,
-                dbtimage2d_=dbtimage2d_,
+                sn=sn_,
+                dbdate=dbdate_,
+                dbversion=dbversion_,
+                dbsn=dbsn_,
+                dbcomment=dbcomment_,
+                dbtname=dbtname_,
+                dbtlength=dbtlength_,
+                dbtweight=dbtweight_,
+                dbtmax_od=dbtmax_od_,
+                dbtmax_od_collapsed=dbtmax_od_collapsed_,
+                dbtmax_od_opened=dbtmax_od_opened_,
+                dbtimage2d=dbtimage2d_,
                 dbtimage_h_shift=dbtimage_h_shift,
                 dbtimage_h_scale=dbtimage_h_scale,
                 dbtimage_h_y1=dbtimage_h_y1,
@@ -88,11 +88,26 @@ class Command(BaseCommand):
                 image=image,
             )
 
+    def add_tool_installed_sensor(self, tool_installed_sensor_data):
+        for tool_installed_sensor_element in tool_installed_sensor_data:
+            id = tool_installed_sensor_element["id"]
+            r_toolmodule_id = tool_installed_sensor_element["r_toolmodule_id"]
+            r_toolsensortype_id = tool_installed_sensor_element["r_toolsensortype_id"]
+            record_point_ = tool_installed_sensor_element["record_point_"]
+            ToolInstalledSensor.objects.create(
+                id=id,
+                r_toolmodule_id=r_toolmodule_id,
+                r_toolsensortype_id=r_toolsensortype_id,
+                record_point=record_point_,
+            )
+
+
     def handle(self, *args, **kwargs):
         tool_module_group_filepath = "api/management/data/tool_module_group.json"
         tool_module_type_filepath = "api/management/data/tool_module_type.json"
         tool_sensor_type_filepath = "api/management/data/tool_sensor_type.json"
         tool_module_filepath = "api/management/data/tool_module.json"
+        tool_installed_sensor_filepath = "api/management/data/tool_installed_sensor.json"
 
         with open(tool_module_group_filepath, "r", encoding="utf-8") as tool_module_group_file:
             tool_module_group_data = json.load(tool_module_group_file)
@@ -106,8 +121,12 @@ class Command(BaseCommand):
         with open(tool_module_filepath, "r", encoding="utf-8") as tool_module_file:
             tool_module_data = json.load(tool_module_file)
 
+        with open(tool_installed_sensor_filepath, "r", encoding="utf-8") as tool_installed_sensor_file:
+            tool_installed_sensor_data = json.load(tool_installed_sensor_file)
+
 
         self.add_tool_module_group(tool_module_group_data)
         self.add_tool_module_type(tool_module_type_data)
         self.add_tool_sensor_type(tool_sensor_type_data)
         self.add_tool_module(tool_module_data)
+        self.add_tool_installed_sensor(tool_installed_sensor_data)
