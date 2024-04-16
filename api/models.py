@@ -76,4 +76,4 @@ class ToolInstalledSensor(models.Model):
     record_point = models.FloatField(null=True, blank=True)
 
     def __str__(self):
-        return self.record_point
+        return str(self.record_point)

@@ -1,5 +1,6 @@
 import datetime
 
+from django.contrib.auth.models import User
 from django.core.management import BaseCommand
 import json
 
@@ -175,3 +176,6 @@ class Command(BaseCommand):
             self.add_tool_installed_sensor(tool_installed_sensor_data)
         )
         print("ToolInstalledSensors created")
+        User.objects.create_superuser("admin", "admin@admin.com", "admin")
+        User.objects.create_user("simple_user", "simple@user.com", "simple_user")
+        print("Users created")

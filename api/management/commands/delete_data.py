@@ -1,3 +1,4 @@
+from django.contrib.auth.models import User
 from django.core.management import BaseCommand
 from api.models import *
 
@@ -16,3 +17,5 @@ class Command(BaseCommand):
         print("ToolModuleType Deleted")
         ToolSensorType.objects.all().delete()
         print("ToolSensorTypes Deleted")
+        User.objects.all().delete()
+        print("Users Deleted")
