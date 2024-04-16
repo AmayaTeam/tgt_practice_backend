@@ -11,7 +11,7 @@ class ToolModuleGroup(models.Model):
         return self.name
 
     class Meta:
-        ordering = ('name',)
+        ordering = ("name",)
 
 
 class ToolModuleType(models.Model):
@@ -25,7 +25,7 @@ class ToolModuleType(models.Model):
         return self.name
 
     class Meta:
-        ordering = ('name',)
+        ordering = ("name",)
 
 
 class ToolModule(models.Model):
@@ -54,7 +54,7 @@ class ToolModule(models.Model):
         return self.sn
 
     class Meta:
-        ordering = ('sn',)
+        ordering = ("sn",)
 
 
 class ToolSensorType(models.Model):
@@ -66,7 +66,7 @@ class ToolSensorType(models.Model):
         return self.name
 
     class Meta:
-        ordering = ('name',)
+        ordering = ("name",)
 
 
 class ToolInstalledSensor(models.Model):

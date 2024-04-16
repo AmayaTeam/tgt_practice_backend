@@ -18,7 +18,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 807,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 6800
+    "dbtcomp_str": 6800,
+    "image": null
   },
   {
     "id": "32ac0dfe-8695-41bc-b72f-ead4fb62f06e",
@@ -39,7 +40,8 @@
     "dbtimage_h_scale": 115,
     "dbtimage_h_y1": 1500,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "24e561ba-79c6-4606-a2cc-b61fa8ede3b5",
@@ -60,7 +62,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 100,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "1e22dfea-aaea-4fd4-8c64-38ce34d07585",
@@ -81,7 +84,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 168,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 1360
+    "dbtcomp_str": 1360,
+    "image": null
   },
   {
     "id": "88076ba1-9cd9-4d30-a899-f24b39a1b310",
@@ -102,7 +106,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 807,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 6800
+    "dbtcomp_str": 6800,
+    "image": null
   },
   {
     "id": "f4647d5a-a77f-49ab-b162-979e332d726a",
@@ -123,7 +128,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 807,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 6800
+    "dbtcomp_str": 6800,
+    "image": null
   },
   {
     "id": "7ecd5376-164c-4e3a-90d6-78c7948796ee",
@@ -144,7 +150,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 720,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 8500
+    "dbtcomp_str": 8500,
+    "image": null
   },
   {
     "id": "1160fe98-271b-4aa2-8fed-1dd7f52d6717",
@@ -165,7 +172,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 807,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 6800
+    "dbtcomp_str": 6800,
+    "image": null
   },
   {
     "id": "1613c000-52fd-428e-94e9-b6e8915e65c8",
@@ -186,7 +194,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 807,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 6800
+    "dbtcomp_str": 6800,
+    "image": null
   },
   {
     "id": "349d1a46-3fda-48c3-a307-45a5a5d85584",
@@ -207,7 +216,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 807,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 6800
+    "dbtcomp_str": 6800,
+    "image": null
   },
   {
     "id": "0e1ab681-1467-4029-99b6-1b011cada2d3",
@@ -228,7 +238,8 @@
     "dbtimage_h_scale": 105,
     "dbtimage_h_y1": 661,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "f058e36e-a6ec-4fc8-b1f9-9a9bb686345a",
@@ -249,7 +260,8 @@
     "dbtimage_h_scale": 105,
     "dbtimage_h_y1": 661,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "1a352a76-e28a-458a-942e-1369e0a3f614",
@@ -270,7 +282,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1853,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "1e0dd138-58dd-4d25-981a-6cf8aa62594d",
@@ -291,7 +304,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1853,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "1edc96d4-bd9f-4411-a844-e99a33e8298a",
@@ -312,7 +326,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1855,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "28610d91-810a-4a00-9ce2-d1f560e6fec5",
@@ -333,7 +348,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1853,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "2e748b40-0a2e-41c6-95b0-990d73065eff",
@@ -354,7 +370,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1853,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "324c444f-f57a-4bff-ab83-089e332f6e62",
@@ -375,7 +392,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1825,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "3295b9e8-87ff-48e0-889f-6277e1b96d2d",
@@ -396,7 +414,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1825,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "34da04d6-c97b-45e5-a3de-fbff287d25ca",
@@ -417,7 +436,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1853,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "2407272e-35bc-492a-b2c9-7226e4a7c10a",
@@ -438,7 +458,8 @@
     "dbtimage_h_scale": 115,
     "dbtimage_h_y1": 900,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "10c70bdf-35fb-4830-b6d5-7bcdffcd6304",
@@ -459,7 +480,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1853,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "144908cc-1cf2-41fb-9210-8731d6faafee",
@@ -480,7 +502,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1853,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "14a9ea8a-f94d-4043-ae1b-4bd27910e2c7",
@@ -501,7 +524,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1850,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "380026bf-f52c-431f-92ad-ff5c923e5d42",
@@ -522,7 +546,8 @@
     "dbtimage_h_scale": 115,
     "dbtimage_h_y1": 800,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "3b74c9b4-fb05-4526-a460-f56f7d65f5f0",
@@ -543,7 +568,8 @@
     "dbtimage_h_scale": 115,
     "dbtimage_h_y1": 900,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "3cfca5a4-6de9-4f5d-baf2-2552c948fba2",
@@ -564,7 +590,8 @@
     "dbtimage_h_scale": 115,
     "dbtimage_h_y1": 900,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "0d65a472-f90d-4df5-bdc7-e0d9857652e8",
@@ -585,7 +612,8 @@
     "dbtimage_h_scale": 145,
     "dbtimage_h_y1": 700,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "08f9c6a7-4ff6-40d2-926f-55d24403b333",
@@ -606,7 +634,8 @@
     "dbtimage_h_scale": 115,
     "dbtimage_h_y1": 900,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "102cc101-7c2a-4e08-9741-7b12ae9d8432",
@@ -627,7 +656,8 @@
     "dbtimage_h_scale": 115,
     "dbtimage_h_y1": 900,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "19682503-597d-4e57-bb1f-0d03b90e533b",
@@ -648,7 +678,8 @@
     "dbtimage_h_scale": 115,
     "dbtimage_h_y1": 800,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "1351c70f-781b-45ab-9c30-104ba8269878",
@@ -669,7 +700,8 @@
     "dbtimage_h_scale": 145,
     "dbtimage_h_y1": 800,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "1574a82a-2763-4ae7-b44a-11ca36560ec3",
@@ -690,7 +722,8 @@
     "dbtimage_h_scale": 145,
     "dbtimage_h_y1": 800,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "1be1e560-0e62-4404-a10b-3fe44cbff987",
@@ -711,7 +744,8 @@
     "dbtimage_h_scale": 145,
     "dbtimage_h_y1": 800,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "3acf9e2d-91c8-4133-8100-20ae30953589",
@@ -732,7 +766,8 @@
     "dbtimage_h_scale": 145,
     "dbtimage_h_y1": 700,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "107ea466-83d1-4211-974d-b0c97c7ee56f",
@@ -753,7 +788,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 400,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "00571fbd-7a7c-45fc-9804-dafffe340edf",
@@ -774,7 +810,8 @@
     "dbtimage_h_scale": 145,
     "dbtimage_h_y1": 700,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "037853d9-d76e-4e5c-bfbd-e23a8f36abd3",
@@ -795,7 +832,8 @@
     "dbtimage_h_scale": 145,
     "dbtimage_h_y1": 715,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "0ac01a00-cfe7-4a18-96ea-5e41eb575c0c",
@@ -816,7 +854,8 @@
     "dbtimage_h_scale": 145,
     "dbtimage_h_y1": 800,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "18a0ad25-ab1f-4e02-9481-f9dc5ec261c1",
@@ -837,7 +876,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 400,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "1bc6ffeb-a995-4023-bdf1-2cc527749446",
@@ -858,7 +898,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 400,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "2b6e2558-6f29-4af3-b603-339d6b47843c",
@@ -879,7 +920,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 400,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "3627463b-2e9b-4e74-8113-c79c19c254f1",
@@ -900,7 +942,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 400,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "39a7f547-3d86-4e29-a1dd-571b62b54e6f",
@@ -921,7 +964,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 400,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "122618da-59b7-4b3a-aee9-56d1096530c6",
@@ -942,7 +986,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 340,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "08bb2e76-846b-44da-999a-2aceb70f957c",
@@ -963,7 +1008,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 400,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "09a389fb-ba44-4074-88a4-d4890cf1543a",
@@ -984,7 +1030,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 400,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "0aaa7c8a-bb6f-4234-9e2c-1ddc88e27214",
@@ -1005,7 +1052,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 400,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "1c983a94-6739-4d1c-a983-71360ee7187c",
@@ -1026,7 +1074,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 340,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "1f20dcb0-ebb3-4806-b058-7193e877f5da",
@@ -1047,7 +1096,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 340,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "2172bf30-27ed-4bb2-9cf6-c1eed4096b4e",
@@ -1068,7 +1118,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 340,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "24690027-2755-400d-b55b-70d0a70d227a",
@@ -1089,7 +1140,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 350,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "2999e5e2-6c44-4f29-9560-f1e853139cef",
@@ -1110,7 +1162,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 340,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "2bf9caa4-a7b1-41cb-89a3-09f94fb23c88",
@@ -1131,7 +1184,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 340,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "31f379d8-0bc9-4602-9ed7-91b15af82b57",
@@ -1152,7 +1206,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 350,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "40d8b6d3-a400-4486-a21f-ae65e1a22d16",
@@ -1173,7 +1228,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 447,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "00bdc6ea-fa87-41bb-9a9f-212abd18692a",
@@ -1194,7 +1250,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 340,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "011a4004-62a8-4bd0-ba9e-e7fc8a10ea7a",
@@ -1215,7 +1272,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 340,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "07a82bf7-09ac-44d1-869a-5cdf6fc57e18",
@@ -1236,7 +1294,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 350,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "4644bde4-a5bd-4611-b3b0-43369edd7c04",
@@ -1257,7 +1316,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 447,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "51196424-bae0-40c9-a8b3-3e88bc937724",
@@ -1278,7 +1338,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 447,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "5db31f4f-7614-4d00-8fbc-0594a60df980",
@@ -1299,7 +1360,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 447,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "6e26db1a-2638-4cbf-8722-12c13a0e2f42",
@@ -1320,7 +1382,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 447,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "7343687f-6963-4bf0-a2b0-2d830e6e0592",
@@ -1341,7 +1404,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 447,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "7ef66569-05dd-4b15-bb3c-bac86e923036",
@@ -1362,7 +1426,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 447,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "85f51c85-3fca-471e-b675-9fefa44c97e6",
@@ -1383,7 +1448,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 447,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "8750350b-3462-49d9-a383-02deea67295a",
@@ -1404,7 +1470,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 447,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "87aff5d4-1a59-45d5-9722-e1d9c16567aa",
@@ -1425,7 +1492,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 447,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "9a20cf06-067a-44d4-a64d-216ae3cc53ee",
@@ -1446,7 +1514,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 447,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "2461e9b1-0491-4f61-bcfe-bba9e5c3f9a0",
@@ -1467,7 +1536,8 @@
     "dbtimage_h_scale": 38,
     "dbtimage_h_y1": 438,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 4300
+    "dbtcomp_str": 4300,
+    "image": null
   },
   {
     "id": "221a041b-25b9-4445-b79f-34b3501bdbae",
@@ -1488,7 +1558,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 447,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "3dbba429-b09a-44c3-81de-786f705a13f5",
@@ -1509,7 +1580,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 447,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "298aeb1a-c56b-451b-96c0-a3e19bfb7e3c",
@@ -1530,7 +1602,8 @@
     "dbtimage_h_scale": 38,
     "dbtimage_h_y1": 438,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 4300
+    "dbtcomp_str": 4300,
+    "image": null
   },
   {
     "id": "5f6104a2-9815-4557-a8dc-475e8dc4f58b",
@@ -1551,7 +1624,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 395,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 2200
+    "dbtcomp_str": 2200,
+    "image": null
   },
   {
     "id": "71160e90-853a-465a-9ad4-bc40db84044d",
@@ -1572,7 +1646,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 515,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 2200
+    "dbtcomp_str": 2200,
+    "image": null
   },
   {
     "id": "718a28d5-bcba-469c-b019-06359210f963",
@@ -1593,7 +1668,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 395,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 2200
+    "dbtcomp_str": 2200,
+    "image": null
   },
   {
     "id": "f580379d-8dfc-4155-adcf-589e45349d5c",
@@ -1614,7 +1690,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 395,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 2200
+    "dbtcomp_str": 2200,
+    "image": null
   },
   {
     "id": "bfb399bd-90f0-413d-a206-59a5788583c6",
@@ -1635,7 +1712,8 @@
     "dbtimage_h_scale": 165,
     "dbtimage_h_y1": 784,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "26a2ddc0-4737-476c-bccc-e81be4e7e9ff",
@@ -1656,7 +1734,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 515,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 2200
+    "dbtcomp_str": 2200,
+    "image": null
   },
   {
     "id": "42fa890d-262e-4bd5-b74e-eaa7cd5fa511",
@@ -1677,7 +1756,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 515,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 2200
+    "dbtcomp_str": 2200,
+    "image": null
   },
   {
     "id": "48750e44-969a-4584-961b-7a432b198741",
@@ -1698,7 +1778,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 395,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 2200
+    "dbtcomp_str": 2200,
+    "image": null
   },
   {
     "id": "294b7082-1edc-4233-9383-02169f717e1d",
@@ -1719,7 +1800,8 @@
     "dbtimage_h_scale": 110,
     "dbtimage_h_y1": 490,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "3cc242c3-ba30-4e20-a40b-89118228d654",
@@ -1740,7 +1822,8 @@
     "dbtimage_h_scale": 165,
     "dbtimage_h_y1": 784,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "49782261-cd45-4d46-977b-ae7b40537941",
@@ -1761,7 +1844,8 @@
     "dbtimage_h_scale": 165,
     "dbtimage_h_y1": 1034,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "a7ee80b5-b4a2-439a-bea2-c429dc489dc7",
@@ -1782,7 +1866,8 @@
     "dbtimage_h_scale": 165,
     "dbtimage_h_y1": 1034,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "1b5d1560-ca9b-465b-b4c5-249b2e29e118",
@@ -1803,7 +1888,8 @@
     "dbtimage_h_scale": 95,
     "dbtimage_h_y1": 525,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "2ad5a41b-81c2-434b-b49b-f44239ccf748",
@@ -1824,7 +1910,8 @@
     "dbtimage_h_scale": 38,
     "dbtimage_h_y1": 640,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "30b89de5-28a4-4301-9ee5-ce537edf14d3",
@@ -1845,7 +1932,8 @@
     "dbtimage_h_scale": 110,
     "dbtimage_h_y1": 650,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "8c5b6798-348e-49e3-a3ee-934799ff48f0",
@@ -1866,7 +1954,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1432,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 6139
+    "dbtcomp_str": 6139,
+    "image": null
   },
   {
     "id": "1cdfd40e-d6d4-4821-b59b-c13ac82c533c",
@@ -1887,7 +1976,8 @@
     "dbtimage_h_scale": 160,
     "dbtimage_h_y1": 1570,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "77693d74-fb7c-4be5-8391-7c266132ba92",
@@ -1908,7 +1998,8 @@
     "dbtimage_h_scale": 110,
     "dbtimage_h_y1": 585,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "4cfb8848-7b76-4653-9237-13e0740a886b",
@@ -1929,7 +2020,8 @@
     "dbtimage_h_scale": 210,
     "dbtimage_h_y1": 687,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3300
+    "dbtcomp_str": 3300,
+    "image": null
   },
   {
     "id": "6e16db09-bd62-4f87-97b2-8672e09f48f5",
@@ -1950,7 +2042,8 @@
     "dbtimage_h_scale": 110,
     "dbtimage_h_y1": 715,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "785d9d16-c976-49fd-adb0-b54f9f878848",
@@ -1971,7 +2064,8 @@
     "dbtimage_h_scale": 151,
     "dbtimage_h_y1": 475,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "5d926a41-c9b3-44d6-a614-d858b23912d2",
@@ -1992,7 +2086,8 @@
     "dbtimage_h_scale": 38,
     "dbtimage_h_y1": 400,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "438c179f-2849-4d17-8ad2-c3c1c6a904f8",
@@ -2013,7 +2108,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 58,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "5fbbe646-0d0c-4c1d-93b6-9ff508d2574e",
@@ -2034,7 +2130,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 100,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "22199d23-a7e8-4af2-afef-52edb488bbf1",
@@ -2055,7 +2152,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 807,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5.3
+    "dbtcomp_str": 5.3,
+    "image": null
   },
   {
     "id": "b261364e-2067-42c5-b73e-d311e3231083",
@@ -2076,7 +2174,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 807,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5.3
+    "dbtcomp_str": 5.3,
+    "image": null
   },
   {
     "id": "fa5c23f0-4c85-4998-9134-df86bd06ad56",
@@ -2097,7 +2196,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 807,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5.3
+    "dbtcomp_str": 5.3,
+    "image": null
   },
   {
     "id": "53cd1ce8-1e86-48a4-8999-599c6bae64f8",
@@ -2118,7 +2218,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 0,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "38fb1993-9a67-486a-97fd-3bf0a9c2a0ec",
@@ -2139,7 +2240,8 @@
     "dbtimage_h_scale": 105,
     "dbtimage_h_y1": 555,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "79a45705-b9bd-4fbc-9a6b-e74bb2856b95",
@@ -2160,7 +2262,8 @@
     "dbtimage_h_scale": 110,
     "dbtimage_h_y1": 650,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "88e3d87a-2d43-4d4a-a07e-b5ea3755f6a5",
@@ -2181,7 +2284,8 @@
     "dbtimage_h_scale": 110,
     "dbtimage_h_y1": 635,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "8bc6acae-dc44-4fc0-80b1-680223789b8a",
@@ -2202,7 +2306,8 @@
     "dbtimage_h_scale": 110,
     "dbtimage_h_y1": 650,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "b7bd5dde-5473-4e84-a019-11b0e0e27b04",
@@ -2223,7 +2328,8 @@
     "dbtimage_h_scale": 110,
     "dbtimage_h_y1": 650,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "bc642a60-41f7-4b5b-ada9-d8a94557a956",
@@ -2244,7 +2350,8 @@
     "dbtimage_h_scale": 110,
     "dbtimage_h_y1": 650,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "df7af08d-86dd-489a-b43d-7f94c296f3cf",
@@ -2265,7 +2372,8 @@
     "dbtimage_h_scale": 110,
     "dbtimage_h_y1": 600,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "e9ccff6e-5487-471d-989d-ef85ec3d8180",
@@ -2286,7 +2394,8 @@
     "dbtimage_h_scale": 110,
     "dbtimage_h_y1": 560,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "f8ae963a-cc60-464e-88ad-e957d50e0e0c",
@@ -2307,7 +2416,8 @@
     "dbtimage_h_scale": 110,
     "dbtimage_h_y1": 600,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "f9b1476c-9120-4b8d-b933-9c404a0f5a64",
@@ -2328,7 +2438,8 @@
     "dbtimage_h_scale": 110,
     "dbtimage_h_y1": 590,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "5ae8e610-0fc6-4262-9b7c-4304340b6d35",
@@ -2349,7 +2460,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1855,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "00180fb1-d125-4189-aace-4922c1f3633f",
@@ -2370,7 +2482,8 @@
     "dbtimage_h_scale": 110,
     "dbtimage_h_y1": 560,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "0d9a8b41-2705-4167-b2b7-d8dd5d78dc68",
@@ -2391,7 +2504,8 @@
     "dbtimage_h_scale": 110,
     "dbtimage_h_y1": 600,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "34d05c96-f461-44f0-8eba-0d17bf5fcb59",
@@ -2412,7 +2526,8 @@
     "dbtimage_h_scale": 110,
     "dbtimage_h_y1": 650,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "63bd8f2b-9ac5-4e02-898f-46c871105322",
@@ -2433,7 +2548,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1855,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "6fc71559-0475-4181-a875-bd0de2f9b62e",
@@ -2454,7 +2570,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1855,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "45d09813-8dcb-4943-960f-6eece75ffcd0",
@@ -2475,7 +2592,8 @@
     "dbtimage_h_scale": 115,
     "dbtimage_h_y1": 800,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "523c2eb1-e3d6-4ffd-928f-037ffc000e64",
@@ -2496,7 +2614,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1853,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "56148383-baa6-40b2-94b5-a6948783fece",
@@ -2517,7 +2636,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1853,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "551a547f-be8c-49a2-aaba-30fe4995480a",
@@ -2538,7 +2658,8 @@
     "dbtimage_h_scale": 115,
     "dbtimage_h_y1": 850,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "6757749f-78f4-4209-a12b-e90f743f986a",
@@ -2559,7 +2680,8 @@
     "dbtimage_h_scale": 115,
     "dbtimage_h_y1": 800,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "760eff0d-ee0a-4543-8892-b142e7fc8c3d",
@@ -2580,7 +2702,8 @@
     "dbtimage_h_scale": 115,
     "dbtimage_h_y1": 900,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "476b0ac4-de77-4e1c-9ab5-804539e85396",
@@ -2601,7 +2724,8 @@
     "dbtimage_h_scale": 145,
     "dbtimage_h_y1": 800,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "40a287e4-2c44-45ac-aae8-6412e123fd2a",
@@ -2622,7 +2746,8 @@
     "dbtimage_h_scale": 115,
     "dbtimage_h_y1": 800,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "4427d293-1220-4d1e-9335-ad16b611c396",
@@ -2643,7 +2768,8 @@
     "dbtimage_h_scale": 115,
     "dbtimage_h_y1": 850,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "45b482cd-59d7-4f8f-8377-ff30ff1205d7",
@@ -2664,7 +2790,8 @@
     "dbtimage_h_scale": 115,
     "dbtimage_h_y1": 800,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "488557e7-2d68-4621-a73b-af74d08f7861",
@@ -2685,7 +2812,8 @@
     "dbtimage_h_scale": 145,
     "dbtimage_h_y1": 670,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "526fb6a9-6ca2-4fb3-8f33-3246bee7937f",
@@ -2706,7 +2834,8 @@
     "dbtimage_h_scale": 145,
     "dbtimage_h_y1": 800,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "548f924d-3600-471a-8e47-c5e9ce05d432",
@@ -2727,7 +2856,8 @@
     "dbtimage_h_scale": 145,
     "dbtimage_h_y1": 800,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "555a807a-3ffa-4246-9af3-6a5f94e6466c",
@@ -2748,7 +2878,8 @@
     "dbtimage_h_scale": 145,
     "dbtimage_h_y1": 800,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "55773a24-0bb3-4457-bd27-0034e5329c07",
@@ -2769,7 +2900,8 @@
     "dbtimage_h_scale": 145,
     "dbtimage_h_y1": 800,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "595b0f4c-e52a-4800-be23-d55e713c3e43",
@@ -2790,7 +2922,8 @@
     "dbtimage_h_scale": 145,
     "dbtimage_h_y1": 715,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "616642e3-4fc6-46fc-a916-0d13f124294f",
@@ -2811,7 +2944,8 @@
     "dbtimage_h_scale": 145,
     "dbtimage_h_y1": 700,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "6c40625c-cafc-474d-bfd8-725781e761b1",
@@ -2832,7 +2966,8 @@
     "dbtimage_h_scale": 145,
     "dbtimage_h_y1": 715,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "6b4377f1-2ee9-4ed7-98c2-e2b2d030f754",
@@ -2853,7 +2988,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 400,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "412576d8-93c6-4af5-b14b-2d95c1ad2bcf",
@@ -2874,7 +3010,8 @@
     "dbtimage_h_scale": 145,
     "dbtimage_h_y1": 800,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "4413310d-8140-4afc-a293-f62e5517c6bc",
@@ -2895,7 +3032,8 @@
     "dbtimage_h_scale": 145,
     "dbtimage_h_y1": 700,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "449a512b-42df-4fa7-bc82-21e9c2b8d032",
@@ -2916,7 +3054,8 @@
     "dbtimage_h_scale": 145,
     "dbtimage_h_y1": 800,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "6e0f4b31-8e42-4c12-a9d7-5c1c1e93d713",
@@ -2937,7 +3076,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 400,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "6e565468-f02d-4144-a701-796dbe6e4bde",
@@ -2958,7 +3098,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 400,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "6ea463fd-e3fd-4d7f-98c3-8238e09d4a24",
@@ -2979,7 +3120,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 400,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "763293fe-38c3-4dea-abe8-ce5a30e842cf",
@@ -3000,7 +3142,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 400,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "56d5956a-1da7-4576-bf4e-24807bddaaa5",
@@ -3021,7 +3164,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 340,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "4b4840df-5bb3-4e2f-be55-3f0344cdb1e3",
@@ -3042,7 +3186,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 400,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "58dc1886-967b-4c3d-b8d8-c9111daae99e",
@@ -3063,7 +3208,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 400,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "6215e345-1fb0-45bc-b3a5-5469137c6769",
@@ -3084,7 +3230,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 400,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "58d0af8e-5291-49f7-9486-99293d5117bf",
@@ -3105,7 +3252,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 350,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "5dfc1fc1-67d8-4a99-9c93-c47ed5188277",
@@ -3126,7 +3274,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 340,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "60605de1-2b89-4e13-928c-806224f83fb0",
@@ -3147,7 +3296,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 340,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "61547339-ae2b-49f5-81af-baef5c606004",
@@ -3168,7 +3318,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 350,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "643a3d2f-99b9-4b99-8fe6-824de5e63c84",
@@ -3189,7 +3340,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 340,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "55d01bf8-2474-4726-b470-75d86a6aaed7",
@@ -3210,7 +3362,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 447,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "4013a46f-9b30-4b39-8482-43789cde9845",
@@ -3231,7 +3384,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 340,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "47e4df4d-8326-4d1c-8a4b-8ef667a66af1",
@@ -3252,7 +3406,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 350,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "5568ccfe-ba7c-456f-84db-12f5e414fdf1",
@@ -3273,7 +3428,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 350,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "8409dc65-e820-46b6-b6a1-c42626263984",
@@ -3294,7 +3450,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 447,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "9bcf57d9-092a-4133-9364-64ea1cbed079",
@@ -3315,7 +3472,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 447,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "b4013727-dada-4f9b-b63a-f4c3e53cb835",
@@ -3336,7 +3494,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 447,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "b67dd054-d658-4cdb-bac7-263dca92371c",
@@ -3357,7 +3516,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 447,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "bdd4359d-3769-4673-bedf-c2f0ecda22fc",
@@ -3378,7 +3538,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 447,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "d1b2bc1f-8015-48b3-b36f-b8d59ffa958d",
@@ -3399,7 +3560,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 447,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "d67b8c91-9619-489e-a663-948fea17ba7f",
@@ -3420,7 +3582,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 447,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "d764aa2d-0a4d-4a13-861a-dc1aa1d1ba64",
@@ -3441,7 +3604,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 447,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "d9616005-c8f4-4012-bdf8-755d491b0ac2",
@@ -3462,7 +3626,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 447,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "ec26290e-beea-4774-a5bd-2c95742efe89",
@@ -3483,7 +3648,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 447,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "f9b5ce9b-a41d-451e-b9bf-ee5e761908bd",
@@ -3504,7 +3670,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 447,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "40db6677-5002-418b-8f8f-754efb2e925b",
@@ -3525,7 +3692,8 @@
     "dbtimage_h_scale": 38,
     "dbtimage_h_y1": 438,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 4300
+    "dbtcomp_str": 4300,
+    "image": null
   },
   {
     "id": "0c415c00-07aa-4413-84b5-6e4fc8524e83",
@@ -3546,7 +3714,8 @@
     "dbtimage_h_scale": null,
     "dbtimage_h_y1": null,
     "dbtimage_h_y2": null,
-    "dbtcomp_str": null
+    "dbtcomp_str": null,
+    "image": null
   },
   {
     "id": "134f98ee-4e6d-4cbf-a7b0-5efd57a3c42d",
@@ -3567,7 +3736,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 447,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "3b4d581f-0d31-430d-9a10-a54bda73a6e4",
@@ -3588,7 +3758,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 447,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "44f35c56-9a58-4792-a126-52fcf6fbb641",
@@ -3609,7 +3780,8 @@
     "dbtimage_h_scale": 38,
     "dbtimage_h_y1": 438,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 4300
+    "dbtcomp_str": 4300,
+    "image": null
   },
   {
     "id": "475823d0-c595-44f5-a51c-0ebca49aeea2",
@@ -3630,7 +3802,8 @@
     "dbtimage_h_scale": 110,
     "dbtimage_h_y1": 650,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "3b579504-5a17-4eb3-9a45-6c8d355a2a14",
@@ -3651,7 +3824,8 @@
     "dbtimage_h_scale": 165,
     "dbtimage_h_y1": 870,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "6cc8de4d-c8bc-4dc0-ad31-9b278c57fea4",
@@ -3672,7 +3846,8 @@
     "dbtimage_h_scale": 165,
     "dbtimage_h_y1": 990,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "dbdf40b4-a396-4786-903c-740db4a4cc48",
@@ -3693,7 +3868,8 @@
     "dbtimage_h_scale": 165,
     "dbtimage_h_y1": 870,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "5b838238-b6ba-4ce0-b11b-f268917b8c42",
@@ -3714,7 +3890,8 @@
     "dbtimage_h_scale": 110,
     "dbtimage_h_y1": 490,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "2a6ad8ef-1b09-4f7c-b734-8aad6e048369",
@@ -3735,7 +3912,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1432,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 6139
+    "dbtcomp_str": 6139,
+    "image": null
   },
   {
     "id": "94c4352d-c7e7-4161-8209-96e0be1ea844",
@@ -3756,7 +3934,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1432,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 6139
+    "dbtcomp_str": 6139,
+    "image": null
   },
   {
     "id": "2d9c3e80-acd4-4655-b7be-8678e7d11d80",
@@ -3777,7 +3956,8 @@
     "dbtimage_h_scale": 38,
     "dbtimage_h_y1": 228,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "89030c0d-d4c4-4b49-b2b5-97cfbf1a8c40",
@@ -3798,7 +3978,8 @@
     "dbtimage_h_scale": 237,
     "dbtimage_h_y1": 770,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 1590
+    "dbtcomp_str": 1590,
+    "image": null
   },
   {
     "id": "afd433fc-2adf-4001-a96b-7b2f12341e0c",
@@ -3819,7 +4000,8 @@
     "dbtimage_h_scale": 235,
     "dbtimage_h_y1": 785,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 2100
+    "dbtcomp_str": 2100,
+    "image": null
   },
   {
     "id": "7c95b8d0-3123-4ae8-b3b5-a7deabad405c",
@@ -3840,7 +4022,8 @@
     "dbtimage_h_scale": 38,
     "dbtimage_h_y1": 228,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "a8e51bee-511d-4b3f-99ed-6290c90739ad",
@@ -3861,7 +4044,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1170,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "063f7aac-b9ad-4865-b9f8-561a9e9e51f8",
@@ -3882,7 +4066,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 140,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "3cffac42-1410-4966-b25f-880e3d60dd7e",
@@ -3903,7 +4088,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 50,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "9354b29d-d379-40e1-958e-7a22c7f39bc5",
@@ -3924,7 +4110,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 50,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "2f300be5-a25a-4251-b6d2-871fc3a31a8f",
@@ -3945,7 +4132,8 @@
     "dbtimage_h_scale": 210,
     "dbtimage_h_y1": 687,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3300
+    "dbtcomp_str": 3300,
+    "image": null
   },
   {
     "id": "8d12f589-aee0-4e1f-b7b1-01596f94f274",
@@ -3966,7 +4154,8 @@
     "dbtimage_h_scale": 210,
     "dbtimage_h_y1": 686,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3300
+    "dbtcomp_str": 3300,
+    "image": null
   },
   {
     "id": "ac43a260-82ed-49b2-a143-f636464bb2bb",
@@ -3987,7 +4176,8 @@
     "dbtimage_h_scale": 210,
     "dbtimage_h_y1": 687,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3300
+    "dbtcomp_str": 3300,
+    "image": null
   },
   {
     "id": "ba80f663-705e-4e6f-9a71-3e35707fed9b",
@@ -4008,7 +4198,8 @@
     "dbtimage_h_scale": 105,
     "dbtimage_h_y1": 915,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "b7184c63-9f41-4a11-8c07-c87b835e307f",
@@ -4029,7 +4220,8 @@
     "dbtimage_h_scale": 38,
     "dbtimage_h_y1": 445,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "ecc69578-be1d-4b40-9830-9460a0b94cdb",
@@ -4050,7 +4242,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 733,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 8500
+    "dbtcomp_str": 8500,
+    "image": null
   },
   {
     "id": "c27f5a02-67d4-4a40-91f4-9a9f8caaf10c",
@@ -4071,7 +4264,8 @@
     "dbtimage_h_scale": 48,
     "dbtimage_h_y1": 115,
     "dbtimage_h_y2": 14,
-    "dbtcomp_str": 5000
+    "dbtcomp_str": 5000,
+    "image": null
   },
   {
     "id": "e2e4a3b6-722b-4819-839a-8e203a42a273",
@@ -4092,7 +4286,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 0,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "4f80109e-7cc5-4f39-9fee-f6a27a117f9c",
@@ -4113,7 +4308,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 662,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "c9b61729-5f5d-47a3-96ae-5b7c05bdbbd7",
@@ -4134,7 +4330,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 662,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "965d7780-6617-4c58-b2e8-0a0f6ea13929",
@@ -4155,7 +4352,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1853,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "b55e436c-d16e-476d-8e99-f18ff1d9a9d2",
@@ -4176,7 +4374,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1855,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "c5ff152f-21a6-47ee-90db-2e479f6ccaf3",
@@ -4197,7 +4396,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1855,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "c8ac761b-a4ab-4383-9edb-04dfa1d77cdc",
@@ -4218,7 +4418,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1855,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "c91d3160-4084-41ef-a9e5-345c4e5e9920",
@@ -4239,7 +4440,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1855,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "d87fc72d-702e-4f5b-8bf5-73bad98c5329",
@@ -4260,7 +4462,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1853,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "9a0d899a-f98a-4f7e-9521-23e8f10fd8e2",
@@ -4281,7 +4484,8 @@
     "dbtimage_h_scale": 115,
     "dbtimage_h_y1": 800,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "7a470cc7-89c9-415c-97ac-bbf63a217005",
@@ -4302,7 +4506,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1850,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "7eebdc7c-a500-4d03-b00d-5ae887b4534a",
@@ -4323,7 +4528,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1855,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "801c0849-f18d-4425-a39e-3e18d7f04045",
@@ -4344,7 +4550,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1855,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "c0752f69-4efb-412f-802b-bf09a153af1a",
@@ -4365,7 +4572,8 @@
     "dbtimage_h_scale": 115,
     "dbtimage_h_y1": 900,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "c27355e5-0ff1-4a2c-9b6d-a847bad8806d",
@@ -4386,7 +4594,8 @@
     "dbtimage_h_scale": 115,
     "dbtimage_h_y1": 850,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "d76b8535-c3ca-4ca5-bea2-cb205705fcf1",
@@ -4407,7 +4616,8 @@
     "dbtimage_h_scale": 115,
     "dbtimage_h_y1": 850,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "d8353453-c260-4d7e-bff4-d04d0338d08c",
@@ -4428,7 +4638,8 @@
     "dbtimage_h_scale": 115,
     "dbtimage_h_y1": 850,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "84e9aef5-7909-463f-b04b-83956fa9aeae",
@@ -4449,7 +4660,8 @@
     "dbtimage_h_scale": 145,
     "dbtimage_h_y1": 700,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "89db3dd6-8c7a-41af-8dee-def4518741e7",
@@ -4470,7 +4682,8 @@
     "dbtimage_h_scale": 115,
     "dbtimage_h_y1": 900,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "8d14c0ef-8738-402b-8161-084819514288",
@@ -4491,7 +4704,8 @@
     "dbtimage_h_scale": 115,
     "dbtimage_h_y1": 850,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "94731a1f-7d11-4898-9416-c90aca0ee73a",
@@ -4512,7 +4726,8 @@
     "dbtimage_h_scale": 115,
     "dbtimage_h_y1": 800,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "8a8d152e-a5f7-424e-8056-e2564c92c3a7",
@@ -4533,7 +4748,8 @@
     "dbtimage_h_scale": 145,
     "dbtimage_h_y1": 700,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "8d1e1a54-070c-4939-b372-77cba2930855",
@@ -4554,7 +4770,8 @@
     "dbtimage_h_scale": 145,
     "dbtimage_h_y1": 700,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "98f8fd81-a686-453b-8a11-52799d1bab72",
@@ -4575,7 +4792,8 @@
     "dbtimage_h_scale": 145,
     "dbtimage_h_y1": 800,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "a0e79d43-406f-49a3-b58b-b54d3602c64d",
@@ -4596,7 +4814,8 @@
     "dbtimage_h_scale": 145,
     "dbtimage_h_y1": 800,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "ad3a2cb4-a5d7-48bd-90e2-4a395718c177",
@@ -4617,7 +4836,8 @@
     "dbtimage_h_scale": 145,
     "dbtimage_h_y1": 800,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "b16b7b53-525d-4364-8077-56979fa4b95d",
@@ -4638,7 +4858,8 @@
     "dbtimage_h_scale": 145,
     "dbtimage_h_y1": 800,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "b969a177-66e5-4a68-836a-6e026399d775",
@@ -4659,7 +4880,8 @@
     "dbtimage_h_scale": 145,
     "dbtimage_h_y1": 800,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "ddf27990-1095-4f32-8f94-6b1c9eed4620",
@@ -4680,7 +4902,8 @@
     "dbtimage_h_scale": 145,
     "dbtimage_h_y1": 800,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "bb1e93f2-c9b2-447f-a329-30d48a93e83c",
@@ -4701,7 +4924,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 400,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "7bcee33d-373b-4277-a76f-037b7a36c5f7",
@@ -4722,7 +4946,8 @@
     "dbtimage_h_scale": 145,
     "dbtimage_h_y1": 800,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "7c5eab46-e4b8-4b6c-a0aa-5f3f69ef28c2",
@@ -4743,7 +4968,8 @@
     "dbtimage_h_scale": 145,
     "dbtimage_h_y1": 700,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "811dcc33-764d-4ac5-9cb8-81979eedf64e",
@@ -4764,7 +4990,8 @@
     "dbtimage_h_scale": 145,
     "dbtimage_h_y1": 800,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "bfccd7c6-7c4d-4cd7-9594-60865b42666b",
@@ -4785,7 +5012,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 400,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "c5141f03-2bfc-4e48-9c6e-e2192530deeb",
@@ -4806,7 +5034,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 400,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "cdc4769e-f5f4-4173-9910-8ce4707a1d56",
@@ -4827,7 +5056,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 400,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "da61bc5b-6428-4090-b355-924415c53fa0",
@@ -4848,7 +5078,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 400,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "909d7fc2-c781-4279-8799-57ca93b642a3",
@@ -4869,7 +5100,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 350,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "805a5f2c-83c6-4007-97ff-4bde11e38048",
@@ -4890,7 +5122,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 400,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "8dc21355-efb3-495f-8192-3bc91c907879",
@@ -4911,7 +5144,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 400,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "b30beeb9-425a-4422-9ed2-affab1ce5b89",
@@ -4932,7 +5166,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 400,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "91ecc7e3-97c9-4ae8-8c24-e2606e6e8114",
@@ -4953,7 +5188,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 350,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "9b74bd4f-9757-4621-9e65-cda51416213e",
@@ -4974,7 +5210,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 340,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "c66d5304-713f-43ec-bf08-1582ec7a7af9",
@@ -4995,7 +5232,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 350,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "cad84105-a102-4537-a64b-67604c4b4eee",
@@ -5016,7 +5254,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 340,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "d53f154f-2239-4515-9e1c-d931bab39b69",
@@ -5037,7 +5276,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 340,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "c6f5f1da-afbf-42a0-b790-01f723335ec6",
@@ -5058,7 +5298,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 447,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "7f52e667-401c-480f-8977-c7c44eab9d54",
@@ -5079,7 +5320,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 340,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "80da52df-67c8-4e0d-8681-3820794bda9e",
@@ -5100,7 +5342,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 350,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "827dcdb6-8238-4a6b-8816-c2d4cbe4fa4c",
@@ -5121,7 +5364,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 350,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "e8d392d2-7e49-4535-a7c4-701e279d2bd5",
@@ -5142,7 +5386,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 447,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "ab11d471-b048-488d-a43f-14ff76697439",
@@ -5163,7 +5408,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 447,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "1cd2bb59-d15d-4de4-8875-700f0ff28011",
@@ -5184,7 +5430,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 447,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "9c8bd2b2-2ac8-454f-984c-b9749709955c",
@@ -5205,7 +5452,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 447,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "9ffed62e-1629-48cf-977e-ae794d4e8ee5",
@@ -5226,7 +5474,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 447,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "e2361257-8846-460e-ba3b-436e89175302",
@@ -5247,7 +5496,8 @@
     "dbtimage_h_scale": 28,
     "dbtimage_h_y1": 376,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "e9ebe04e-24f4-4f3c-809a-bbab096717e4",
@@ -5268,7 +5518,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 447,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "f269b033-ef00-4aed-8261-d8dd82d9c576",
@@ -5289,7 +5540,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 447,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "b1dac036-52cc-402c-8621-5a859e7835d5",
@@ -5310,7 +5562,8 @@
     "dbtimage_h_scale": 38,
     "dbtimage_h_y1": 438,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 4300
+    "dbtcomp_str": 4300,
+    "image": null
   },
   {
     "id": "54091d2c-2ed8-496c-9b9e-87bbd6a402c5",
@@ -5331,7 +5584,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 447,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "578f30b1-805e-4962-82c5-6d4560bdea7d",
@@ -5352,7 +5606,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 447,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "6b8920c3-f672-4b3a-b7b8-dacc6d8f9369",
@@ -5373,7 +5628,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 447,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "c2dea1c7-82b2-4ddc-b352-7d726263bdd4",
@@ -5394,7 +5650,8 @@
     "dbtimage_h_scale": 38,
     "dbtimage_h_y1": 438,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 4300
+    "dbtcomp_str": 4300,
+    "image": null
   },
   {
     "id": "e0720b67-c08a-4353-bbaf-b2d96b9e0312",
@@ -5415,7 +5672,8 @@
     "dbtimage_h_scale": 95,
     "dbtimage_h_y1": 525,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "8bd3b256-75e0-4706-b982-fad1ebea7611",
@@ -5436,7 +5694,8 @@
     "dbtimage_h_scale": 38,
     "dbtimage_h_y1": 438,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 4300
+    "dbtcomp_str": 4300,
+    "image": null
   },
   {
     "id": "aa57862c-0460-4b56-9e6b-b1487f9e7c3b",
@@ -5457,7 +5716,8 @@
     "dbtimage_h_scale": 38,
     "dbtimage_h_y1": 438,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 4300
+    "dbtcomp_str": 4300,
+    "image": null
   },
   {
     "id": "dd6951df-46e9-45dc-9e75-ceda5593f1a7",
@@ -5478,7 +5738,8 @@
     "dbtimage_h_scale": 43,
     "dbtimage_h_y1": 2300,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "8ee77cd1-6724-4fac-925e-09f821ba0108",
@@ -5499,7 +5760,8 @@
     "dbtimage_h_scale": 110,
     "dbtimage_h_y1": 490,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "81d1e0a2-0563-47dc-b2b3-cada2b2d2903",
@@ -5520,7 +5782,8 @@
     "dbtimage_h_scale": 95,
     "dbtimage_h_y1": 525,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "872664e0-cbf5-4b72-9ea9-97792e4f1419",
@@ -5541,7 +5804,8 @@
     "dbtimage_h_scale": 95,
     "dbtimage_h_y1": 525,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "d66b6054-18a4-45e4-8793-0c84f6db7447",
@@ -5562,7 +5826,8 @@
     "dbtimage_h_scale": 95,
     "dbtimage_h_y1": 525,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "a1fc4b52-b4f2-419b-91c5-a58ce2f37e57",
@@ -5583,7 +5848,8 @@
     "dbtimage_h_scale": 110,
     "dbtimage_h_y1": 650,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "6f4b8067-a2c3-4ee6-9674-81cea6180dea",
@@ -5604,7 +5870,8 @@
     "dbtimage_h_scale": 110,
     "dbtimage_h_y1": 650,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "7fa04072-144e-4b99-8d5d-edb54e11dd5b",
@@ -5625,7 +5892,8 @@
     "dbtimage_h_scale": 110,
     "dbtimage_h_y1": 650,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "8bbc7d09-9e2e-4085-af26-1c14f33dc8d7",
@@ -5646,7 +5914,8 @@
     "dbtimage_h_scale": 110,
     "dbtimage_h_y1": 650,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "c9d09eba-01f6-41f7-b463-f3db69875079",
@@ -5667,7 +5936,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1432,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 6139
+    "dbtcomp_str": 6139,
+    "image": null
   },
   {
     "id": "7c547555-cd48-413d-8d93-312128814bdf",
@@ -5688,7 +5958,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 0,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "d6bee92f-3952-4de7-a276-d08486272f99",
@@ -5709,7 +5980,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 100,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "0d55231d-fdec-4336-b7ed-53e3968888a2",
@@ -5730,7 +6002,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 247,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 7000
+    "dbtcomp_str": 7000,
+    "image": null
   },
   {
     "id": "a3785384-71ab-4446-bbab-91d68e386907",
@@ -5751,7 +6024,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 640,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "73a18dac-9644-42b2-b321-580416511eb7",
@@ -5772,7 +6046,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1220,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5000
+    "dbtcomp_str": 5000,
+    "image": null
   },
   {
     "id": "5c808e26-2be6-4fb2-bd42-06a261ad52a1",
@@ -5793,7 +6068,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1000,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5000
+    "dbtcomp_str": 5000,
+    "image": null
   },
   {
     "id": "516a8a09-3f2b-4bd3-aee5-29155242026c",
@@ -5814,7 +6090,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1220,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5000
+    "dbtcomp_str": 5000,
+    "image": null
   },
   {
     "id": "65e73378-2bde-4533-97fc-57c735ad1b93",
@@ -5835,7 +6112,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1220,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5000
+    "dbtcomp_str": 5000,
+    "image": null
   },
   {
     "id": "6f7e5003-47b0-4269-8b9c-7a86295bc8a3",
@@ -5856,7 +6134,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1220,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5000
+    "dbtcomp_str": 5000,
+    "image": null
   },
   {
     "id": "871c4bcb-b6e6-491c-8168-f2615d763f0a",
@@ -5877,7 +6156,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1609,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5000
+    "dbtcomp_str": 5000,
+    "image": null
   },
   {
     "id": "db74e182-9bbe-43af-ada6-baa10b639ad0",
@@ -5898,7 +6178,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1000,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5000
+    "dbtcomp_str": 5000,
+    "image": null
   },
   {
     "id": "c8b0a6e1-4cc5-42ae-9dbb-9c5d9fa9c877",
@@ -5919,7 +6200,8 @@
     "dbtimage_h_scale": 210,
     "dbtimage_h_y1": 686,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3300
+    "dbtcomp_str": 3300,
+    "image": null
   },
   {
     "id": "1acf4313-08cd-4a95-96be-22df3dca52dd",
@@ -5940,7 +6222,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1609,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5000
+    "dbtcomp_str": 5000,
+    "image": null
   },
   {
     "id": "340c4c3c-3337-4d82-a9bf-fc7b5f5b7972",
@@ -5961,7 +6244,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1000,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5000
+    "dbtcomp_str": 5000,
+    "image": null
   },
   {
     "id": "50ae8a73-775b-46c4-8445-e0394c2a9992",
@@ -5982,7 +6266,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1000,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5000
+    "dbtcomp_str": 5000,
+    "image": null
   },
   {
     "id": "cb17e0bb-2ab5-4a4a-9397-b303f99cd9e6",
@@ -6003,7 +6288,8 @@
     "dbtimage_h_scale": 210,
     "dbtimage_h_y1": 686,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3300
+    "dbtcomp_str": 3300,
+    "image": null
   },
   {
     "id": "df8e6b5f-46d5-4583-9be1-6eb57289fd54",
@@ -6024,7 +6310,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 120,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "f30a8a0b-fc11-4b60-a660-cfeedfc7b604",
@@ -6045,7 +6332,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 0,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "2e3332cc-8d5a-4219-8c1e-b058f5175b00",
@@ -6066,7 +6354,8 @@
     "dbtimage_h_scale": 265,
     "dbtimage_h_y1": 925,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 1900
+    "dbtcomp_str": 1900,
+    "image": null
   },
   {
     "id": "bce996ab-a910-441d-857c-1949c3ddbd96",
@@ -6087,7 +6376,8 @@
     "dbtimage_h_scale": 240,
     "dbtimage_h_y1": 1353,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "1a51a038-90a0-4094-ade9-c66cd5330776",
@@ -6108,7 +6398,8 @@
     "dbtimage_h_scale": 43,
     "dbtimage_h_y1": 442,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "c1a6f983-21ee-42f9-b060-ffab01194bd2",
@@ -6129,7 +6420,8 @@
     "dbtimage_h_scale": 180,
     "dbtimage_h_y1": 1340,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "fd20069c-8ae2-4184-b031-189c09740785",
@@ -6150,7 +6442,8 @@
     "dbtimage_h_scale": 38,
     "dbtimage_h_y1": 1900,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "ed8deb25-92f1-4fac-a3f0-4694f8ff7d23",
@@ -6171,7 +6464,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 80,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "fa99df0b-abc4-4300-94d2-73339c1229d7",
@@ -6192,7 +6486,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 100,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "1e23b529-4679-4719-b6a7-ec01b63cc2b4",
@@ -6213,7 +6508,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 120,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "46cb08c6-cd16-476b-ae0f-a263ed529e92",
@@ -6234,7 +6530,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 81,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "6fcc21ef-580a-4d39-b929-74e79d3229c6",
@@ -6255,7 +6552,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 80,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "fea0bd0a-f17a-4303-b749-c12a1987aaad",
@@ -6276,7 +6574,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 100,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "59cf2a14-67e5-44d9-8ecf-23291c5d7e58",
@@ -6297,7 +6596,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 110,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "90e508fa-7b7b-4a00-8027-90f2a8ca50cf",
@@ -6318,7 +6618,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 733,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 8500
+    "dbtcomp_str": 8500,
+    "image": null
   },
   {
     "id": "eb9091f4-3999-4afd-a7dd-db1a9d0f3f54",
@@ -6339,7 +6640,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 85,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "5ab83339-33f3-4de3-a6a5-3696ad62060c",
@@ -6360,7 +6662,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 70,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "f7fd1411-be98-45fe-a138-f814c34d8a3a",
@@ -6381,7 +6684,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 733,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 8500
+    "dbtcomp_str": 8500,
+    "image": null
   },
   {
     "id": "607aa624-0e57-4877-995b-d652dc496329",
@@ -6402,28 +6706,8 @@
     "dbtimage_h_scale": 105,
     "dbtimage_h_y1": 661,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
-  },
-  {
-    "id": "f84708f9-3c5c-47bc-91bb-cec581b61813",
-    "r_module_type_id": "43a37e7a-442d-49bc-91ec-34157a823c81",
-    "sn_": "1009",
-    "dbdate_": "2000-01-01",
-    "dbversion_": "0",
-    "dbsn_": "HEX",
-    "dbcomment_": "0",
-    "dbtname_": "Default",
-    "dbtlength": 524,
-    "dbtweight": 3.2,
-    "dbtmax_od_": 42,
-    "dbtmax_od_collapsed_": 42,
-    "dbtmax_od_opened_": 0,
-    "dbtimage2d_": "ToolModuleDeviceBoardType{025bf476-3fac-4f78-b6a0-1c610c02091b}",
-    "dbtimage_h_shift": 0,
-    "dbtimage_h_scale": 42,
-    "dbtimage_h_y1": 524,
-    "dbtimage_h_y2": 0,
-    "dbtcomp_str": 4000
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "f6b30f24-0e59-41f0-8616-1345d5bda75a",
@@ -6444,7 +6728,8 @@
     "dbtimage_h_scale": 100,
     "dbtimage_h_y1": 607,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "f57206a8-f872-4ad4-a190-80cc2e0c4559",
@@ -6465,7 +6750,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1853,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "786d4325-f161-4427-9958-1d3fbaade557",
@@ -6486,7 +6772,8 @@
     "dbtimage_h_scale": 95,
     "dbtimage_h_y1": 0,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "eb39edee-621a-4735-bd16-4e007bb0d110",
@@ -6507,7 +6794,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 815,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "ffc9dc68-c39e-4857-a2b6-3ad26e1ab2ce",
@@ -6528,7 +6816,8 @@
     "dbtimage_h_scale": 115,
     "dbtimage_h_y1": 800,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "debe5d2a-7acb-4086-bd5b-212d13e4f44c",
@@ -6549,7 +6838,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1855,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "e53e5754-bf03-4de5-ba7b-3f3478144aff",
@@ -6570,7 +6860,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1850,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "edcd4421-ac3e-49ef-b628-962c746837a5",
@@ -6591,7 +6882,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1855,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "ed04ad21-6b11-4e30-a0b6-c3cc3953891d",
@@ -6612,7 +6904,8 @@
     "dbtimage_h_scale": 145,
     "dbtimage_h_y1": 700,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "df958c84-f582-4672-879f-b4d8748c0809",
@@ -6633,7 +6926,8 @@
     "dbtimage_h_scale": 115,
     "dbtimage_h_y1": 800,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "e1803a95-c3e8-4258-ab2d-b956b51cfb40",
@@ -6654,7 +6948,8 @@
     "dbtimage_h_scale": 115,
     "dbtimage_h_y1": 800,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "f33d4f40-7434-42d7-a69e-49c2bc40ca65",
@@ -6675,7 +6970,8 @@
     "dbtimage_h_scale": 115,
     "dbtimage_h_y1": 900,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "f585ea15-dde5-4bf3-bbc9-82168ac81b2b",
@@ -6696,7 +6992,8 @@
     "dbtimage_h_scale": 145,
     "dbtimage_h_y1": 800,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "fc9ebb78-05b2-4785-b00e-b54b57b9b892",
@@ -6717,7 +7014,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 400,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "e653694b-469c-4bdf-9bac-3148c384f67e",
@@ -6738,7 +7036,8 @@
     "dbtimage_h_scale": 145,
     "dbtimage_h_y1": 715,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "e91f7a3b-5d9b-422c-afda-52ab813e983d",
@@ -6759,7 +7058,8 @@
     "dbtimage_h_scale": 145,
     "dbtimage_h_y1": 800,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "f32ad7a6-500a-468f-85ec-44948198cc71",
@@ -6780,7 +7080,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 340,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "e2921cb8-056b-4e0d-9995-f154f6f15dba",
@@ -6801,7 +7102,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 400,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "ed04a1fc-9440-4643-99ff-f9b1f2e9fa54",
@@ -6822,7 +7124,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 400,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "efee1eb4-7093-44be-b645-1dd1403672af",
@@ -6843,7 +7146,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 400,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "f623be07-4052-4c0f-8142-065f4ff89e73",
@@ -6864,7 +7168,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 350,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "400efe2c-1ed0-439b-b049-6a8aba959593",
@@ -6885,7 +7190,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 447,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "26d4e070-eaa8-4bf6-8669-2f3336c5647f",
@@ -6906,7 +7212,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 447,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "4bf10f6d-a89c-4579-a3ee-3b206a7141a8",
@@ -6927,7 +7234,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 447,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "9559847b-cfb7-40e4-ac1d-f1f2592d8a85",
@@ -6948,7 +7256,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 422,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "9d1f0ccc-b597-4573-a5b1-9eec8a8036fe",
@@ -6969,7 +7278,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 422,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "a05eacd5-3ff6-492c-bd10-1298bc0da72d",
@@ -6990,7 +7300,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 422,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "a60f38a8-34ba-4d7a-83e0-4e8e8b2e6213",
@@ -7011,7 +7322,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 422,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "af3d44bc-c672-4495-bdce-99d707e66316",
@@ -7032,7 +7344,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 422,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "f77f087b-19d8-4cf7-8c6b-cec0cd7b6243",
@@ -7053,7 +7366,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 422,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "facf8315-d627-43ce-b650-cfa7dd1671c7",
@@ -7074,7 +7388,8 @@
     "dbtimage_h_scale": 38,
     "dbtimage_h_y1": 1047,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "51f46a00-c948-4a6a-9a7e-2c1fcdffc4d7",
@@ -7095,7 +7410,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 387,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "654e279f-696a-4fca-b258-1ab3cf2dbe23",
@@ -7116,7 +7432,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 422,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "6933ffce-04f5-44fb-9a51-ccd26d8de6ed",
@@ -7137,7 +7454,30 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 422,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
+  },
+  {
+    "id": "f84708f9-3c5c-47bc-91bb-cec581b61813",
+    "r_module_type_id": "43a37e7a-442d-49bc-91ec-34157a823c81",
+    "sn_": "1009",
+    "dbdate_": "2000-01-01",
+    "dbversion_": "0",
+    "dbsn_": "HEX",
+    "dbcomment_": "0",
+    "dbtname_": "Default",
+    "dbtlength": 524,
+    "dbtweight": 3.2,
+    "dbtmax_od_": 42,
+    "dbtmax_od_collapsed_": 42,
+    "dbtmax_od_opened_": 0,
+    "dbtimage2d_": "ToolModuleDeviceBoardType{025bf476-3fac-4f78-b6a0-1c610c02091b}",
+    "dbtimage_h_shift": 0,
+    "dbtimage_h_scale": 42,
+    "dbtimage_h_y1": 524,
+    "dbtimage_h_y2": 0,
+    "dbtcomp_str": 4000,
+    "image": null
   },
   {
     "id": "f91bc801-a4f4-4242-abc2-039d48c068aa",
@@ -7158,7 +7498,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 524,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 4000
+    "dbtcomp_str": 4000,
+    "image": null
   },
   {
     "id": "a92ee0e0-bc28-4f06-911f-917f8c5d2e1a",
@@ -7179,7 +7520,8 @@
     "dbtimage_h_scale": 43,
     "dbtimage_h_y1": 6,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "ae3f4109-d129-4ca3-97f4-d97b24aeefe0",
@@ -7200,7 +7542,8 @@
     "dbtimage_h_scale": 91,
     "dbtimage_h_y1": 1013,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "ffb30d18-048a-46ae-99cf-5974679bdcac",
@@ -7221,7 +7564,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1321,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 4000
+    "dbtcomp_str": 4000,
+    "image": null
   },
   {
     "id": "bbaa33c9-68b4-443d-a511-055c71fcf30d",
@@ -7242,7 +7586,8 @@
     "dbtimage_h_scale": 110,
     "dbtimage_h_y1": 650,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "0467faea-43a4-4b43-934d-1e1e66055363",
@@ -7263,7 +7608,8 @@
     "dbtimage_h_scale": 38,
     "dbtimage_h_y1": 1070,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "425401c8-ba78-4fc8-8e76-933c16f30d05",
@@ -7284,7 +7630,8 @@
     "dbtimage_h_scale": 38,
     "dbtimage_h_y1": 1047,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "f1902379-b178-4909-8fa2-b300a13eb783",
@@ -7305,7 +7652,8 @@
     "dbtimage_h_scale": 38,
     "dbtimage_h_y1": 1047,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "c04559d9-eeff-47ca-b558-f802fa9a9619",
@@ -7326,7 +7674,8 @@
     "dbtimage_h_scale": 38,
     "dbtimage_h_y1": 640,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "ce193cd7-6ea5-4987-91e3-c0bb6bbbc779",
@@ -7347,7 +7696,8 @@
     "dbtimage_h_scale": 38,
     "dbtimage_h_y1": 640,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "e09c6e4d-e8e5-4fe2-b107-d2feb36e26eb",
@@ -7368,7 +7718,8 @@
     "dbtimage_h_scale": 38,
     "dbtimage_h_y1": 740,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "c38d9bf8-9834-42de-a4f9-5584510ce256",
@@ -7389,7 +7740,8 @@
     "dbtimage_h_scale": 110,
     "dbtimage_h_y1": 490,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "dcd9a5fc-8cc2-4c33-9332-6cba3bf5ad9c",
@@ -7410,7 +7762,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1432,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 6139
+    "dbtcomp_str": 6139,
+    "image": null
   },
   {
     "id": "fc61710d-f87f-4e04-aa7d-d0f3541b2585",
@@ -7431,7 +7784,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 2520,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "bd603707-ddb3-49c2-82c7-af605f3b84c5",
@@ -7452,7 +7806,8 @@
     "dbtimage_h_scale": 54,
     "dbtimage_h_y1": 500,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 500
+    "dbtcomp_str": 500,
+    "image": null
   },
   {
     "id": "59fbec0c-320c-4725-8c66-a6a219126672",
@@ -7473,7 +7828,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1432,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 6139
+    "dbtcomp_str": 6139,
+    "image": null
   },
   {
     "id": "64529133-63d7-4ffc-b6ad-17d7e5240062",
@@ -7494,7 +7850,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1432,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 6139
+    "dbtcomp_str": 6139,
+    "image": null
   },
   {
     "id": "8a4a4b66-e5cd-4685-9577-83e47003c4b8",
@@ -7515,7 +7872,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1432,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 6139
+    "dbtcomp_str": 6139,
+    "image": null
   },
   {
     "id": "642ccfef-8ff8-4986-a71e-09726c98f927",
@@ -7536,7 +7894,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1097,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 6139
+    "dbtcomp_str": 6139,
+    "image": null
   },
   {
     "id": "71bcd37c-0034-4042-9992-3c14561c0f25",
@@ -7557,7 +7916,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1097,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 6139
+    "dbtcomp_str": 6139,
+    "image": null
   },
   {
     "id": "73fcc08a-b8ee-4933-b5b4-709b6bdddecd",
@@ -7578,7 +7938,8 @@
     "dbtimage_h_scale": 250,
     "dbtimage_h_y1": 770,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 1900
+    "dbtcomp_str": 1900,
+    "image": null
   },
   {
     "id": "2b4de09b-0cfe-4720-80d6-037fe275015b",
@@ -7599,7 +7960,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1070,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "4bfdef17-1d03-49d7-99f9-24a070b104bb",
@@ -7620,7 +7982,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 0,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "4eee7992-730f-4526-b5ec-780ff09e0929",
@@ -7641,7 +8004,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 0,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "44573dbf-c7b5-4644-a318-ce77fe5204bf",
@@ -7662,7 +8026,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 0,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "7b0b24dc-abcc-49d5-97c5-3c0fc1cb5d84",
@@ -7683,7 +8048,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 650,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "e1473148-a561-48ad-bcbb-f16f27f7ecc3",
@@ -7704,7 +8070,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 0,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "136cc98e-48f9-4475-a1d4-c520cb0eece7",
@@ -7725,7 +8092,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 0,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "144e0928-fc62-44c6-90ef-c25985051909",
@@ -7746,7 +8114,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 525,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "f7e06d2a-f654-47d1-9b66-0c8a094be95d",
@@ -7767,7 +8136,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 0,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "9eb4c0e9-c908-4c9f-b8cf-ad1a09fe589b",
@@ -7788,7 +8158,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 81,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "1cf96f52-b8b5-4f5f-a799-1908494c3a08",
@@ -7809,7 +8180,8 @@
     "dbtimage_h_scale": 250,
     "dbtimage_h_y1": 770,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 1900
+    "dbtcomp_str": 1900,
+    "image": null
   },
   {
     "id": "2fd03368-22f6-4c06-b574-5ef024510c14",
@@ -7830,7 +8202,8 @@
     "dbtimage_h_scale": 250,
     "dbtimage_h_y1": 770,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 1900
+    "dbtcomp_str": 1900,
+    "image": null
   },
   {
     "id": "6815c119-6271-4302-8276-dc9ca9796367",
@@ -7851,7 +8224,8 @@
     "dbtimage_h_scale": 250,
     "dbtimage_h_y1": 770,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 1900
+    "dbtcomp_str": 1900,
+    "image": null
   },
   {
     "id": "bfa0275b-6664-4843-9133-0f63bc8b0dc5",
@@ -7872,7 +8246,8 @@
     "dbtimage_h_scale": 39,
     "dbtimage_h_y1": 698,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 2000
+    "dbtcomp_str": 2000,
+    "image": null
   },
   {
     "id": "6dc1d989-baef-48b6-a932-194944c3a6aa",
@@ -7893,7 +8268,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1816,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "cde6cee3-8424-4212-ae3d-011d46abd006",
@@ -7914,7 +8290,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1782,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "daf640b4-90a4-481f-b1b6-eaf13f78d0df",
@@ -7935,7 +8312,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 3597,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5000
+    "dbtcomp_str": 5000,
+    "image": null
   },
   {
     "id": "20dff3ca-3aca-4134-9e5b-83d3ff106c4e",
@@ -7956,7 +8334,8 @@
     "dbtimage_h_scale": 105,
     "dbtimage_h_y1": 607,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "2f4b8260-1669-402c-8c93-e7c55cecf218",
@@ -7977,7 +8356,8 @@
     "dbtimage_h_scale": 39,
     "dbtimage_h_y1": 698,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 2000
+    "dbtcomp_str": 2000,
+    "image": null
   },
   {
     "id": "905dfae7-3f68-475d-affa-a7d950c359da",
@@ -7998,7 +8378,8 @@
     "dbtimage_h_scale": 39,
     "dbtimage_h_y1": 698,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 2000
+    "dbtcomp_str": 2000,
+    "image": null
   },
   {
     "id": "9e05d359-bb01-458c-a76d-57a29f462159",
@@ -8019,7 +8400,8 @@
     "dbtimage_h_scale": 39,
     "dbtimage_h_y1": 698,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 2000
+    "dbtcomp_str": 2000,
+    "image": null
   },
   {
     "id": "62862d6a-cd4d-403f-a4c4-60341b6c6cb4",
@@ -8040,7 +8422,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 807,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5.3
+    "dbtcomp_str": 5.3,
+    "image": null
   },
   {
     "id": "85b40d8f-086f-4e35-b0b3-0a8746d964e8",
@@ -8061,7 +8444,8 @@
     "dbtimage_h_scale": 150,
     "dbtimage_h_y1": 0,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "b00f17c6-469c-444c-8fe6-6f426abd9a54",
@@ -8082,7 +8466,8 @@
     "dbtimage_h_scale": 150,
     "dbtimage_h_y1": 0,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "b607cd53-186c-49c5-bc57-bd0f81f41839",
@@ -8103,7 +8488,8 @@
     "dbtimage_h_scale": 150,
     "dbtimage_h_y1": 0,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "4f93e2ed-47c7-4cee-8d84-89d9f9960978",
@@ -8124,7 +8510,8 @@
     "dbtimage_h_scale": 105,
     "dbtimage_h_y1": 607,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "51d92ffa-ef09-4b11-b345-15709092f87b",
@@ -8145,7 +8532,8 @@
     "dbtimage_h_scale": 105,
     "dbtimage_h_y1": 0,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "9cf4aa1d-938d-4995-8e86-81d56bfc03e9",
@@ -8166,7 +8554,8 @@
     "dbtimage_h_scale": 105,
     "dbtimage_h_y1": 608,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "c13870f7-99e0-4d39-9cf9-41f022f44e18",
@@ -8187,7 +8576,8 @@
     "dbtimage_h_scale": 105,
     "dbtimage_h_y1": 0,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "c717c3d7-6e1f-41df-b5dd-00a741f94038",
@@ -8208,7 +8598,8 @@
     "dbtimage_h_scale": 105,
     "dbtimage_h_y1": 0,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "7620be27-ab2c-4213-8176-dcacbdb3f3c5",
@@ -8229,7 +8620,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 0,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "0ab20e29-23ee-4023-aa0f-745b7ac6574c",
@@ -8250,7 +8642,8 @@
     "dbtimage_h_scale": 105,
     "dbtimage_h_y1": 607,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "1a917817-459d-4757-b96c-7c39488117f7",
@@ -8271,7 +8664,8 @@
     "dbtimage_h_scale": 105,
     "dbtimage_h_y1": 0,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "682ec37f-9fa3-4b8e-a6ed-12588eaf2d22",
@@ -8292,7 +8686,8 @@
     "dbtimage_h_scale": 95,
     "dbtimage_h_y1": 0,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "8cc23a2d-27d8-4706-9e5b-09ded6fdecf1",
@@ -8313,7 +8708,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1259,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "8f8e333c-7b8f-415b-95f5-db8aaff6fb2b",
@@ -8334,7 +8730,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 0,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "a75eb081-fdc5-405d-bfa4-5ab35bad68b6",
@@ -8355,7 +8752,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1256,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "d57c9b45-0f19-4cb1-b155-70392eea6837",
@@ -8376,7 +8774,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 0,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "d867a0e7-2d1f-443a-8548-f57bdeeb6d1e",
@@ -8397,7 +8796,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 0,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "f37daa15-fdae-4222-a51d-0fed10bf08a0",
@@ -8418,7 +8818,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1259,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "5c4eca59-5168-4e26-8f7e-d74c3bbc117e",
@@ -8439,7 +8840,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 861,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "0e05590f-d54c-494b-a64a-79f6ea758897",
@@ -8460,7 +8862,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1260,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "6212cc17-e7b0-4c79-a2a2-37743859b585",
@@ -8481,7 +8884,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1258,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "65e861c3-ac7c-4178-bc74-de4e3c71f6a6",
@@ -8502,7 +8906,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1259,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "8f8aaa68-27f4-4105-a7cb-4f374398be98",
@@ -8523,7 +8928,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 815,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "9c04fc0b-d399-4a5c-a996-56ca8b8401ec",
@@ -8544,7 +8950,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 750,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "9ddbd34a-749a-4585-ab82-3ca722546584",
@@ -8565,7 +8972,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 750,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "b3177a3f-6cfa-401d-9427-6e955db18f12",
@@ -8586,7 +8994,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 750,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "c7b9e374-a8fe-40ef-ae4f-76822a12e6be",
@@ -8607,7 +9016,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 750,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "42c893d1-86d0-46f3-a0d7-8a0431d38eb5",
@@ -8628,7 +9038,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 422,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "0616e5ec-e3c6-4945-a004-6d45ea77c7ff",
@@ -8649,7 +9060,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 815,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "2a2538eb-1571-426a-ac1d-8d38169b6d5a",
@@ -8670,7 +9082,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 0,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "4b25f12f-364a-4210-8c4a-2ef9be8c1cfa",
@@ -8691,7 +9104,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 750,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "e5fd8a4b-fa40-4196-9b8b-27191b1d840c",
@@ -8712,7 +9126,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 422,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "791756e7-d1b9-438b-81d4-ef0be3d9d211",
@@ -8733,7 +9148,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 524,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 4000
+    "dbtcomp_str": 4000,
+    "image": null
   },
   {
     "id": "219ec5db-1ef2-4c27-8bf7-5e4755d75f98",
@@ -8754,7 +9170,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 422,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "2df756bb-cdfc-46e2-9463-984fd22556a5",
@@ -8775,7 +9192,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 422,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "bfcc2185-fd8e-4eed-bc6e-c38ad9935fd9",
@@ -8796,7 +9214,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 524,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 4000
+    "dbtcomp_str": 4000,
+    "image": null
   },
   {
     "id": "c513ec42-42b9-4adb-a933-26773c3924fb",
@@ -8817,7 +9236,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 524,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 4000
+    "dbtcomp_str": 4000,
+    "image": null
   },
   {
     "id": "3ba54f92-a3fd-47e0-a7e8-8dd1fca47263",
@@ -8838,7 +9258,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1097,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 6139
+    "dbtcomp_str": 6139,
+    "image": null
   },
   {
     "id": "44fce28a-6670-45b2-b88b-420265bcae53",
@@ -8859,7 +9280,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 524,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 4000
+    "dbtcomp_str": 4000,
+    "image": null
   },
   {
     "id": "4bd44536-8bab-4d06-a8e9-32424c4ad6ed",
@@ -8880,7 +9302,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 524,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 4000
+    "dbtcomp_str": 4000,
+    "image": null
   },
   {
     "id": "77810eae-256f-412a-ae07-d341a07d3bb3",
@@ -8901,7 +9324,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 524,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 4000
+    "dbtcomp_str": 4000,
+    "image": null
   },
   {
     "id": "6628abb1-7cda-48f3-b059-d9b8f5a4a611",
@@ -8922,7 +9346,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 984,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 7000
+    "dbtcomp_str": 7000,
+    "image": null
   },
   {
     "id": "3e5189f8-3755-42c4-b041-6dab7c73c78c",
@@ -8943,7 +9368,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1097,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 6139
+    "dbtcomp_str": 6139,
+    "image": null
   },
   {
     "id": "4b201267-7aed-4d44-99ea-2697e6e50960",
@@ -8964,7 +9390,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1097,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 6139
+    "dbtcomp_str": 6139,
+    "image": null
   },
   {
     "id": "4d954d3e-58fa-4e3c-bc0a-ae430ab9271b",
@@ -8985,7 +9412,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1097,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 6139
+    "dbtcomp_str": 6139,
+    "image": null
   },
   {
     "id": "5af9378d-bf00-463b-91a9-154f9c3d3bc8",
@@ -9006,7 +9434,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1097,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 6139
+    "dbtcomp_str": 6139,
+    "image": null
   },
   {
     "id": "601c2caa-b02d-426b-b070-d15258db6358",
@@ -9027,7 +9456,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1097,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 6139
+    "dbtcomp_str": 6139,
+    "image": null
   },
   {
     "id": "8386a4cf-d674-448f-ad72-59019368a6f6",
@@ -9048,7 +9478,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1097,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 6139
+    "dbtcomp_str": 6139,
+    "image": null
   },
   {
     "id": "85533678-4544-4d0b-abcc-743fc139bf25",
@@ -9069,7 +9500,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1097,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 6139
+    "dbtcomp_str": 6139,
+    "image": null
   },
   {
     "id": "85d95875-a33a-4b1d-9af2-bfb9d7d52ee0",
@@ -9090,7 +9522,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1097,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 6139
+    "dbtcomp_str": 6139,
+    "image": null
   },
   {
     "id": "9a6924dd-d3f0-46aa-afe8-1466a3fa4cb1",
@@ -9111,7 +9544,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1097,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 6139
+    "dbtcomp_str": 6139,
+    "image": null
   },
   {
     "id": "a3b9bf1e-14a8-491d-9fd6-84689108035b",
@@ -9132,7 +9566,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1097,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 6139
+    "dbtcomp_str": 6139,
+    "image": null
   },
   {
     "id": "afd50fa4-f9b1-4f19-b504-0174f947afe3",
@@ -9153,7 +9588,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1097,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 6139
+    "dbtcomp_str": 6139,
+    "image": null
   },
   {
     "id": "c468f854-c0c2-48ff-b21c-453c657fdcb4",
@@ -9174,7 +9610,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1097,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 6139
+    "dbtcomp_str": 6139,
+    "image": null
   },
   {
     "id": "764b4dee-13d6-475c-961d-a40141559148",
@@ -9195,7 +9632,8 @@
     "dbtimage_h_scale": 63,
     "dbtimage_h_y1": 1080,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5300
+    "dbtcomp_str": 5300,
+    "image": null
   },
   {
     "id": "19726df3-97b3-42aa-89c6-7da00f2a9419",
@@ -9216,7 +9654,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1097,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 6139
+    "dbtcomp_str": 6139,
+    "image": null
   },
   {
     "id": "199bc2fa-cba8-4457-8e69-5bbcc0dc2369",
@@ -9237,7 +9676,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1097,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 6139
+    "dbtcomp_str": 6139,
+    "image": null
   },
   {
     "id": "2a5b46c9-02df-4cc4-b9d3-3b50c62f4557",
@@ -9258,7 +9698,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1097,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 6139
+    "dbtcomp_str": 6139,
+    "image": null
   },
   {
     "id": "865c75e5-09a4-437e-8ce5-5b77dd643129",
@@ -9279,7 +9720,8 @@
     "dbtimage_h_scale": 63,
     "dbtimage_h_y1": 1080,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5300
+    "dbtcomp_str": 5300,
+    "image": null
   },
   {
     "id": "a1bcf581-0d6e-49f8-bb05-2fdfc98c1733",
@@ -9300,7 +9742,8 @@
     "dbtimage_h_scale": 63,
     "dbtimage_h_y1": 998,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "be8e9e33-ff79-4eb8-9cc5-ae07f2838ba4",
@@ -9321,7 +9764,8 @@
     "dbtimage_h_scale": 63,
     "dbtimage_h_y1": 1080,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5300
+    "dbtcomp_str": 5300,
+    "image": null
   },
   {
     "id": "d7b2c5f8-faa9-490a-886c-b8552c4f511a",
@@ -9342,7 +9786,8 @@
     "dbtimage_h_scale": 63,
     "dbtimage_h_y1": 1080,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5300
+    "dbtcomp_str": 5300,
+    "image": null
   },
   {
     "id": "fcf1df10-1e75-4dda-9291-5d03f1667ea9",
@@ -9363,7 +9808,8 @@
     "dbtimage_h_scale": 63,
     "dbtimage_h_y1": 998,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "5dd1f491-a811-414c-95bd-1f7ea79fca05",
@@ -9384,7 +9830,8 @@
     "dbtimage_h_scale": 63,
     "dbtimage_h_y1": 1080,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5300
+    "dbtcomp_str": 5300,
+    "image": null
   },
   {
     "id": "64fee99b-a01e-4308-8036-38298e3b8712",
@@ -9405,7 +9852,8 @@
     "dbtimage_h_scale": 63,
     "dbtimage_h_y1": 998,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "6633dc77-f81b-4caf-aa6c-6efc9cdb475b",
@@ -9426,7 +9874,8 @@
     "dbtimage_h_scale": 63,
     "dbtimage_h_y1": 998,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "9d4537d7-9d19-48ca-bbbb-7def3c14be45",
@@ -9447,7 +9896,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 32,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "ede03621-2594-41db-845f-1e49c053cfa8",
@@ -9468,7 +9918,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 32,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "0569078b-e73f-4fe9-a446-c004e0203fbe",
@@ -9489,7 +9940,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 152,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "80a9b144-593e-43ff-9e18-d1617e5a0e43",
@@ -9510,7 +9962,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 120,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "2c4cac9e-d7b1-4687-9df1-8f3eda174ac0",
@@ -9531,7 +9984,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 128,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "6bc4fd5f-d2e6-4565-9b77-296519bdd08a",
@@ -9552,7 +10006,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 93,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "3925ed92-ec56-4654-b160-5e29364cc827",
@@ -9573,7 +10028,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 733,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 8500
+    "dbtcomp_str": 8500,
+    "image": null
   },
   {
     "id": "f31986d2-00e1-4b29-80a4-3e7423965f52",
@@ -9594,7 +10050,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 87,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "db6efc3f-9a4d-48b1-ac28-f7870ecc5afb",
@@ -9615,7 +10072,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 168,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 1360
+    "dbtcomp_str": 1360,
+    "image": null
   },
   {
     "id": "39535217-d3b7-4651-a4cb-e7ffd19beaad",
@@ -9636,7 +10094,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 733,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 8500
+    "dbtcomp_str": 8500,
+    "image": null
   },
   {
     "id": "46013cb3-90fc-4b89-9634-9063c5ce314b",
@@ -9657,7 +10116,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 808,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "56d538fb-2bf8-4916-a6e3-bf187614011d",
@@ -9678,7 +10138,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 733,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 8500
+    "dbtcomp_str": 8500,
+    "image": null
   },
   {
     "id": "656ec3b0-02d3-4e01-8ee7-370e390b1d21",
@@ -9699,7 +10160,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 733,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 8500
+    "dbtcomp_str": 8500,
+    "image": null
   },
   {
     "id": "6b817525-eab2-4576-8f73-e6214c229418",
@@ -9720,7 +10182,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 733,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 8500
+    "dbtcomp_str": 8500,
+    "image": null
   },
   {
     "id": "8eba7acc-30b9-4445-ac9e-9c950bdf6684",
@@ -9741,7 +10204,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 0,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "a5a6c81e-c343-4461-89e1-9990ff409938",
@@ -9762,7 +10226,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 733,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 8500
+    "dbtcomp_str": 8500,
+    "image": null
   },
   {
     "id": "b5032775-2a16-41f8-bf92-26215f78f066",
@@ -9783,7 +10248,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 733,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 8500
+    "dbtcomp_str": 8500,
+    "image": null
   },
   {
     "id": "b54dc4ba-bb11-488e-bb77-0d63b7473d21",
@@ -9804,7 +10270,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 733,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 8500
+    "dbtcomp_str": 8500,
+    "image": null
   },
   {
     "id": "be026932-74dd-4340-b5f1-31d445b1dfc5",
@@ -9825,7 +10292,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 733,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 8500
+    "dbtcomp_str": 8500,
+    "image": null
   },
   {
     "id": "c04adea0-ce79-47b5-b6b6-e605dffdde37",
@@ -9846,7 +10314,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 733,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 8500
+    "dbtcomp_str": 8500,
+    "image": null
   },
   {
     "id": "c080cfa9-2750-4103-b78c-9033a952b4c3",
@@ -9867,7 +10336,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 733,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "c434ea13-8560-49ac-93e7-92512be1f77d",
@@ -9888,7 +10358,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 888,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "d5cdaf30-1e0a-4d43-8680-70e3ce1424a5",
@@ -9909,7 +10380,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 733,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 8500
+    "dbtcomp_str": 8500,
+    "image": null
   },
   {
     "id": "e02e09fa-505a-4634-94c4-e9e6d827ec8f",
@@ -9930,7 +10402,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 733,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 8500
+    "dbtcomp_str": 8500,
+    "image": null
   },
   {
     "id": "ec5472b1-0346-4e80-aa8c-097432eba3cb",
@@ -9951,7 +10424,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 733,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 8500
+    "dbtcomp_str": 8500,
+    "image": null
   },
   {
     "id": "0e57551a-5f9c-4f2a-b25f-68087dfe84fd",
@@ -9972,7 +10446,8 @@
     "dbtimage_h_scale": 38,
     "dbtimage_h_y1": 810,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 7322
+    "dbtcomp_str": 7322,
+    "image": null
   },
   {
     "id": "18744878-ce90-4e1e-8948-3bb7a313662f",
@@ -9993,7 +10468,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 733,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 8500
+    "dbtcomp_str": 8500,
+    "image": null
   },
   {
     "id": "18bca284-e99b-4c5a-9703-edf122b615cc",
@@ -10014,7 +10490,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 733,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 8500
+    "dbtcomp_str": 8500,
+    "image": null
   },
   {
     "id": "1d6d3539-dc59-49b9-89ba-59975d50233a",
@@ -10035,7 +10512,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 733,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 8500
+    "dbtcomp_str": 8500,
+    "image": null
   },
   {
     "id": "1cf807ad-06c0-45ac-a5c5-77c4586ebbfb",
@@ -10056,7 +10534,8 @@
     "dbtimage_h_scale": 38,
     "dbtimage_h_y1": 730,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 7322
+    "dbtcomp_str": 7322,
+    "image": null
   },
   {
     "id": "8230d254-0a98-49a2-be9b-54d072be36b5",
@@ -10077,7 +10556,8 @@
     "dbtimage_h_scale": 150,
     "dbtimage_h_y1": 1087,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "e7b7c875-dc29-4522-9c4d-2ce83054062e",
@@ -10098,7 +10578,8 @@
     "dbtimage_h_scale": 150,
     "dbtimage_h_y1": 1087,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "4c3efff3-5f5d-4bd2-b9f3-a61b24ff660b",
@@ -10119,7 +10600,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 0,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "7d43bb93-8c27-4ebd-ae97-ff7e2e01e5bd",
@@ -10140,7 +10622,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 0,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "13f7f86a-c64e-44c4-a26e-763f28866987",
@@ -10161,7 +10644,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 0,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "1c9ab2e5-0dca-4248-9975-fd40afd1bc07",
@@ -10182,7 +10666,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1260,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "1f902c13-c594-40e8-97bb-93bd05b2624c",
@@ -10203,7 +10688,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 0,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "d1c40014-c8e1-4e19-829b-4841d4aad86f",
@@ -10224,7 +10710,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 0,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "cb26bb36-79dd-40d7-85b3-6f06440cd3e9",
@@ -10245,7 +10732,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 524,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 4000
+    "dbtcomp_str": 4000,
+    "image": null
   },
   {
     "id": "0d35c4c2-a17e-45b1-8e2e-6be69b6ab564",
@@ -10266,7 +10754,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 0,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "25194a32-4c78-4acc-8b32-d89a48cff829",
@@ -10287,7 +10776,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 0,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "6b6ec9bb-b09b-4028-aeca-d4cd57914aef",
@@ -10308,7 +10798,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 0,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "d02bed50-e442-4a07-9208-45e38ddd4e98",
@@ -10329,7 +10820,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 524,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 4000
+    "dbtcomp_str": 4000,
+    "image": null
   },
   {
     "id": "b9ac0c7b-53a7-46bf-ab7b-8c675990d1ea",
@@ -10350,7 +10842,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 939,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5300
+    "dbtcomp_str": 5300,
+    "image": null
   },
   {
     "id": "bcf9cf61-72ab-4081-9cc2-d914e9f3100e",
@@ -10371,7 +10864,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 939,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5300
+    "dbtcomp_str": 5300,
+    "image": null
   },
   {
     "id": "c9e44736-078d-4685-a8dc-6cd985ce79d7",
@@ -10392,7 +10886,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 939,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5300
+    "dbtcomp_str": 5300,
+    "image": null
   },
   {
     "id": "d378a98b-1244-4c3e-8c2c-d08691ac9178",
@@ -10413,7 +10908,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 939,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5300
+    "dbtcomp_str": 5300,
+    "image": null
   },
   {
     "id": "d3d6eeaa-1276-4172-969c-a2c2f4ab13fa",
@@ -10434,7 +10930,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 939,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5300
+    "dbtcomp_str": 5300,
+    "image": null
   },
   {
     "id": "db0926a3-5ee9-4180-ba25-86fe43caa0fa",
@@ -10455,7 +10952,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 939,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5300
+    "dbtcomp_str": 5300,
+    "image": null
   },
   {
     "id": "e549866d-58f7-4b96-b7c6-39b31c3b8d32",
@@ -10476,7 +10974,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 939,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5300
+    "dbtcomp_str": 5300,
+    "image": null
   },
   {
     "id": "eb5f4100-9dc8-4118-b4b6-df4abf2cbd7d",
@@ -10497,7 +10996,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 939,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5300
+    "dbtcomp_str": 5300,
+    "image": null
   },
   {
     "id": "f1f2fc41-cebe-4570-ad13-1ee928cd412a",
@@ -10518,7 +11018,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 939,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5300
+    "dbtcomp_str": 5300,
+    "image": null
   },
   {
     "id": "74914024-e247-409c-a8fd-a7a8e8e5f161",
@@ -10539,7 +11040,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 611,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 9000
+    "dbtcomp_str": 9000,
+    "image": null
   },
   {
     "id": "560a180d-c0cd-4d72-a132-dd217214c599",
@@ -10560,7 +11062,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 939,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5300
+    "dbtcomp_str": 5300,
+    "image": null
   },
   {
     "id": "6198ae27-0880-4cf1-9133-3d457cfc901b",
@@ -10581,7 +11084,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 939,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5300
+    "dbtcomp_str": 5300,
+    "image": null
   },
   {
     "id": "f1c6411e-af23-4989-b671-a0466f60c713",
@@ -10602,7 +11106,8 @@
     "dbtimage_h_scale": 180,
     "dbtimage_h_y1": 1082,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3000
+    "dbtcomp_str": 3000,
+    "image": null
   },
   {
     "id": "89da45e8-bfc3-4c53-8b44-a741ff6e1cc9",
@@ -10623,7 +11128,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 600,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 7000
+    "dbtcomp_str": 7000,
+    "image": null
   },
   {
     "id": "7630673f-0113-4ee1-856d-b9b18b2e47a4",
@@ -10644,7 +11150,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 611,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 9000
+    "dbtcomp_str": 9000,
+    "image": null
   },
   {
     "id": "822292bc-1da8-441c-b953-f2e1be781a7a",
@@ -10665,28 +11172,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 611,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 9000
-  },
-  {
-    "id": "7029eedc-ce83-43b4-8f3d-3d19c68e183c",
-    "r_module_type_id": "e3327c4c-5730-4142-b0dc-be1c45569a14",
-    "sn_": "37*",
-    "dbdate_": "2000-01-01",
-    "dbversion_": "",
-    "dbsn_": "Chorus-5",
-    "dbcomment_": "",
-    "dbtname_": "Default_M-2",
-    "dbtlength": 730,
-    "dbtweight": 5,
-    "dbtmax_od_": 38,
-    "dbtmax_od_collapsed_": 38,
-    "dbtmax_od_opened_": 0,
-    "dbtimage2d_": "ToolModuleDeviceBoardType{dc4e04b4-dd19-42b4-b0f2-5e9bf94ceaa8}",
-    "dbtimage_h_shift": 0,
-    "dbtimage_h_scale": 38,
-    "dbtimage_h_y1": 730,
-    "dbtimage_h_y2": 0,
-    "dbtcomp_str": 7322
+    "dbtcomp_str": 9000,
+    "image": null
   },
   {
     "id": "b95e8ca0-e28d-414e-8fe2-5deb14b4816c",
@@ -10707,7 +11194,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 611,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 9000
+    "dbtcomp_str": 9000,
+    "image": null
   },
   {
     "id": "d0c857b3-7909-4bf1-8ef6-3be3618267a1",
@@ -10728,7 +11216,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 611,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 9000
+    "dbtcomp_str": 9000,
+    "image": null
   },
   {
     "id": "68265378-ec2d-4059-86bb-4e458f8fbb18",
@@ -10749,7 +11238,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 947,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 4000
+    "dbtcomp_str": 4000,
+    "image": null
   },
   {
     "id": "166ae54d-de0e-45bf-89ce-2fd129ae676b",
@@ -10770,7 +11260,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 611,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 9000
+    "dbtcomp_str": 9000,
+    "image": null
   },
   {
     "id": "3c1f971c-3e80-4dc1-96e1-8e7e9895a74e",
@@ -10791,7 +11282,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 611,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 9000
+    "dbtcomp_str": 9000,
+    "image": null
   },
   {
     "id": "5787b435-ab4b-4b0d-9755-d518afee14bf",
@@ -10812,7 +11304,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 611,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 9000
+    "dbtcomp_str": 9000,
+    "image": null
   },
   {
     "id": "231df509-ea79-4b15-94e1-186c480a8657",
@@ -10833,7 +11326,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1179,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5300
+    "dbtcomp_str": 5300,
+    "image": null
   },
   {
     "id": "4872a1cf-b45b-462e-928c-17cee79183fc",
@@ -10854,7 +11348,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 947,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 4000
+    "dbtcomp_str": 4000,
+    "image": null
   },
   {
     "id": "533eb77f-c47b-4aae-b7d8-3a8baf72f8ba",
@@ -10875,7 +11370,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 947,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 4000
+    "dbtcomp_str": 4000,
+    "image": null
   },
   {
     "id": "5f82ccfb-f8c6-494d-8568-152ba4db3e52",
@@ -10896,7 +11392,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 947,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 4000
+    "dbtcomp_str": 4000,
+    "image": null
   },
   {
     "id": "b18816fe-e641-4daa-952d-1cf3cd31cb8b",
@@ -10917,7 +11414,8 @@
     "dbtimage_h_scale": 38,
     "dbtimage_h_y1": 1230,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "35190c70-4ed5-437b-bc83-7e624ae0a1f4",
@@ -10938,7 +11436,8 @@
     "dbtimage_h_scale": 38,
     "dbtimage_h_y1": 740,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "f473b1ff-99e9-4fe8-869d-e3e2ccb2ae7f",
@@ -10959,7 +11458,8 @@
     "dbtimage_h_scale": 110,
     "dbtimage_h_y1": 0,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "426ec1d1-425b-49ee-9b9c-188d672e5196",
@@ -10980,7 +11480,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1179,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5300
+    "dbtcomp_str": 5300,
+    "image": null
   },
   {
     "id": "51bcfaf5-e519-4f22-9497-d2a27542e5e9",
@@ -11001,7 +11502,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1179,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5300
+    "dbtcomp_str": 5300,
+    "image": null
   },
   {
     "id": "53b8b447-1ff3-4b77-838a-644038c4bfbc",
@@ -11022,7 +11524,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1179,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5300
+    "dbtcomp_str": 5300,
+    "image": null
   },
   {
     "id": "5cb66e56-e674-4207-a804-214b4d8cc7a4",
@@ -11043,7 +11546,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1179,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5300
+    "dbtcomp_str": 5300,
+    "image": null
   },
   {
     "id": "77ddfc82-17c9-4178-9446-cd29e546f15f",
@@ -11064,7 +11568,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1179,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5300
+    "dbtcomp_str": 5300,
+    "image": null
   },
   {
     "id": "8add85ab-1c86-425c-96cd-f5b6c1a830be",
@@ -11085,7 +11590,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1179,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5300
+    "dbtcomp_str": 5300,
+    "image": null
   },
   {
     "id": "8d9183c8-0746-42a5-b920-68fb60bee706",
@@ -11106,7 +11612,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1179,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5300
+    "dbtcomp_str": 5300,
+    "image": null
   },
   {
     "id": "8e7ec484-157c-4841-97ce-a4bad508627b",
@@ -11127,7 +11634,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1179,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5300
+    "dbtcomp_str": 5300,
+    "image": null
   },
   {
     "id": "b318a70a-5939-45f0-a776-5b911a321a4f",
@@ -11148,7 +11656,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1179,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5300
+    "dbtcomp_str": 5300,
+    "image": null
   },
   {
     "id": "b991fbf2-fd6e-4b8b-8984-b5e9db2b66ff",
@@ -11169,7 +11678,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1179,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5300
+    "dbtcomp_str": 5300,
+    "image": null
   },
   {
     "id": "bcb4b41a-2cd3-4f6f-83a9-7ef037e34083",
@@ -11190,7 +11700,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1179,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5300
+    "dbtcomp_str": 5300,
+    "image": null
   },
   {
     "id": "cd702c5a-0e77-4672-a86c-b570b873d144",
@@ -11211,7 +11722,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1179,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5300
+    "dbtcomp_str": 5300,
+    "image": null
   },
   {
     "id": "d7982c25-0aa3-4fa8-bc80-6483659664f8",
@@ -11232,7 +11744,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1179,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5300
+    "dbtcomp_str": 5300,
+    "image": null
   },
   {
     "id": "f5912202-4252-4df3-8f98-76c02866c328",
@@ -11253,7 +11766,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1179,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5300
+    "dbtcomp_str": 5300,
+    "image": null
   },
   {
     "id": "0386de4c-9107-4c3d-a660-8b667b82cdd9",
@@ -11274,7 +11788,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1179,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5300
+    "dbtcomp_str": 5300,
+    "image": null
   },
   {
     "id": "052b0cbd-4fdd-45a2-bffd-080ff81f3c6d",
@@ -11295,7 +11810,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1179,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5300
+    "dbtcomp_str": 5300,
+    "image": null
   },
   {
     "id": "1962e1b5-5188-4245-822f-2288a1787916",
@@ -11316,7 +11832,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1179,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5300
+    "dbtcomp_str": 5300,
+    "image": null
   },
   {
     "id": "4cbccb63-19c7-4a18-ab6b-a8a8d10f1052",
@@ -11337,7 +11854,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1097,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 6139
+    "dbtcomp_str": 6139,
+    "image": null
   },
   {
     "id": "ad23b32e-5b39-43c8-8347-b5a949329c7b",
@@ -11358,7 +11876,8 @@
     "dbtimage_h_scale": 94,
     "dbtimage_h_y1": 367,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "5497426a-a90c-427d-bac6-829866281bd9",
@@ -11379,7 +11898,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 823,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 7000
+    "dbtcomp_str": 7000,
+    "image": null
   },
   {
     "id": "7f7080b0-f8ae-4661-9da0-4b7b02996586",
@@ -11400,7 +11920,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 81,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "259330ee-6023-434d-94ff-003592fae4da",
@@ -11421,7 +11942,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 85,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "0859bf2d-3fe2-42c6-8f8e-e188a314afce",
@@ -11442,7 +11964,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 0,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "ed783a4a-88af-454a-80e4-d8d02671e997",
@@ -11463,7 +11986,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1609,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5000
+    "dbtcomp_str": 5000,
+    "image": null
   },
   {
     "id": "d3e12a05-2b22-4de9-b9dc-0cd27c096c92",
@@ -11484,7 +12008,8 @@
     "dbtimage_h_scale": 48,
     "dbtimage_h_y1": 115,
     "dbtimage_h_y2": 14,
-    "dbtcomp_str": 5000
+    "dbtcomp_str": 5000,
+    "image": null
   },
   {
     "id": "79a4930d-0f54-4704-af3e-1d398d823f5d",
@@ -11505,7 +12030,8 @@
     "dbtimage_h_scale": 210,
     "dbtimage_h_y1": 650,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3300
+    "dbtcomp_str": 3300,
+    "image": null
   },
   {
     "id": "132ecdda-0307-4740-9298-5b98459470dc",
@@ -11526,7 +12052,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1039,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "51882f55-f0d4-4c1b-9ab3-713fa5997ca2",
@@ -11547,7 +12074,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 100,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "5c0f5618-e482-4155-880d-c232c6b842e2",
@@ -11568,7 +12096,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 720,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 8500
+    "dbtcomp_str": 8500,
+    "image": null
   },
   {
     "id": "e18f6c23-590c-41e7-9ac6-c2d408dc5fff",
@@ -11589,7 +12118,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 0,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "366127c0-e42f-4e5b-88be-4e910e9dc675",
@@ -11610,7 +12140,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 733,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 8500
+    "dbtcomp_str": 8500,
+    "image": null
   },
   {
     "id": "3bd7c377-78a1-40f5-9a67-e35c1dad63c5",
@@ -11631,7 +12162,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 733,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 8500
+    "dbtcomp_str": 8500,
+    "image": null
   },
   {
     "id": "3ec95d7c-06e1-4bcd-817e-7f02ae8268b2",
@@ -11652,7 +12184,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 733,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 8500
+    "dbtcomp_str": 8500,
+    "image": null
   },
   {
     "id": "555b9c85-4f2f-41fc-b9d3-3e1d0a0c256d",
@@ -11673,7 +12206,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 733,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 8500
+    "dbtcomp_str": 8500,
+    "image": null
   },
   {
     "id": "585ccc9d-3f40-4c57-a4b3-dcbf7395afb6",
@@ -11694,7 +12228,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 733,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 8500
+    "dbtcomp_str": 8500,
+    "image": null
   },
   {
     "id": "5922984c-f624-4395-95dc-f294ff8ea67b",
@@ -11715,7 +12250,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 733,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 8500
+    "dbtcomp_str": 8500,
+    "image": null
   },
   {
     "id": "5de98441-f1a8-4d1f-8c74-13dfd17a156c",
@@ -11736,7 +12272,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 733,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 8500
+    "dbtcomp_str": 8500,
+    "image": null
   },
   {
     "id": "686b7c95-24d5-4d88-925d-e21c21faa526",
@@ -11757,7 +12294,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 733,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 8500
+    "dbtcomp_str": 8500,
+    "image": null
   },
   {
     "id": "816786d1-37a6-4cf4-8884-4a7d3b73c91e",
@@ -11778,7 +12316,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 733,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 8500
+    "dbtcomp_str": 8500,
+    "image": null
   },
   {
     "id": "8c47dc7e-a431-4f58-ba89-a3dd0ff5a1a5",
@@ -11799,7 +12338,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 733,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 8500
+    "dbtcomp_str": 8500,
+    "image": null
   },
   {
     "id": "936cfc63-7549-4a35-a1a8-b00c23752d13",
@@ -11820,7 +12360,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 733,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 8500
+    "dbtcomp_str": 8500,
+    "image": null
   },
   {
     "id": "97a87460-7625-442f-b09c-0d11dca6d797",
@@ -11841,7 +12382,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 733,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 8500
+    "dbtcomp_str": 8500,
+    "image": null
   },
   {
     "id": "a397313b-ff53-4027-8131-eb995e84de8f",
@@ -11862,7 +12404,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 733,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 8500
+    "dbtcomp_str": 8500,
+    "image": null
   },
   {
     "id": "a61c60f6-1358-45c8-8851-f76b1ee7a334",
@@ -11883,7 +12426,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 733,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 8500
+    "dbtcomp_str": 8500,
+    "image": null
   },
   {
     "id": "a9513226-5a93-48a4-b008-5d3e5a5d6388",
@@ -11904,7 +12448,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 733,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 8500
+    "dbtcomp_str": 8500,
+    "image": null
   },
   {
     "id": "b2e7d3d6-cfbf-4586-bde9-d9ea5ad6cd6b",
@@ -11925,7 +12470,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 733,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 8500
+    "dbtcomp_str": 8500,
+    "image": null
   },
   {
     "id": "b36573ab-5cae-4022-89b3-6d8e33c33fbe",
@@ -11946,7 +12492,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 733,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 8500
+    "dbtcomp_str": 8500,
+    "image": null
   },
   {
     "id": "c3263d0e-bac5-4592-bd88-49b967fa9f89",
@@ -11967,7 +12514,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 733,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 8500
+    "dbtcomp_str": 8500,
+    "image": null
   },
   {
     "id": "cb629cc4-c40d-4164-9eb8-c1ff8496fe87",
@@ -11988,7 +12536,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 733,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 8500
+    "dbtcomp_str": 8500,
+    "image": null
   },
   {
     "id": "d6363a47-3db5-4f5f-bc52-5272f6cb0ef7",
@@ -12009,7 +12558,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 733,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 8500
+    "dbtcomp_str": 8500,
+    "image": null
   },
   {
     "id": "e9f0d077-2f48-4b2e-addd-f401e6ba81b9",
@@ -12030,7 +12580,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 733,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 8500
+    "dbtcomp_str": 8500,
+    "image": null
   },
   {
     "id": "f909bedf-7106-43de-8f95-ee4eb318a086",
@@ -12051,7 +12602,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 733,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 8500
+    "dbtcomp_str": 8500,
+    "image": null
   },
   {
     "id": "fc854854-3fe0-486f-b925-8228c727039b",
@@ -12072,7 +12624,30 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 733,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 8500
+    "dbtcomp_str": 8500,
+    "image": null
+  },
+  {
+    "id": "7029eedc-ce83-43b4-8f3d-3d19c68e183c",
+    "r_module_type_id": "e3327c4c-5730-4142-b0dc-be1c45569a14",
+    "sn_": "37*",
+    "dbdate_": "2000-01-01",
+    "dbversion_": "",
+    "dbsn_": "Chorus-5",
+    "dbcomment_": "",
+    "dbtname_": "Default_M-2",
+    "dbtlength": 730,
+    "dbtweight": 5,
+    "dbtmax_od_": 38,
+    "dbtmax_od_collapsed_": 38,
+    "dbtmax_od_opened_": 0,
+    "dbtimage2d_": "ToolModuleDeviceBoardType{dc4e04b4-dd19-42b4-b0f2-5e9bf94ceaa8}",
+    "dbtimage_h_shift": 0,
+    "dbtimage_h_scale": 38,
+    "dbtimage_h_y1": 730,
+    "dbtimage_h_y2": 0,
+    "dbtcomp_str": 7322,
+    "image": null
   },
   {
     "id": "2b41adc8-950d-4e13-8f35-3e040362b375",
@@ -12093,7 +12668,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 733,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 8500
+    "dbtcomp_str": 8500,
+    "image": null
   },
   {
     "id": "2e25ad67-4990-4970-ade7-a3bc9616a50c",
@@ -12114,7 +12690,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 733,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 8500
+    "dbtcomp_str": 8500,
+    "image": null
   },
   {
     "id": "3584af30-954e-4aa6-9e46-b95cb71ff887",
@@ -12135,7 +12712,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 733,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 8500
+    "dbtcomp_str": 8500,
+    "image": null
   },
   {
     "id": "8587094c-cdbf-401d-987d-12a9c0a47272",
@@ -12156,7 +12734,8 @@
     "dbtimage_h_scale": 38,
     "dbtimage_h_y1": 730,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 7322
+    "dbtcomp_str": 7322,
+    "image": null
   },
   {
     "id": "86724c26-5463-45c9-b6c3-27e9b5012cff",
@@ -12177,7 +12756,8 @@
     "dbtimage_h_scale": 38,
     "dbtimage_h_y1": 730,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 7322
+    "dbtcomp_str": 7322,
+    "image": null
   },
   {
     "id": "e9111462-2823-4ea9-905a-ac6739139884",
@@ -12198,7 +12778,8 @@
     "dbtimage_h_scale": 38,
     "dbtimage_h_y1": 730,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 7322
+    "dbtcomp_str": 7322,
+    "image": null
   },
   {
     "id": "ff7367cb-6cee-4d03-bf41-b972a76606a7",
@@ -12219,7 +12800,8 @@
     "dbtimage_h_scale": 38,
     "dbtimage_h_y1": 730,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 7322
+    "dbtcomp_str": 7322,
+    "image": null
   },
   {
     "id": "0a324e6d-05a9-42f7-b609-8831c5ac0f52",
@@ -12240,7 +12822,8 @@
     "dbtimage_h_scale": 105,
     "dbtimage_h_y1": 607,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "22b3cee9-d017-426c-a937-a34a30de243e",
@@ -12261,7 +12844,8 @@
     "dbtimage_h_scale": 38,
     "dbtimage_h_y1": 730,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 7322
+    "dbtcomp_str": 7322,
+    "image": null
   },
   {
     "id": "24db60e5-f91e-415b-a044-f0de33b8e003",
@@ -12282,7 +12866,8 @@
     "dbtimage_h_scale": 38,
     "dbtimage_h_y1": 730,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 7322
+    "dbtcomp_str": 7322,
+    "image": null
   },
   {
     "id": "5edc02ab-93e3-4f2d-8cb9-6278031a614d",
@@ -12303,7 +12888,8 @@
     "dbtimage_h_scale": 38,
     "dbtimage_h_y1": 730,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 7322
+    "dbtcomp_str": 7322,
+    "image": null
   },
   {
     "id": "9279344a-b9ce-4189-b521-5a006034f341",
@@ -12324,7 +12910,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 675,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "d37a3557-05cf-4c68-b8c7-21fbe6f65c27",
@@ -12345,7 +12932,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 0,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "5040d94e-3d21-42dd-b279-9798ffbd384c",
@@ -12366,7 +12954,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1825,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "0dc490a2-aa68-4ef1-be2e-7cb06fa0c1e0",
@@ -12387,7 +12976,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 2100,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "1027ac1a-b56c-4f7f-a58c-83341e1aed52",
@@ -12408,7 +12998,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 2100,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "10969051-fc2e-4959-9842-31cd56687d5e",
@@ -12429,7 +13020,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 2100,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "15f8bd10-59c1-4a9b-a3f9-7e81583aac71",
@@ -12450,7 +13042,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 2100,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "27b0bfc7-170e-4c61-b4d4-daabc67c3913",
@@ -12471,7 +13064,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 2100,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "31330ae3-d34a-4238-b450-015eaa50c5e2",
@@ -12492,7 +13086,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 2100,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "3b205d3f-fa8c-4c33-9300-4f10e4d19d89",
@@ -12513,7 +13108,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 2100,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "3fb62838-bb29-48d0-b0d5-d0798f8e8d6d",
@@ -12534,7 +13130,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 2100,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "3ff4b53c-9b76-4664-b3e2-f020b53584c4",
@@ -12555,7 +13152,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 2100,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "5835ef4d-e96a-4fbd-acaf-3ac4054b08f0",
@@ -12576,7 +13174,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 2100,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "5dc7dc35-25d8-4aca-9615-281973942876",
@@ -12597,7 +13196,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 2100,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "60456f45-eba0-492b-b64c-7a9f959a01f5",
@@ -12618,7 +13218,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 2100,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "65ecabd3-ad69-4a43-9ee8-8a0d5982ab39",
@@ -12639,7 +13240,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 2100,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "6b7e1dbb-414b-4806-9b32-26479c63458e",
@@ -12660,7 +13262,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 2100,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "74829916-839f-459a-8754-deda0cf375a9",
@@ -12681,7 +13284,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 2100,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "7dfb91d6-148b-4505-b628-98b18bece252",
@@ -12702,7 +13306,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 2100,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "811a8f58-33e0-4922-a9c2-25e4580e4b7d",
@@ -12723,7 +13328,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 2100,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "8a610e82-a97f-47b8-895b-802223ddc5ba",
@@ -12744,7 +13350,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 2100,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "8ffe71f6-9a30-4346-b3db-7c5ae4d56453",
@@ -12765,7 +13372,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 2100,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "982eae6a-fac1-4d6f-aeaf-9f79224055c2",
@@ -12786,7 +13394,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 2100,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "9bb0df0d-dbee-4c0d-970a-0963c3f6e71e",
@@ -12807,7 +13416,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 2100,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "a850ac32-bb2f-4067-a6a0-abfe5ab997b2",
@@ -12828,7 +13438,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 2100,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "ab8f5d46-e667-452f-9e15-a86fbdde6592",
@@ -12849,7 +13460,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 2100,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "ac894844-e051-4b36-9356-6d7197ce7304",
@@ -12870,7 +13482,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 2100,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "b74f7014-fdb7-40f3-917d-0c21379fd179",
@@ -12891,7 +13504,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 2100,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "ba031c43-cc05-4bed-bd7d-491117193b75",
@@ -12912,7 +13526,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 2100,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "bdcbf804-6aea-42d5-8c64-8f4e0c0f1152",
@@ -12933,7 +13548,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 2100,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "c9676755-2ad2-454a-a645-ee8977d54362",
@@ -12954,7 +13570,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 2100,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "df1e05c8-fa7a-4319-ae55-faeeb1500bc0",
@@ -12975,7 +13592,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 2100,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "e575c21d-eddd-45e5-8e31-703f4657319e",
@@ -12996,7 +13614,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 2100,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "e72ae36e-db54-417f-8d9f-d57d616b1450",
@@ -13017,7 +13636,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 2100,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "f234652f-dad8-40dd-ab13-acfc7f00ace0",
@@ -13038,7 +13658,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 2100,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "f2370117-6547-4479-8466-b714e5724002",
@@ -13059,7 +13680,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 2100,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "a566d7ea-4b7f-482c-8296-5a76e2d7685c",
@@ -13080,7 +13702,8 @@
     "dbtimage_h_scale": 48,
     "dbtimage_h_y1": 1346,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 6139
+    "dbtcomp_str": 6139,
+    "image": null
   },
   {
     "id": "093312f8-8162-413f-a8d8-a23a7594a388",
@@ -13101,7 +13724,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 2100,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "0c8b277a-f06f-4f71-8128-2c3c31ecec1e",
@@ -13122,7 +13746,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 2100,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "0db6548b-8c44-479d-9093-38f229063a82",
@@ -13143,7 +13768,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 2100,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "e6014ef9-a4c5-4353-9516-886e23a4e98e",
@@ -13164,7 +13790,8 @@
     "dbtimage_h_scale": 48,
     "dbtimage_h_y1": 1346,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 6139
+    "dbtcomp_str": 6139,
+    "image": null
   },
   {
     "id": "592b3000-cc64-42a8-95d3-6207fabf22e8",
@@ -13185,7 +13812,8 @@
     "dbtimage_h_scale": 48,
     "dbtimage_h_y1": 1346,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 6139
+    "dbtcomp_str": 6139,
+    "image": null
   },
   {
     "id": "7c3d684a-874f-4272-a8a7-53919dd4e293",
@@ -13206,7 +13834,8 @@
     "dbtimage_h_scale": 48,
     "dbtimage_h_y1": 1728,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 6139
+    "dbtcomp_str": 6139,
+    "image": null
   },
   {
     "id": "a135b216-2ed1-4cf3-b8ca-6b1f4f71c91d",
@@ -13227,7 +13856,8 @@
     "dbtimage_h_scale": 48,
     "dbtimage_h_y1": 1346,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 6139
+    "dbtcomp_str": 6139,
+    "image": null
   },
   {
     "id": "28bf50d6-f895-4e38-a6b3-72d46dd12d02",
@@ -13248,7 +13878,8 @@
     "dbtimage_h_scale": 145,
     "dbtimage_h_y1": 700,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "db5985f9-c14a-47ae-bd3b-e043e8fedbf4",
@@ -13269,7 +13900,8 @@
     "dbtimage_h_scale": 145,
     "dbtimage_h_y1": 800,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "e4cfb2fe-1b26-40cc-bf7e-c458bd3d31e1",
@@ -13290,7 +13922,8 @@
     "dbtimage_h_scale": 145,
     "dbtimage_h_y1": 800,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "7786924b-62e6-4d58-9fef-c2e49d345dc0",
@@ -13311,7 +13944,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 400,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "2e3d8e4f-c5d7-4dec-a5a5-08f9fe8aba47",
@@ -13332,7 +13966,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 350,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "dcf835a3-b30a-41b6-a2de-bfe9c50311ef",
@@ -13353,7 +13988,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 350,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "2201f2ea-85f2-44f3-9ac3-3966d1eb86d6",
@@ -13374,7 +14010,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 447,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "ecae8970-9bae-4ce9-997c-18024db51a17",
@@ -13395,7 +14032,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 447,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "882b3dc9-346f-4548-be7e-89f012db0476",
@@ -13416,7 +14054,8 @@
     "dbtimage_h_scale": 38,
     "dbtimage_h_y1": 438,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 4300
+    "dbtcomp_str": 4300,
+    "image": null
   },
   {
     "id": "1e1c546d-8201-452b-8bec-471c7682e21e",
@@ -13437,7 +14076,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 422,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 3500
+    "dbtcomp_str": 3500,
+    "image": null
   },
   {
     "id": "dbf70376-c59a-4e11-8e5b-4a263223c894",
@@ -13458,7 +14098,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 524,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 4000
+    "dbtcomp_str": 4000,
+    "image": null
   },
   {
     "id": "ad440427-2d8f-47ca-ac0b-f31f82b1ece9",
@@ -13479,7 +14120,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 939,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5300
+    "dbtcomp_str": 5300,
+    "image": null
   },
   {
     "id": "096a456c-08ec-4faa-a0f5-246762ba0d28",
@@ -13500,7 +14142,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1432,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 6139
+    "dbtcomp_str": 6139,
+    "image": null
   },
   {
     "id": "83faf78c-86d9-45ee-a4f6-f39cff9ea3e1",
@@ -13521,7 +14164,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1432,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 6139
+    "dbtcomp_str": 6139,
+    "image": null
   },
   {
     "id": "e026209e-b207-474c-bd5b-e3dc26946dbd",
@@ -13542,7 +14186,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1179,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 5300
+    "dbtcomp_str": 5300,
+    "image": null
   },
   {
     "id": "44c54765-4823-427b-9ea8-6f68febd1d0e",
@@ -13563,7 +14208,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1097,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 6139
+    "dbtcomp_str": 6139,
+    "image": null
   },
   {
     "id": "c8d3a03f-11ef-4ffc-bd2d-8262dcbe8166",
@@ -13584,7 +14230,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1097,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 6139
+    "dbtcomp_str": 6139,
+    "image": null
   },
   {
     "id": "03909c69-fb8f-4d92-9523-df11e3f76e43",
@@ -13605,7 +14252,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 2100,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "e470ca22-eed2-49c6-bdc3-f77acbfe0ee2",
@@ -13626,7 +14274,8 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 2100,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   },
   {
     "id": "f889009e-6dbf-4aa1-bb07-c54908025ecb",
@@ -13647,6 +14296,7 @@
     "dbtimage_h_scale": 42,
     "dbtimage_h_y1": 1375,
     "dbtimage_h_y2": 0,
-    "dbtcomp_str": 0
+    "dbtcomp_str": 0,
+    "image": null
   }
 ]
