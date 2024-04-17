@@ -11,3 +11,7 @@ class UpdateToolInstalledSensorInput(graphene.InputObjectType):
     # изменение поля record_point по id toolinstalledsensor
     id = graphene.UUID(required=True)
     record_point = graphene.Float(required=True)
+
+class DeleteToolInstalledSensorInput(graphene.InputObjectType):
+    # удаление объекта ToolInstalledSensor по id
+    id = graphene.UUID(required=True)

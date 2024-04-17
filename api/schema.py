@@ -48,9 +48,25 @@ class UpdateToolInstalledSensor(graphene.Mutation):
 
         return ToolInstalledSensorPayload(tool_installed_sensor=tool_installed_sensor)
 
+class DeleteToolInstalledSensor(graphene.Mutation):
+    class Arguments:
+        input = DeleteToolInstalledSensorInput(required=True)
+
+    Output = DeleteToolInstalledSensorPayload
+
+    @classmethod
+    def mutate(cls, root, info, input):
+        try:
+            tool_installed_sensor = ToolInstalledSensor.objects.get(pk=input.id)
+            tool_installed_sensor.delete()
+            return DeleteToolInstalledSensorPayload(success=True)
+        except ToolInstalledSensor.DoesNotExist:
+            return DeleteToolInstalledSensorPayload(success=False)
+
 class Mutation(graphene.ObjectType):
     create_tool_installed_sensor = CreateToolInstalledSensor.Field()
     update_tool_installed_sensor = UpdateToolInstalledSensor.Field()
+    delete_tool_installed_sensor = DeleteToolInstalledSensor.Field()
 
 class Query(graphene.ObjectType):
     tool_module_groups = graphene.List(ToolModuleGroupT)
