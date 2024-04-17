@@ -66,9 +66,7 @@ class Command(BaseCommand):
                 if tool_module_element["dbdate_"]
                 else None
             )
-            # TODO: В схеме дата, а в тестовым нули и нулы
-            # dbversion_ = datetime.datetime.strptime(tool_module_element["dbversion_"], "%Y-%m-%d").date()
-            dbversion_ = None
+            dbversion_ = tool_module_element["dbversion_"]
             dbsn_ = tool_module_element["dbsn_"]
             dbcomment_ = tool_module_element["dbcomment_"]
             dbtname_ = tool_module_element["dbtname_"]
@@ -77,9 +75,6 @@ class Command(BaseCommand):
             dbtmax_od_ = tool_module_element["dbtmax_od_"]
             dbtmax_od_collapsed_ = tool_module_element["dbtmax_od_collapsed_"]
             dbtmax_od_opened_ = tool_module_element["dbtmax_od_opened_"]
-            # TODO: нужно ли вообще это поле теперь
-            # dbtimage2d_ = tool_module_element["dbtimage2d_"]
-            dbtimage2d_ = None
             dbtimage_h_shift = tool_module_element["dbtimage_h_shift"]
             dbtimage_h_scale = tool_module_element["dbtimage_h_scale"]
             dbtimage_h_y1 = tool_module_element["dbtimage_h_y1"]
@@ -100,7 +95,6 @@ class Command(BaseCommand):
                 dbtmax_od=dbtmax_od_,
                 dbtmax_od_collapsed=dbtmax_od_collapsed_,
                 dbtmax_od_opened=dbtmax_od_opened_,
-                dbtimage2d=dbtimage2d_,
                 dbtimage_h_shift=dbtimage_h_shift,
                 dbtimage_h_scale=dbtimage_h_scale,
                 dbtimage_h_y1=dbtimage_h_y1,
