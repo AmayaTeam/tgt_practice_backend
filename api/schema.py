@@ -2,7 +2,36 @@ import graphene
 
 from .types import *
 from .models import *
+from .inputs import CreateToolInstalledSensorInput
+from .payloads import CreateToolInstalledSensorPayload
 
+class CreateToolInstalledSensor(graphene.Mutation):
+    class Arguments:
+        input = CreateToolInstalledSensorInput(required=True)
+
+    Output = CreateToolInstalledSensorPayload
+
+    @classmethod
+    def mutate(cls, root, info, input):
+        try:
+            tool_module = ToolModule.objects.get(pk=input.r_toolmodule_id)
+        except ToolModule.DoesNotExist:
+            raise Exception("Tool module not found")
+
+        try:
+            tool_sensor_type = ToolSensorType.objects.get(pk=input.r_toolsensortype_id)
+        except ToolSensorType.DoesNotExist:
+            raise Exception("Tool sensor type not found")
+
+        tool_installed_sensor = ToolInstalledSensor.objects.create(
+            r_toolmodule_id=tool_module,
+            r_toolsensortype_id=tool_sensor_type,
+            record_point=input.record_point
+        )
+        return CreateToolInstalledSensorPayload(tool_installed_sensor=tool_installed_sensor)
+
+class Mutation(graphene.ObjectType):
+    create_tool_installed_sensor = CreateToolInstalledSensor.Field()
 
 class Query(graphene.ObjectType):
     tool_module_groups = graphene.List(ToolModuleGroupT)
@@ -27,4 +56,4 @@ class Query(graphene.ObjectType):
         return ToolInstalledSensor.objects.all()
 
 
-schema = graphene.Schema(query=Query)
+schema = graphene.Schema(query=Query, mutation=Mutation)
