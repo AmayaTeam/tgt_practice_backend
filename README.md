@@ -25,7 +25,7 @@
      ```
    * Удалить тестовые данные
      ```commandline
-     docker-compose exec web poetry run python manage.py add_base_data
+     docker-compose exec web poetry run python manage.py delete_data
      ```
 
 ## Перед коммитом
@@ -37,6 +37,74 @@
     ```commandline
     flake8 .
     ```
+## Примеры GraphQL запросов
+* Endpoint GraphQL http://localhost:8000/graphql/ (можно через визуальный интерфейс, либо через Postman или любую другую подобную программу)
+
+### Примеры запросов
+
+```
+# Query ToolModuleGroup
+query {
+  toolModuleGroups {
+    name
+    toolmoduletypeSet {
+      name
+      toolmoduleSet {
+        sn
+        toolinstalledsensorSet {
+          rToolsensortypeId {
+            name
+          }
+        }
+      }
+    }
+  }
+}
+# Create ToolInstalledSensor
+mutation {
+  createToolInstalledSensor(input: {
+    rToolmoduleId: "4d519190-356f-4c40-b4b0-455e72a9cecb",
+    rToolsensortypeId: "80d5c792-6435-447d-85d7-f9ca07a7b993",
+    recordPoint: 666
+  }) {
+    toolInstalledSensor {
+      id
+      rToolmoduleId {
+        id
+      }
+      rToolsensortypeId {
+        id
+      }
+      recordPoint
+    }
+  }
+}
+# Update
+mutation {
+  updateToolInstalledSensor(input: {
+    id: "88c96469-6fcd-419e-9d82-90c829365e58",
+    recordPoint: 123.45
+  }) {
+    toolInstalledSensor {
+      id
+      rToolmoduleId {
+        id
+      }
+      rToolsensortypeId {
+        id
+      }
+      recordPoint
+    }
+  }
+}
+# Delete
+mutation {
+  deleteToolInstalledSensor(input: {id: "88c96469-6fcd-419e-9d82-90c829365e58"}) {
+    success
+  }
+}
+```
+
 
 Дополнительно:
 * Запуск консоли изнутри контейнера:

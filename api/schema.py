@@ -5,6 +5,7 @@ from .models import *
 from .inputs import *
 from .payloads import *
 
+
 class CreateToolInstalledSensor(graphene.Mutation):
     class Arguments:
         input = CreateToolInstalledSensorInput(required=True)
@@ -26,9 +27,10 @@ class CreateToolInstalledSensor(graphene.Mutation):
         tool_installed_sensor = ToolInstalledSensor.objects.create(
             r_toolmodule_id=tool_module,
             r_toolsensortype_id=tool_sensor_type,
-            record_point=input.record_point
+            record_point=input.record_point,
         )
         return ToolInstalledSensorPayload(tool_installed_sensor=tool_installed_sensor)
+
 
 class UpdateToolInstalledSensor(graphene.Mutation):
     class Arguments:
@@ -48,6 +50,7 @@ class UpdateToolInstalledSensor(graphene.Mutation):
 
         return ToolInstalledSensorPayload(tool_installed_sensor=tool_installed_sensor)
 
+
 class DeleteToolInstalledSensor(graphene.Mutation):
     class Arguments:
         input = DeleteToolInstalledSensorInput(required=True)
@@ -63,10 +66,12 @@ class DeleteToolInstalledSensor(graphene.Mutation):
         except ToolInstalledSensor.DoesNotExist:
             return DeleteToolInstalledSensorPayload(success=False)
 
+
 class Mutation(graphene.ObjectType):
     create_tool_installed_sensor = CreateToolInstalledSensor.Field()
     update_tool_installed_sensor = UpdateToolInstalledSensor.Field()
     delete_tool_installed_sensor = DeleteToolInstalledSensor.Field()
+
 
 class Query(graphene.ObjectType):
     tool_module_groups = graphene.List(ToolModuleGroupT)
