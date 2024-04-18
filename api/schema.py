@@ -71,7 +71,7 @@ class CreateToolModule(graphene.Mutation):
     class Arguments:
         input = CreateToolModuleInput(required=True)
 
-    Output = CreateToolModulePayload
+    Output = ToolModulePayload
 
     @classmethod
     def mutate(cls, root, info, input):
@@ -100,7 +100,41 @@ class CreateToolModule(graphene.Mutation):
             dbtcomp_str=input.dbtcomp_str,
             image=input.image
         )
-        return CreateToolModulePayload(tool_module=tool_module)
+        return ToolModulePayload(tool_module=tool_module)
+
+
+class UpdateToolModule(graphene.Mutation):
+    class Arguments:
+        input = UpdateToolModuleInput(required=True)
+
+    Output = ToolModulePayload
+
+    @classmethod
+    def mutate(cls, root, info, input):
+        try:
+            tool_module = ToolModule.objects.get(pk=input.id)
+        except ToolModule.DoesNotExist:
+            raise Exception("Tool module not found")
+
+        # при попытке изменить внешний ключ r_module_type_id,
+        # делаем проверку на существование этой сущности
+        if 'r_module_type_id' in input:
+            try:
+                tool_module_type = ToolModuleType.objects.get(pk=input.r_module_type_id)
+                tool_module.r_module_type_id = tool_module_type
+            except ToolModuleType.DoesNotExist:
+                raise Exception("Tool module type not found")
+
+        # обновляем поля, если они предоставлены
+        for field, value in input.items():
+            # исключаем id из обновления
+            # исключаем r_module_type_id (проверили его ранее)
+            if field != 'id' and field != 'r_module_type_id':
+                setattr(tool_module, field, value)
+
+        tool_module.save()
+
+        return ToolModulePayload(tool_module=tool_module)
 
 
 class Mutation(graphene.ObjectType):
@@ -109,6 +143,7 @@ class Mutation(graphene.ObjectType):
     delete_tool_installed_sensor = DeleteToolInstalledSensor.Field()
 
     create_tool_module = CreateToolModule.Field()
+    update_tool_module = UpdateToolModule.Field()
 
 
 class Query(graphene.ObjectType):

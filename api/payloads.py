@@ -10,5 +10,5 @@ class DeleteToolInstalledSensorPayload(graphene.ObjectType):
     success = graphene.Boolean()
 
 
-class CreateToolModulePayload(graphene.ObjectType):
+class ToolModulePayload(graphene.ObjectType):
     tool_module = graphene.Field(ToolModuleT)
