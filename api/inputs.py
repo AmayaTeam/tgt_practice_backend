@@ -61,3 +61,7 @@ class UpdateToolModuleInput(graphene.InputObjectType):
     dbtimage_h_y2 = graphene.Float()
     dbtcomp_str = graphene.Float()
     image = graphene.String()
+
+# удаление объекта ToolModule по id
+class DeleteToolModuleInput(graphene.InputObjectType):
+    id = graphene.UUID(required=True)
