@@ -1,0 +1,70 @@
+import graphene
+
+from api.graphql.inputs.tool_installed_sensor import (
+    CreateToolInstalledSensorInput,
+    UpdateToolInstalledSensorInput,
+    DeleteToolInstalledSensorInput,
+)
+from api.graphql.payloads import ToolInstalledSensorPayload, DeletePayload
+from api.models import ToolModule, ToolSensorType, ToolInstalledSensor
+
+
+class CreateToolInstalledSensor(graphene.Mutation):
+    class Arguments:
+        input = CreateToolInstalledSensorInput(required=True)
+
+    Output = ToolInstalledSensorPayload
+
+    @classmethod
+    def mutate(cls, root, info, input):
+        try:
+            tool_module = ToolModule.objects.get(pk=input.r_toolmodule_id)
+        except ToolModule.DoesNotExist:
+            raise Exception("Tool module not found")
+
+        try:
+            tool_sensor_type = ToolSensorType.objects.get(pk=input.r_toolsensortype_id)
+        except ToolSensorType.DoesNotExist:
+            raise Exception("Tool sensor type not found")
+
+        tool_installed_sensor = ToolInstalledSensor.objects.create(
+            r_toolmodule_id=tool_module,
+            r_toolsensortype_id=tool_sensor_type,
+            record_point=input.record_point,
+        )
+        return ToolInstalledSensorPayload(tool_installed_sensor=tool_installed_sensor)
+
+
+class UpdateToolInstalledSensor(graphene.Mutation):
+    class Arguments:
+        input = UpdateToolInstalledSensorInput(required=True)
+
+    Output = ToolInstalledSensorPayload
+
+    @classmethod
+    def mutate(cls, root, info, input):
+        try:
+            tool_installed_sensor = ToolInstalledSensor.objects.get(pk=input.id)
+        except ToolInstalledSensor.DoesNotExist:
+            raise Exception("Tool installed sensor not found")
+
+        tool_installed_sensor.record_point = input.record_point
+        tool_installed_sensor.save()
+
+        return ToolInstalledSensorPayload(tool_installed_sensor=tool_installed_sensor)
+
+
+class DeleteToolInstalledSensor(graphene.Mutation):
+    class Arguments:
+        input = DeleteToolInstalledSensorInput(required=True)
+
+    Output = DeletePayload
+
+    @classmethod
+    def mutate(cls, root, info, input):
+        try:
+            tool_installed_sensor = ToolInstalledSensor.objects.get(pk=input.id)
+            tool_installed_sensor.delete()
+            return DeletePayload(success=True)
+        except ToolInstalledSensor.DoesNotExist:
+            return DeletePayload(success=False)

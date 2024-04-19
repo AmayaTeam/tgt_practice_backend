@@ -1,9 +1,9 @@
 import graphene
-from .types import *
+from .types import ToolInstalledSensorObject, ToolModuleObject
 
 
 class ToolInstalledSensorPayload(graphene.ObjectType):
-    tool_installed_sensor = graphene.Field(ToolInstalledSensorT)
+    tool_installed_sensor = graphene.Field(ToolInstalledSensorObject)
 
 
 class DeletePayload(graphene.ObjectType):
@@ -11,4 +11,4 @@ class DeletePayload(graphene.ObjectType):
 
 
 class ToolModulePayload(graphene.ObjectType):
-    tool_module = graphene.Field(ToolModuleT)
+    tool_module = graphene.Field(ToolModuleObject)

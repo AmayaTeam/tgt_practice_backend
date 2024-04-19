@@ -1,25 +1,6 @@
 import graphene
 
 
-# для добавления toolinstalledsensor указывается
-# id toolmodule и id toolsensortype, record_point
-class CreateToolInstalledSensorInput(graphene.InputObjectType):
-    r_toolmodule_id = graphene.UUID(required=True)
-    r_toolsensortype_id = graphene.UUID(required=True)
-    record_point = graphene.Float()
-
-# изменение поля record_point по id toolinstalledsensor
-class UpdateToolInstalledSensorInput(graphene.InputObjectType):
-    id = graphene.UUID(required=True)
-    record_point = graphene.Float(required=True)
-
-# удаление объекта ToolInstalledSensor по id
-class DeleteToolInstalledSensorInput(graphene.InputObjectType):
-    id = graphene.UUID(required=True)
-
-# все параметры опциональны, кроме r_module_type_id, sn, dbsn, dbtname.
-# они должны указываться при создании toolmodule обязательно
-# TODO: проверить добавление в базу данных изображения image с фронта
 class CreateToolModuleInput(graphene.InputObjectType):
     r_module_type_id = graphene.UUID(required=True)
     sn = graphene.String(required=True)
@@ -39,6 +20,7 @@ class CreateToolModuleInput(graphene.InputObjectType):
     dbtimage_h_y2 = graphene.Float()
     dbtcomp_str = graphene.Float()
     image = graphene.String()
+
 
 # изменение любого поля toolmodule
 class UpdateToolModuleInput(graphene.InputObjectType):
@@ -61,6 +43,7 @@ class UpdateToolModuleInput(graphene.InputObjectType):
     dbtimage_h_y2 = graphene.Float()
     dbtcomp_str = graphene.Float()
     image = graphene.String()
+
 
 # удаление объекта ToolModule по id
 class DeleteToolModuleInput(graphene.InputObjectType):
