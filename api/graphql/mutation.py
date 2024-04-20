@@ -11,6 +11,11 @@ from api.graphql.mutations.tool_module import (
     UpdateToolModule,
     DeleteToolModule,
 )
+from api.graphql.mutations.tool_module_group import (
+    CreateToolModuleGroup,
+    UpdateToolModuleGroup,
+    DeleteToolModuleGroup,
+)
 
 
 class Mutation(graphene.ObjectType):
@@ -25,3 +30,7 @@ class Mutation(graphene.ObjectType):
     create_tool_module = CreateToolModule.Field()
     update_tool_module = UpdateToolModule.Field()
     delete_tool_module = DeleteToolModule.Field()
+
+    create_tool_module_group = CreateToolModuleGroup.Field()
+    update_tool_module_group = UpdateToolModuleGroup.Field()
+    delete_tool_module_group = DeleteToolModuleGroup.Field()

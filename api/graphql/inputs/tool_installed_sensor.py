@@ -16,3 +16,4 @@ class UpdateToolInstalledSensorInput(graphene.InputObjectType):
 # удаление объекта ToolInstalledSensor по id
 class DeleteToolInstalledSensorInput(graphene.InputObjectType):
     id = graphene.UUID(required=True)
+
