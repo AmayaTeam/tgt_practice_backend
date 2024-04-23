@@ -1,6 +1,10 @@
+import base64
 import datetime
+import os
 
+import psycopg2
 from django.contrib.auth.models import User
+from django.core.files.base import ContentFile
 from django.core.management import BaseCommand
 import json
 
@@ -80,7 +84,12 @@ class Command(BaseCommand):
             dbtimage_h_y1 = tool_module_element["dbtimage_h_y1"]
             dbtimage_h_y2 = tool_module_element["dbtimage_h_y2"]
             dbtcomp_str = tool_module_element["dbtcomp_str"]
-            image = None
+            image_path = f"api/management/data/Image2D/{tool_module_element['dbtimage2d_']}"
+            if os.path.exists(image_path):
+                with open(image_path, 'rb') as f:
+                    image_bytes = f.read()
+                    image_str = base64.b64encode(image_bytes).decode('utf-8')
+
             tool_module = ToolModule(
                 id=id,
                 r_module_type_id=tool_module_type,
@@ -100,7 +109,7 @@ class Command(BaseCommand):
                 dbtimage_h_y1=dbtimage_h_y1,
                 dbtimage_h_y2=dbtimage_h_y2,
                 dbtcomp_str=dbtcomp_str,
-                image=image,
+                image=image_str,
             )
             tool_modules.append(tool_module)
         return tool_modules
@@ -136,17 +145,17 @@ class Command(BaseCommand):
         )
 
         with open(
-            tool_module_group_filepath, "r", encoding="utf-8"
+                tool_module_group_filepath, "r", encoding="utf-8"
         ) as tool_module_group_file:
             tool_module_group_data = json.load(tool_module_group_file)
 
         with open(
-            tool_module_type_filepath, "r", encoding="utf-8"
+                tool_module_type_filepath, "r", encoding="utf-8"
         ) as tool_module_type_file:
             tool_module_type_data = json.load(tool_module_type_file)
 
         with open(
-            tool_sensor_type_filepath, "r", encoding="utf-8"
+                tool_sensor_type_filepath, "r", encoding="utf-8"
         ) as tool_sensor_type_file:
             tool_sensor_type_data = json.load(tool_sensor_type_file)
 
@@ -154,7 +163,7 @@ class Command(BaseCommand):
             tool_module_data = json.load(tool_module_file)
 
         with open(
-            tool_installed_sensor_filepath, "r", encoding="utf-8"
+                tool_installed_sensor_filepath, "r", encoding="utf-8"
         ) as tool_installed_sensor_file:
             tool_installed_sensor_data = json.load(tool_installed_sensor_file)
 
