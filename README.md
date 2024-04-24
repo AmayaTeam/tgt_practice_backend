@@ -25,7 +25,7 @@
      ```
    * Удалить тестовые данные
      ```commandline
-     docker-compose exec web poetry run python manage.py delete_data
+     docker-compose exec web poetry run python manage.py flush
      ```
 
 ## Перед коммитом

@@ -2,9 +2,7 @@ import base64
 import datetime
 import os
 
-import psycopg2
-from django.contrib.auth.models import User
-from django.core.files.base import ContentFile
+from django.contrib.auth.models import User, Group, Permission
 from django.core.management import BaseCommand
 import json
 
@@ -179,6 +177,18 @@ class Command(BaseCommand):
             self.add_tool_installed_sensor(tool_installed_sensor_data)
         )
         print("ToolInstalledSensors created")
-        User.objects.create_superuser("admin", "admin@admin.com", "admin")
-        User.objects.create_user("simple_user", "simple@user.com", "simple_user")
+        manager_group = Group.objects.create(name='manager')
+        user_group = Group.objects.create(name='user')
+        print("Groups created")
+        # CRUD для manager
+        permissions = Permission.objects.filter(content_type__app_label='api')
+        manager_group.permissions.set(permissions)
+        print("Permissions created")
+
+        # Только чтение для user
+        user_permissions = Permission.objects.filter(content_type__app_label='api', codename__startswith='view')
+        user_group.permissions.set(user_permissions)
+
+        User.objects.create_superuser("admin", "admin@admin.com", "admin", is_staff=True).groups.add(manager_group)
+        User.objects.create_user("simple_user", "simple@user.com", "simple_user", is_staff=True).groups.add(user_group)
         print("Users created")
