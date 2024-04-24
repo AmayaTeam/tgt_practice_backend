@@ -1,4 +1,5 @@
 import graphene
+from django.core.exceptions import ObjectDoesNotExist
 
 from api.graphql.inputs.tool_module import (
     CreateToolModuleInput,
@@ -19,7 +20,7 @@ class CreateToolModule(graphene.Mutation):
     def mutate(cls, root, info, input):
         try:
             tool_module_type = ToolModuleType.objects.get(pk=input.r_module_type_id)
-        except ToolModuleType.DoesNotExist:
+        except ObjectDoesNotExist:
             raise Exception("Tool module type not found")
 
         tool_module = ToolModule.objects.create(
@@ -55,7 +56,7 @@ class UpdateToolModule(graphene.Mutation):
     def mutate(cls, root, info, input):
         try:
             tool_module = ToolModule.objects.get(pk=input.id)
-        except ToolModule.DoesNotExist:
+        except ObjectDoesNotExist:
             raise Exception("Tool module not found")
 
         # при попытке изменить внешний ключ r_module_type_id,
@@ -64,7 +65,7 @@ class UpdateToolModule(graphene.Mutation):
             try:
                 tool_module_type = ToolModuleType.objects.get(pk=input.r_module_type_id)
                 tool_module.r_module_type_id = tool_module_type
-            except ToolModuleType.DoesNotExist:
+            except ObjectDoesNotExist:
                 raise Exception("Tool module type not found")
 
         # обновляем поля, если они предоставлены
@@ -91,5 +92,5 @@ class DeleteToolModule(graphene.Mutation):
             tool_module = ToolModule.objects.get(pk=input.id)
             tool_module.delete()
             return DeletePayload(success=True)
-        except ToolModule.DoesNotExist:
+        except ObjectDoesNotExist:
             return DeletePayload(success=False)

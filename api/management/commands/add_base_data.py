@@ -82,11 +82,13 @@ class Command(BaseCommand):
             dbtimage_h_y1 = tool_module_element["dbtimage_h_y1"]
             dbtimage_h_y2 = tool_module_element["dbtimage_h_y2"]
             dbtcomp_str = tool_module_element["dbtcomp_str"]
-            image_path = f"api/management/data/Image2D/{tool_module_element['dbtimage2d_']}"
+            image_path = (
+                f"api/management/data/Image2D/{tool_module_element['dbtimage2d_']}"
+            )
             if os.path.exists(image_path):
-                with open(image_path, 'rb') as f:
+                with open(image_path, "rb") as f:
                     image_bytes = f.read()
-                    image_str = base64.b64encode(image_bytes).decode('utf-8')
+                    image_str = base64.b64encode(image_bytes).decode("utf-8")
 
             tool_module = ToolModule(
                 id=id,
@@ -143,17 +145,17 @@ class Command(BaseCommand):
         )
 
         with open(
-                tool_module_group_filepath, "r", encoding="utf-8"
+            tool_module_group_filepath, "r", encoding="utf-8"
         ) as tool_module_group_file:
             tool_module_group_data = json.load(tool_module_group_file)
 
         with open(
-                tool_module_type_filepath, "r", encoding="utf-8"
+            tool_module_type_filepath, "r", encoding="utf-8"
         ) as tool_module_type_file:
             tool_module_type_data = json.load(tool_module_type_file)
 
         with open(
-                tool_sensor_type_filepath, "r", encoding="utf-8"
+            tool_sensor_type_filepath, "r", encoding="utf-8"
         ) as tool_sensor_type_file:
             tool_sensor_type_data = json.load(tool_sensor_type_file)
 
@@ -161,7 +163,7 @@ class Command(BaseCommand):
             tool_module_data = json.load(tool_module_file)
 
         with open(
-                tool_installed_sensor_filepath, "r", encoding="utf-8"
+            tool_installed_sensor_filepath, "r", encoding="utf-8"
         ) as tool_installed_sensor_file:
             tool_installed_sensor_data = json.load(tool_installed_sensor_file)
 
@@ -177,18 +179,24 @@ class Command(BaseCommand):
             self.add_tool_installed_sensor(tool_installed_sensor_data)
         )
         print("ToolInstalledSensors created")
-        manager_group = Group.objects.create(name='manager')
-        user_group = Group.objects.create(name='user')
+        manager_group = Group.objects.create(name="manager")
+        user_group = Group.objects.create(name="user")
         print("Groups created")
         # CRUD для manager
-        permissions = Permission.objects.filter(content_type__app_label='api')
+        permissions = Permission.objects.filter(content_type__app_label="api")
         manager_group.permissions.set(permissions)
         print("Permissions created")
 
         # Только чтение для user
-        user_permissions = Permission.objects.filter(content_type__app_label='api', codename__startswith='view')
+        user_permissions = Permission.objects.filter(
+            content_type__app_label="api", codename__startswith="view"
+        )
         user_group.permissions.set(user_permissions)
 
-        User.objects.create_superuser("admin", "admin@admin.com", "admin", is_staff=True).groups.add(manager_group)
-        User.objects.create_user("simple_user", "simple@user.com", "simple_user", is_staff=True).groups.add(user_group)
+        User.objects.create_superuser(
+            "admin", "admin@admin.com", "admin", is_staff=True
+        ).groups.add(manager_group)
+        User.objects.create_user(
+            "simple_user", "simple@user.com", "simple_user", is_staff=True
+        ).groups.add(user_group)
         print("Users created")

@@ -1,4 +1,5 @@
 import graphene
+from django.core.exceptions import ObjectDoesNotExist
 
 from api.graphql.inputs.tool_installed_sensor import (
     CreateToolInstalledSensorInput,
@@ -19,12 +20,12 @@ class CreateToolInstalledSensor(graphene.Mutation):
     def mutate(cls, root, info, input):
         try:
             tool_module = ToolModule.objects.get(pk=input.r_toolmodule_id)
-        except ToolModule.DoesNotExist:
+        except ObjectDoesNotExist:
             raise Exception("Tool module not found")
 
         try:
             tool_sensor_type = ToolSensorType.objects.get(pk=input.r_toolsensortype_id)
-        except ToolSensorType.DoesNotExist:
+        except ObjectDoesNotExist:
             raise Exception("Tool sensor type not found")
 
         tool_installed_sensor = ToolInstalledSensor.objects.create(
@@ -45,7 +46,7 @@ class UpdateToolInstalledSensor(graphene.Mutation):
     def mutate(cls, root, info, input):
         try:
             tool_installed_sensor = ToolInstalledSensor.objects.get(pk=input.id)
-        except ToolInstalledSensor.DoesNotExist:
+        except ObjectDoesNotExist:
             raise Exception("Tool installed sensor not found")
 
         tool_installed_sensor.record_point = input.record_point
@@ -66,5 +67,5 @@ class DeleteToolInstalledSensor(graphene.Mutation):
             tool_installed_sensor = ToolInstalledSensor.objects.get(pk=input.id)
             tool_installed_sensor.delete()
             return DeletePayload(success=True)
-        except ToolInstalledSensor.DoesNotExist:
+        except ObjectDoesNotExist:
             return DeletePayload(success=False)

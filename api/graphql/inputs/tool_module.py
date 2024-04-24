@@ -3,7 +3,7 @@ import graphene
 
 class CreateToolModuleInput(graphene.InputObjectType):
     r_module_type_id = graphene.UUID(required=True)
-    sn = graphene.String(required=True)
+    sn = graphene.String(rpassequired=True)
     dbsn = graphene.String(required=True)
     dbtname = graphene.String(required=True)
     dbdate = graphene.Date()
