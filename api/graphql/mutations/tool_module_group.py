@@ -1,4 +1,5 @@
 import graphene
+from graphql_jwt.decorators import login_required
 
 from api.graphql.inputs.tool_module_group import (
     CreateToolModuleGroupInput,
@@ -7,7 +8,7 @@ from api.graphql.inputs.tool_module_group import (
 )
 from api.graphql.payloads import ToolModuleGroupPayload, DeletePayload
 from api.models import ToolModuleGroup
-
+from api.graphql.decorators import permission_required
 
 class CreateToolModuleGroup(graphene.Mutation):
     class Arguments:
@@ -16,6 +17,8 @@ class CreateToolModuleGroup(graphene.Mutation):
     Output = ToolModuleGroupPayload
 
     @classmethod
+    @login_required
+    @permission_required('api.add_toolmodulegroup')
     def mutate(cls, root, info, input):
         tool_module_group = ToolModuleGroup.objects.create(
             name=input.name,
@@ -30,6 +33,7 @@ class UpdateToolModuleGroup(graphene.Mutation):
     Output = ToolModuleGroupPayload
 
     @classmethod
+    @permission_required('api.change_toolmodulegroup')
     def mutate(cls, root, info, input):
         try:
             tool_module_group = ToolModuleGroup.objects.get(pk=input.id)
@@ -52,6 +56,7 @@ class DeleteToolModuleGroup(graphene.Mutation):
     Output = DeletePayload
 
     @classmethod
+    @permission_required('api.delete_toolmodulegroup')
     def mutate(cls, root, info, input):
         try:
             tool_module_group = ToolModuleGroup.objects.get(pk=input.id)
