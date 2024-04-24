@@ -1,4 +1,5 @@
 from django.contrib import admin
+from django.contrib.auth.models import Group, Permission
 from .models import (
     ToolModuleGroup,
     ToolModuleType,
@@ -6,6 +7,17 @@ from .models import (
     ToolSensorType,
     ToolInstalledSensor,
 )
+
+
+manager_group, created = Group.objects.get_or_create(name='manager')
+user_group, created = Group.objects.get_or_create(name='user')
+# CRUD для manager
+permissions = Permission.objects.filter(content_type__app_label='api')
+manager_group.permissions.set(permissions)
+
+# Только чтение для user
+user_permissions = Permission.objects.filter(content_type__app_label='api', codename__startswith='view')
+user_group.permissions.set(user_permissions)
 
 
 @admin.register(ToolModuleGroup)
