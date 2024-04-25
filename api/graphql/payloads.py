@@ -3,7 +3,8 @@ from .types import (
     ToolInstalledSensorObject,
     ToolModuleObject,
     ToolModuleGroupObject,
-    ToolModuleTypeObject, ToolSensorTypeObject,
+    ToolModuleTypeObject,
+    ToolSensorTypeObject,
 )
 
 

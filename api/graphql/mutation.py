@@ -24,7 +24,7 @@ from api.graphql.mutations.tool_module_type import (
 from api.graphql.mutations.tool_sensor_type import (
     CreateToolSensorType,
     UpdateToolSensorType,
-    DeleteToolSensorType
+    DeleteToolSensorType,
 )
 
 
