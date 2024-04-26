@@ -179,9 +179,11 @@ class Command(BaseCommand):
             self.add_tool_installed_sensor(tool_installed_sensor_data)
         )
         print("ToolInstalledSensors created")
+
         manager_group = Group.objects.create(name="manager")
         user_group = Group.objects.create(name="user")
         print("Groups created")
+
         # CRUD для manager
         permissions = Permission.objects.filter(content_type__app_label="api")
         manager_group.permissions.set(permissions)
