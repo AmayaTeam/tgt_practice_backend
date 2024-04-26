@@ -16,6 +16,8 @@ flake8-pyproject = "^1.2.3"
 graphene-django = "^3.2.1"
 django-filter = "^24.2"
 pillow = "^10.3.0"
+django-graphql-jwt = "^0.4.0"
+djorm-ext-pgbytea = "^0.6.0"
 
 [tool.flake8]
 max-line-length = 120

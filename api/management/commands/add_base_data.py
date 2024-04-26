@@ -1,6 +1,8 @@
+import base64
 import datetime
+import os
 
-from django.contrib.auth.models import User
+from django.contrib.auth.models import User, Group, Permission
 from django.core.management import BaseCommand
 import json
 
@@ -66,9 +68,7 @@ class Command(BaseCommand):
                 if tool_module_element["dbdate_"]
                 else None
             )
-            # TODO: В схеме дата, а в тестовым нули и нулы
-            # dbversion_ = datetime.datetime.strptime(tool_module_element["dbversion_"], "%Y-%m-%d").date()
-            dbversion_ = None
+            dbversion_ = tool_module_element["dbversion_"]
             dbsn_ = tool_module_element["dbsn_"]
             dbcomment_ = tool_module_element["dbcomment_"]
             dbtname_ = tool_module_element["dbtname_"]
@@ -77,15 +77,19 @@ class Command(BaseCommand):
             dbtmax_od_ = tool_module_element["dbtmax_od_"]
             dbtmax_od_collapsed_ = tool_module_element["dbtmax_od_collapsed_"]
             dbtmax_od_opened_ = tool_module_element["dbtmax_od_opened_"]
-            # TODO: нужно ли вообще это поле теперь
-            # dbtimage2d_ = tool_module_element["dbtimage2d_"]
-            dbtimage2d_ = None
             dbtimage_h_shift = tool_module_element["dbtimage_h_shift"]
             dbtimage_h_scale = tool_module_element["dbtimage_h_scale"]
             dbtimage_h_y1 = tool_module_element["dbtimage_h_y1"]
             dbtimage_h_y2 = tool_module_element["dbtimage_h_y2"]
             dbtcomp_str = tool_module_element["dbtcomp_str"]
-            image = None
+            image_path = (
+                f"api/management/data/Image2D/{tool_module_element['dbtimage2d_']}"
+            )
+            if os.path.exists(image_path):
+                with open(image_path, "rb") as f:
+                    image_bytes = f.read()
+                    image_str = base64.b64encode(image_bytes).decode("utf-8")
+
             tool_module = ToolModule(
                 id=id,
                 r_module_type_id=tool_module_type,
@@ -100,13 +104,12 @@ class Command(BaseCommand):
                 dbtmax_od=dbtmax_od_,
                 dbtmax_od_collapsed=dbtmax_od_collapsed_,
                 dbtmax_od_opened=dbtmax_od_opened_,
-                dbtimage2d=dbtimage2d_,
                 dbtimage_h_shift=dbtimage_h_shift,
                 dbtimage_h_scale=dbtimage_h_scale,
                 dbtimage_h_y1=dbtimage_h_y1,
                 dbtimage_h_y2=dbtimage_h_y2,
                 dbtcomp_str=dbtcomp_str,
-                image=image,
+                image=image_str,
             )
             tool_modules.append(tool_module)
         return tool_modules
@@ -176,6 +179,26 @@ class Command(BaseCommand):
             self.add_tool_installed_sensor(tool_installed_sensor_data)
         )
         print("ToolInstalledSensors created")
-        User.objects.create_superuser("admin", "admin@admin.com", "admin")
-        User.objects.create_user("simple_user", "simple@user.com", "simple_user")
+
+        manager_group = Group.objects.create(name="manager")
+        user_group = Group.objects.create(name="user")
+        print("Groups created")
+
+        # CRUD для manager
+        permissions = Permission.objects.filter(content_type__app_label="api")
+        manager_group.permissions.set(permissions)
+        print("Permissions created")
+
+        # Только чтение для user
+        user_permissions = Permission.objects.filter(
+            content_type__app_label="api", codename__startswith="view"
+        )
+        user_group.permissions.set(user_permissions)
+
+        User.objects.create_superuser(
+            "admin", "admin@admin.com", "admin", is_staff=True
+        ).groups.add(manager_group)
+        User.objects.create_user(
+            "simple_user", "simple@user.com", "simple_user", is_staff=True
+        ).groups.add(user_group)
         print("Users created")
