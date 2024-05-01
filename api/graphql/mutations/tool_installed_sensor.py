@@ -1,6 +1,7 @@
 import graphene
 from django.core.exceptions import ObjectDoesNotExist
 
+from api.graphql.decorators import permission_required
 from api.graphql.inputs.tool_installed_sensor import (
     CreateToolInstalledSensorInput,
     UpdateToolInstalledSensorInput,
@@ -17,6 +18,7 @@ class CreateToolInstalledSensor(graphene.Mutation):
     Output = ToolInstalledSensorPayload
 
     @classmethod
+    @permission_required("api.add_toolinstalledsensor")
     def mutate(cls, root, info, input):
         try:
             tool_module = ToolModule.objects.get(pk=input.r_toolmodule_id)
@@ -43,6 +45,7 @@ class UpdateToolInstalledSensor(graphene.Mutation):
     Output = ToolInstalledSensorPayload
 
     @classmethod
+    @permission_required("api.change_toolinstalledsensor")
     def mutate(cls, root, info, input):
         try:
             tool_installed_sensor = ToolInstalledSensor.objects.get(pk=input.id)
@@ -62,6 +65,7 @@ class DeleteToolInstalledSensor(graphene.Mutation):
     Output = DeletePayload
 
     @classmethod
+    @permission_required("api.delete_toolinstalledsensor")
     def mutate(cls, root, info, input):
         try:
             tool_installed_sensor = ToolInstalledSensor.objects.get(pk=input.id)

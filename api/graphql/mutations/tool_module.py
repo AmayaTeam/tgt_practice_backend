@@ -1,6 +1,7 @@
 import graphene
 from django.core.exceptions import ObjectDoesNotExist
 
+from api.graphql.decorators import permission_required
 from api.graphql.inputs.tool_module import (
     CreateToolModuleInput,
     UpdateToolModuleInput,
@@ -17,6 +18,7 @@ class CreateToolModule(graphene.Mutation):
     Output = ToolModulePayload
 
     @classmethod
+    @permission_required("api.add_toolmodule")
     def mutate(cls, root, info, input):
         try:
             tool_module_type = ToolModuleType.objects.get(pk=input.r_module_type_id)
@@ -53,6 +55,7 @@ class UpdateToolModule(graphene.Mutation):
     Output = ToolModulePayload
 
     @classmethod
+    @permission_required("api.change_toolmodule")
     def mutate(cls, root, info, input):
         try:
             tool_module = ToolModule.objects.get(pk=input.id)
@@ -87,6 +90,7 @@ class DeleteToolModule(graphene.Mutation):
     Output = DeletePayload
 
     @classmethod
+    @permission_required("api.delete_toolmodule")
     def mutate(cls, root, info, input):
         try:
             tool_module = ToolModule.objects.get(pk=input.id)

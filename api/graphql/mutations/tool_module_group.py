@@ -19,7 +19,6 @@ class CreateToolModuleGroup(graphene.Mutation):
     Output = ToolModuleGroupPayload
 
     @classmethod
-    @login_required
     @permission_required("api.add_toolmodulegroup")
     def mutate(cls, root, info, input):
         tool_module_group = ToolModuleGroup.objects.create(

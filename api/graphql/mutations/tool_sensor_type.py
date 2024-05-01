@@ -20,7 +20,6 @@ class CreateToolSensorType(graphene.Mutation):
     Output = ToolSensorTypePayload
 
     @classmethod
-    @login_required
     @permission_required("api.add_toolsensortype")
     def mutate(cls, root, info, input):
         tool_sensor_type = ToolSensorType.objects.create(

@@ -19,7 +19,6 @@ class CreateToolModuleType(graphene.Mutation):
     Output = ToolModuleTypePayload
 
     @classmethod
-    @login_required
     @permission_required("api.add_toolmoduletype")
     def mutate(cls, root, info, input):
         try:
@@ -74,7 +73,7 @@ class DeleteToolModuleType(graphene.Mutation):
     Output = DeletePayload
 
     @classmethod
-    @permission_required("api.delete_ToolModuleType")
+    @permission_required("api.delete_toolmoduletype")
     def mutate(cls, root, info, input):
         try:
             tool_module_type = ToolModuleType.objects.get(pk=input.id)
