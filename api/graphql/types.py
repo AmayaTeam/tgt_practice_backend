@@ -1,3 +1,4 @@
+from django.contrib.auth.models import User
 from graphene_django import DjangoObjectType
 from api.models import (
     ToolModuleGroup,
@@ -31,3 +32,8 @@ class ToolSensorTypeObject(DjangoObjectType):
 class ToolInstalledSensorObject(DjangoObjectType):
     class Meta:
         model = ToolInstalledSensor
+
+
+class UserType(DjangoObjectType):
+    class Meta:
+        model = User

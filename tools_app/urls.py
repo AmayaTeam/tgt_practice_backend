@@ -27,7 +27,9 @@ from tools_app import settings
 urlpatterns = [
     settings.AUTH.urlpattern,
     path('', views.index),
-    path("call_downstream_api", views.call_downstream_api),
+    # path("call_downstream_api", views.call_downstream_api),
     path("graphql/", csrf_exempt(GraphQLView.as_view(graphiql=True, schema=schema))),
+    path('get_login_url/', views.get_login_url, name='get_login_url'),
+    # path('getAToken/', views.get_atoken, name='get_atoken'),
     path("admin/", admin.site.urls),
 ]

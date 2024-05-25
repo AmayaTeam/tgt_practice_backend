@@ -25,7 +25,7 @@ AUTH = Auth(
     b2c_signup_signin_user_flow=os.getenv('SIGNUPSIGNIN_USER_FLOW'),
     b2c_edit_profile_user_flow=os.getenv('EDITPROFILE_USER_FLOW'),
     b2c_reset_password_user_flow=os.getenv('RESETPASSWORD_USER_FLOW'),
-    )
+)
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -52,8 +52,9 @@ INSTALLED_APPS = [
     "corsheaders",
     "graphene_django",
     "api",
-    "graphql_jwt",
     "identity",
+    'graphql_jwt',
+    'graphql_jwt.refresh_token.apps.RefreshTokenConfig',
 ]
 
 MIDDLEWARE = [
@@ -66,6 +67,7 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "corsheaders.middleware.CorsMiddleware",
+    # 'django.contrib.sites.middleware.SiteMiddleware',
 ]
 
 ROOT_URLCONF = "tools_app.urls"
@@ -178,3 +180,5 @@ AUTHENTICATION_BACKENDS = [
     "graphql_jwt.backends.JSONWebTokenBackend",
     "django.contrib.auth.backends.ModelBackend",
 ]
+
+SITE_ID = 1
