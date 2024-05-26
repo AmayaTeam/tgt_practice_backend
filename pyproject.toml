@@ -26,6 +26,7 @@ python-dotenv = "^1.0.1"
 requests = "^2.31.0"
 urllib3 = "^2.2.1"
 spotipy = "^2.23.0"
+localstorage = "^0.1.0"
 
 [tool.flake8]
 max-line-length = 120
