@@ -1,11 +1,12 @@
 import graphene
+from django.contrib.auth.models import Group
 
 from .types import (
     ToolModuleGroupObject,
     ToolModuleTypeObject,
     ToolModuleObject,
     ToolSensorTypeObject,
-    ToolInstalledSensorObject, UserType,
+    ToolInstalledSensorObject, UserType, GroupType,
 )
 from api.models import (
     ToolModuleGroup,
@@ -26,12 +27,14 @@ class Query(graphene.ObjectType):
     tool_modules_by_id = graphene.Field(ToolModuleObject, id=graphene.String())
 
     me = graphene.Field(UserType)
+    groups = graphene.List(GroupType)
 
     def resolve_me(self, info):
         user = info.context.user
-        if user.is_anonymous:
-            raise Exception("Not logged in!")
         return user
+
+    def resolve_groups(self, info, **kwargs):
+        return Group.objects.all()
 
     def resolve_tool_module_groups(self, info, **kwargs):
         return ToolModuleGroup.objects.all()
