@@ -6,7 +6,9 @@ from .types import (
     ToolModuleTypeObject,
     ToolModuleObject,
     ToolSensorTypeObject,
-    ToolInstalledSensorObject, UserType, GroupType,
+    ToolInstalledSensorObject,
+    UserType,
+    GroupType,
 )
 from api.models import (
     ToolModuleGroup,

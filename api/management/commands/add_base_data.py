@@ -6,7 +6,13 @@ from django.contrib.auth.models import User, Group, Permission
 from django.core.management import BaseCommand
 import json
 
-from api.models import *
+from api.models import (
+    ToolModuleGroup,
+    ToolModuleType,
+    ToolSensorType,
+    ToolModule,
+    ToolInstalledSensor,
+)
 
 
 class Command(BaseCommand):
@@ -28,7 +34,6 @@ class Command(BaseCommand):
             tool_module_group = ToolModuleGroup.objects.filter(
                 id=r_modules_group_id
             ).first()
-            # пока эти поля не нужны
             module_type_id = tool_module_type_element["module_type_id"]
             hash_code = tool_module_type_element["hash_code"]
             ToolModuleType.objects.create(

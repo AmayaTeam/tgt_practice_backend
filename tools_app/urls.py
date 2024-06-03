@@ -11,9 +11,12 @@ from tools_app import settings
 
 urlpatterns = [
     settings.AUTH.urlpattern,
-    path('', views.index),
+    path("", views.index),
     path("call_api", views.call_api, name="call_api"),
-    path("graphql/", jwt_cookie(csrf_exempt(GraphQLView.as_view(graphiql=False, schema=schema)))),
-    path('docs', graphql_docs, name='graphql_docs'),
-    path("admin/", admin.site.urls)
+    path(
+        "graphql/",
+        jwt_cookie(csrf_exempt(GraphQLView.as_view(graphiql=False, schema=schema))),
+    ),
+    path("docs", graphql_docs, name="graphql_docs"),
+    path("admin/", admin.site.urls),
 ]

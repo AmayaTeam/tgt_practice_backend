@@ -15,18 +15,15 @@ __version__ = "0.2.0"
 from graphql_jwt.refresh_token.shortcuts import create_refresh_token
 from graphql_jwt.shortcuts import get_token
 
-from api.schema import schema
-
 
 @settings.AUTH.login_required
 def index(request, *, context):
-    user = context['user']
     return redirect("call_api")
 
 
 def generate_random_password(length=12):
     characters = string.ascii_letters + string.digits
-    return ''.join(random.choice(characters) for i in range(length))
+    return "".join(random.choice(characters) for i in range(length))
 
 
 @settings.AUTH.login_required(scopes=["User.Read", "Directory.Read.All"])
@@ -34,24 +31,25 @@ def call_api(request, *, context):
     if context["access_token"]:
         api_result = requests.get(
             "https://graph.microsoft.com/v1.0/me/appRoleAssignments",
-            headers={'Authorization': 'Bearer ' + context['access_token']},
+            headers={"Authorization": "Bearer " + context["access_token"]},
             timeout=30,
         )
         api_result2 = requests.get(
             "https://graph.microsoft.com/v1.0/me",
-            headers={'Authorization': 'Bearer ' + context['access_token']},
+            headers={"Authorization": "Bearer " + context["access_token"]},
             timeout=30,
         )
 
         user_info = api_result2.json()
-        user, created = User.objects.get_or_create(username=user_info['userPrincipalName'])
-        print(user)
+        user, created = User.objects.get_or_create(
+            username=user_info["userPrincipalName"]
+        )
         if created:
             app_role_id = api_result.json()["value"][0]["appRoleId"]
             if app_role_id == "0be6dabc-574d-4913-8652-befb6d290ed5":
-                group, _ = Group.objects.get_or_create(name='manager')
+                group, _ = Group.objects.get_or_create(name="manager")
             else:
-                group, _ = Group.objects.get_or_create(name='user')
+                group, _ = Group.objects.get_or_create(name="user")
             user.groups.add(group)
             # Set a random password for the newly created user
             random_password = generate_random_password()
@@ -69,7 +67,5 @@ def call_api(request, *, context):
 
 
 def graphql_docs(request):
-    # For graphene>=3 use schema.graphql_schema
     html = graphdoc.to_doc(GraphQLView().schema.graphql_schema)
-    # html = graphdoc.to_doc(GraphQLView.as_view(graphiql=True, schema=schema))
-    return HttpResponse(html, content_type='text/html')
+    return HttpResponse(html, content_type="text/html")

@@ -23,8 +23,8 @@ INSTALLED_APPS = [
     "graphene_django",
     "api",
     "identity",
-    'graphql_jwt',
-    'graphql_jwt.refresh_token.apps.RefreshTokenConfig',
+    "graphql_jwt",
+    "graphql_jwt.refresh_token.apps.RefreshTokenConfig",
 ]
 
 MIDDLEWARE = [
@@ -86,7 +86,7 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 CORS_ALLOW_CREDENTIALS = True
-CORS_ALLOW_HEADERS = default_headers + ('cache-control', 'cookies')
+CORS_ALLOW_HEADERS = default_headers + ("cache-control", "cookies")
 CORS_ORIGIN_ALLOW_ALL = True
 
 LANGUAGE_CODE = "en-us"
@@ -119,13 +119,13 @@ SITE_ID = 1
 SECURE_COOKIE = False
 
 AUTH = Auth(
-    os.getenv('CLIENT_ID'),
-    client_credential=os.getenv('CLIENT_SECRET'),
-    redirect_uri=os.getenv('REDIRECT_URI'),
-    authority=os.getenv('AUTHORITY'),
-    oidc_authority=os.getenv('OIDC_AUTHORITY'),
-    b2c_tenant_name=os.getenv('B2C_TENANT_NAME'),
-    b2c_signup_signin_user_flow=os.getenv('SIGNUPSIGNIN_USER_FLOW'),
-    b2c_edit_profile_user_flow=os.getenv('EDITPROFILE_USER_FLOW'),
-    b2c_reset_password_user_flow=os.getenv('RESETPASSWORD_USER_FLOW'),
+    os.getenv("CLIENT_ID"),
+    client_credential=os.getenv("CLIENT_SECRET"),
+    redirect_uri=os.getenv("REDIRECT_URI"),
+    authority=os.getenv("AUTHORITY"),
+    oidc_authority=os.getenv("OIDC_AUTHORITY"),
+    b2c_tenant_name=os.getenv("B2C_TENANT_NAME"),
+    b2c_signup_signin_user_flow=os.getenv("SIGNUPSIGNIN_USER_FLOW"),
+    b2c_edit_profile_user_flow=os.getenv("EDITPROFILE_USER_FLOW"),
+    b2c_reset_password_user_flow=os.getenv("RESETPASSWORD_USER_FLOW"),
 )

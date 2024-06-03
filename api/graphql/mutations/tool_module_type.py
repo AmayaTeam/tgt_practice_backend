@@ -1,6 +1,5 @@
 import graphene
 from django.core.exceptions import ObjectDoesNotExist
-from graphql_jwt.decorators import login_required
 
 from api.graphql.inputs.tool_module_type import (
     CreateToolModuleTypeInput,
@@ -47,7 +46,6 @@ class UpdateToolModuleType(graphene.Mutation):
             tool_module_type = ToolModuleType.objects.get(pk=input.id)
         except ObjectDoesNotExist:
             raise Exception("ToolModuleType not found")
-        print(input)
         if "r_module_group_id" in input:
             try:
                 tool_module_group = ToolModuleGroup.objects.get(
