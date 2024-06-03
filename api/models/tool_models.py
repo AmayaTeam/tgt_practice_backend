@@ -35,16 +35,6 @@ class ToolModule(models.Model):
     dbsn = models.TextField(null=True, blank=True)
     dbcomment = models.TextField(null=True, blank=True)
     dbtname = models.TextField(null=True, blank=True)
-    dbtlength = models.FloatField(null=True, blank=True)
-    dbtweight = models.FloatField(null=True, blank=True)
-    dbtmax_od = models.FloatField(null=True, blank=True)
-    dbtmax_od_collapsed = models.FloatField(null=True, blank=True)
-    dbtmax_od_opened = models.FloatField(null=True, blank=True)
-    dbtimage_h_shift = models.FloatField(null=True, blank=True)
-    dbtimage_h_scale = models.FloatField(null=True, blank=True)
-    dbtimage_h_y1 = models.FloatField(null=True, blank=True)
-    dbtimage_h_y2 = models.FloatField(null=True, blank=True)
-    dbtcomp_str = models.FloatField(null=True, blank=True)
     image = models.TextField(null=True, blank=True)
 
     def __str__(self):
