@@ -26,11 +26,7 @@ services:
       - "8000:8000"
     depends_on:
       - db
-    environment:
-      DB_NAME: tools_app
-      DB_USER: tools_app
-      DB_PASS: tools_app
-      DB_PORT: 5432
-      DJANGO_SETTINGS_MODULE: tools_app.settings
+    env_file:
+      - .env
 volumes:
   db:

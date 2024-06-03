@@ -2,16 +2,20 @@ import random
 import string
 
 from django.conf import settings
-from django.contrib.auth import authenticate, login
+from django.http import HttpResponse
+from django.contrib.auth import authenticate
 from django.contrib.auth.models import User, Group
 from django.shortcuts import redirect
-from django.http import JsonResponse
+from graphene_django.views import GraphQLView
 import requests
+import graphdoc
 
 __version__ = "0.2.0"
 
 from graphql_jwt.refresh_token.shortcuts import create_refresh_token
 from graphql_jwt.shortcuts import get_token
+
+from api.schema import schema
 
 
 @settings.AUTH.login_required
@@ -50,14 +54,22 @@ def call_api(request, *, context):
                 group, _ = Group.objects.get_or_create(name='user')
             user.groups.add(group)
             # Set a random password for the newly created user
-            # random_password = generate_random_password()
-            user.set_password("1234567890")
+            random_password = generate_random_password()
+            user.set_password(random_password)
             user.save()
 
         jwt_token = get_token(user)
         refresh_token = create_refresh_token(user)
+        authenticate(request, username=user.username, password=user.password)
 
         # Prepare the URL with tokens as query parameters
         redirect_url = f"http://localhost:3000/home?jwt_token={jwt_token}&refresh_token={refresh_token}"
 
         return redirect(redirect_url)
+
+
+def graphql_docs(request):
+    # For graphene>=3 use schema.graphql_schema
+    html = graphdoc.to_doc(GraphQLView().schema.graphql_schema)
+    # html = graphdoc.to_doc(GraphQLView.as_view(graphiql=True, schema=schema))
+    return HttpResponse(html, content_type='text/html')
