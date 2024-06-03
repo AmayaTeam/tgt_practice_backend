@@ -1,6 +1,5 @@
 import graphene
 from django.core.exceptions import ObjectDoesNotExist
-from graphql_jwt.decorators import login_required
 
 from api.graphql.inputs.tool_module_group import (
     CreateToolModuleGroupInput,

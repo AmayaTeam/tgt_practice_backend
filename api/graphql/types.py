@@ -1,5 +1,5 @@
 from django.contrib.auth import get_user_model
-from django.contrib.auth.models import User, Group
+from django.contrib.auth.models import Group
 from graphene_django import DjangoObjectType
 from api.models import (
     ToolModuleGroup,
@@ -38,7 +38,14 @@ class ToolInstalledSensorObject(DjangoObjectType):
 class UserType(DjangoObjectType):
     class Meta:
         model = get_user_model()
-        fields = ('id', 'username', 'first_name', 'last_name', 'email', "groups")  # Include necessary fields
+        fields = (
+            "id",
+            "username",
+            "first_name",
+            "last_name",
+            "email",
+            "groups",
+        )
 
 
 class GroupType(DjangoObjectType):
