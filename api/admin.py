@@ -33,16 +33,6 @@ class ToolModuleAdmin(admin.ModelAdmin):
         "dbsn",
         "dbcomment",
         "dbtname",
-        "dbtlength",
-        "dbtweight",
-        "dbtmax_od",
-        "dbtmax_od_collapsed",
-        "dbtmax_od_opened",
-        "dbtimage_h_shift",
-        "dbtimage_h_scale",
-        "dbtimage_h_y1",
-        "dbtimage_h_y2",
-        "dbtcomp_str",
     )
     search_fields = (
         "sn",
@@ -51,16 +41,6 @@ class ToolModuleAdmin(admin.ModelAdmin):
         "dbsn",
         "dbcomment",
         "dbtname",
-        "dbtlength",
-        "dbtweight",
-        "dbtmax_od",
-        "dbtmax_od_collapsed",
-        "dbtmax_od_opened",
-        "dbtimage_h_shift",
-        "dbtimage_h_scale",
-        "dbtimage_h_y1",
-        "dbtimage_h_y2",
-        "dbtcomp_str",
     )
     list_display_links = ("sn",)
 

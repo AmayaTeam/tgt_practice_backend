@@ -1,5 +1,7 @@
 import uuid
 from django.db import models
+
+from .unit_system_models import Unit
 from .tool_models import ToolModule
 
 class ToolSensorType(models.Model):
@@ -13,7 +15,7 @@ class ToolSensorType(models.Model):
     class Meta:
         ordering = ("name",)
 
-
+# нужно добавить FK unit_id. пока не могу связать, Unit без тестовых данных
 class ToolInstalledSensor(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     r_toolmodule_id = models.ForeignKey(ToolModule, on_delete=models.CASCADE)
@@ -22,3 +24,13 @@ class ToolInstalledSensor(models.Model):
 
     def __str__(self):
         return str(self.record_point)
+
+class ConversionFactor(models.Model):
+    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    from_unit_id = models.ForeignKey(Unit, on_delete=models.CASCADE, related_name='from_units')
+    to_unit_id = models.ForeignKey(Unit, on_delete=models.CASCADE, related_name='to_units')
+    factor_1 = models.FloatField(null=True, blank=True)
+    factor_2 = models.FloatField(null=True, blank=True)
+
+    def __str__(self):
+        return str(self.id)

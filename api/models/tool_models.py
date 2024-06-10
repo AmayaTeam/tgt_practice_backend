@@ -1,6 +1,9 @@
 import uuid
 from django.db import models
 
+from .unit_system_models import Unit
+
+
 class ToolModuleGroup(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     name = models.TextField(null=True, blank=True)
@@ -35,16 +38,6 @@ class ToolModule(models.Model):
     dbsn = models.TextField(null=True, blank=True)
     dbcomment = models.TextField(null=True, blank=True)
     dbtname = models.TextField(null=True, blank=True)
-    dbtlength = models.FloatField(null=True, blank=True)
-    dbtweight = models.FloatField(null=True, blank=True)
-    dbtmax_od = models.FloatField(null=True, blank=True)
-    dbtmax_od_collapsed = models.FloatField(null=True, blank=True)
-    dbtmax_od_opened = models.FloatField(null=True, blank=True)
-    dbtimage_h_shift = models.FloatField(null=True, blank=True)
-    dbtimage_h_scale = models.FloatField(null=True, blank=True)
-    dbtimage_h_y1 = models.FloatField(null=True, blank=True)
-    dbtimage_h_y2 = models.FloatField(null=True, blank=True)
-    dbtcomp_str = models.FloatField(null=True, blank=True)
     image = models.TextField(null=True, blank=True)
 
     def __str__(self):
@@ -52,3 +45,18 @@ class ToolModule(models.Model):
 
     class Meta:
         ordering = ("sn",)
+class ParameterType(models.Model):
+    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    parameter_name = models.TextField(null=True, blank=True)
+
+    def __str__(self):
+        return self.parameter_name
+class Parameter(models.Model):
+    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    unit_id = models.ForeignKey(Unit, on_delete=models.CASCADE)
+    toolmodule_id = models.ForeignKey(ToolModule, on_delete=models.CASCADE)
+    parameter_type_id = models.OneToOneField(ParameterType, on_delete=models.CASCADE)
+    parameter_value = models.FloatField(null=True, blank=True)
+
+    def __str__(self):
+        return self.parameter_value
