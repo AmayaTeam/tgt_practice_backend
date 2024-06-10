@@ -17,7 +17,7 @@ class ToolModuleGroupAdmin(admin.ModelAdmin):
 
 @admin.register(ToolModuleType)
 class ToolModuleTypeAdmin(admin.ModelAdmin):
-    list_display = ("name", "r_modules_group_id", "module_type_id", "hash_code")
+    list_display = ("name", "r_modules_group", "module_type", "hash_code")
     search_fields = ("name", "hash_code")
     list_display_links = ("name",)
 
@@ -27,7 +27,7 @@ class ToolModuleAdmin(admin.ModelAdmin):
     list_display = (
         "sn",
         "image",
-        "r_module_type_id",
+        "r_module_type",
         "dbdate",
         "dbversion",
         "dbsn",
@@ -47,13 +47,13 @@ class ToolModuleAdmin(admin.ModelAdmin):
 
 @admin.register(ToolSensorType)
 class ToolSensorTypeAdmin(admin.ModelAdmin):
-    list_display = ("name", "sensor_id")
+    list_display = ("name", "sensor")
     search_fields = ("name",)
     list_display_links = ("name",)
 
 
 @admin.register(ToolInstalledSensor)
 class ToolInstalledSensorAdmin(admin.ModelAdmin):
-    list_display = ("r_toolmodule_id", "r_toolsensortype_id", "record_point")
-    search_fields = ("r_toolmodule_id", "r_toolsensortype_id", "record_point")
-    list_display_links = ("r_toolmodule_id", "r_toolsensortype_id")
+    list_display = ("r_toolmodule", "r_toolsensortype", "record_point")
+    search_fields = ("r_toolmodule", "r_toolsensortype", "record_point")
+    list_display_links = ("r_toolmodule", "r_toolsensortype")

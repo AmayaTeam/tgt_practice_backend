@@ -17,9 +17,9 @@ class ToolModuleGroup(models.Model):
 
 class ToolModuleType(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
-    r_modules_group_id = models.ForeignKey(ToolModuleGroup, on_delete=models.CASCADE)
+    r_modules_group = models.ForeignKey(ToolModuleGroup, on_delete=models.CASCADE)
     name = models.TextField(null=True, blank=True)
-    module_type_id = models.TextField(null=True, blank=True)
+    module_type = models.TextField(null=True, blank=True)
     hash_code = models.TextField(null=True, blank=True)
 
     def __str__(self):
@@ -31,7 +31,7 @@ class ToolModuleType(models.Model):
 
 class ToolModule(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
-    r_module_type_id = models.ForeignKey(ToolModuleType, on_delete=models.CASCADE)
+    r_module_type = models.ForeignKey(ToolModuleType, on_delete=models.CASCADE)
     sn = models.TextField(max_length=255, null=True, blank=True)
     dbdate = models.DateField(null=True, blank=True)
     dbversion = models.TextField(null=True, blank=True)
@@ -45,17 +45,21 @@ class ToolModule(models.Model):
 
     class Meta:
         ordering = ("sn",)
+
+
 class ParameterType(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     parameter_name = models.TextField(null=True, blank=True)
 
     def __str__(self):
         return self.parameter_name
+
+
 class Parameter(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
-    unit_id = models.ForeignKey(Unit, on_delete=models.CASCADE)
-    toolmodule_id = models.ForeignKey(ToolModule, on_delete=models.CASCADE)
-    parameter_type_id = models.OneToOneField(ParameterType, on_delete=models.CASCADE)
+    unit = models.ForeignKey(Unit, on_delete=models.CASCADE)
+    toolmodule = models.ForeignKey(ToolModule, on_delete=models.CASCADE)
+    parameter_type = models.OneToOneField(ParameterType, on_delete=models.CASCADE)
     parameter_value = models.FloatField(null=True, blank=True)
 
     def __str__(self):
