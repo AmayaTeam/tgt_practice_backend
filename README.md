@@ -19,11 +19,15 @@
      docker-compose stop
      ```
 2. Тестовые данные
-   * Загрузить тестовые данные
+   * Загрузить базовые тестовые данные(Группы, пользователи, группы модулей, типы, сами модули, их параметры, сенсоры)
      ```commandline
      docker-compose exec web poetry run python manage.py add_base_data
      ```
-   * Удалить тестовые данные
+   * Загрузить тестовые данные единиц измерений(ResourceString, Unit, UnitSystem, Measure, ConversionFactor и т.д.)
+     ```commandline
+     docker-compose exec web poetry run python manage.py add_unit_system_data
+     ```
+   * Удалить ВСЕ тестовые данные
      ```commandline
      docker-compose exec web poetry run python manage.py flush
      ```

@@ -57,9 +57,9 @@ class ParameterType(models.Model):
 
 class Parameter(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
-    unit = models.ForeignKey(Unit, on_delete=models.CASCADE)
+    unit = models.ForeignKey(Unit, on_delete=models.CASCADE, null=True, blank=True)
     toolmodule = models.ForeignKey(ToolModule, on_delete=models.CASCADE)
-    parameter_type = models.OneToOneField(ParameterType, on_delete=models.CASCADE)
+    parameter_type = models.ForeignKey(ParameterType, on_delete=models.CASCADE)
     parameter_value = models.FloatField(null=True, blank=True)
 
     def __str__(self):

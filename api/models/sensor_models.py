@@ -26,18 +26,3 @@ class ToolInstalledSensor(models.Model):
 
     def __str__(self):
         return str(self.record_point)
-
-
-class ConversionFactor(models.Model):
-    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
-    from_unit = models.ForeignKey(
-        Unit, on_delete=models.CASCADE, related_name="from_units"
-    )
-    to_unit = models.ForeignKey(
-        Unit, on_delete=models.CASCADE, related_name="to_units"
-    )
-    factor_1 = models.FloatField(null=True, blank=True)
-    factor_2 = models.FloatField(null=True, blank=True)
-
-    def __str__(self):
-        return str(f"{self.factor_1} {self.factor_2}""")

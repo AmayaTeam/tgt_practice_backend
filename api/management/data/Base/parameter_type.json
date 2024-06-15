@@ -1,0 +1,32 @@
+[
+  {
+    "name": "dbtlength"
+  },
+  {
+    "name": "dbtweight"
+  },
+  {
+    "name": "dbtmax_od_"
+  },
+  {
+    "name": "dbtmax_od_collapsed_"
+  },
+  {
+    "name": "dbtmax_od_opened_"
+  },
+  {
+    "name": "dbtimage_h_shift"
+  },
+  {
+    "name": "dbtimage_h_scale"
+  },
+  {
+    "name": "dbtimage_h_y1"
+  },
+  {
+    "name": "dbtimage_h_y2"
+  },
+  {
+    "name": "dbtcomp_str"
+  }
+]

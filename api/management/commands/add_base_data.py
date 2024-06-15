@@ -6,12 +6,13 @@ from django.contrib.auth.models import User, Group, Permission
 from django.core.management import BaseCommand
 import json
 
-from api.models import (
+from api.models.sensor_models import ToolSensorType, ToolInstalledSensor
+from api.models.tool_models import (
     ToolModuleGroup,
     ToolModuleType,
-    ToolSensorType,
     ToolModule,
-    ToolInstalledSensor,
+    ParameterType,
+    Parameter,
 )
 
 
@@ -39,21 +40,9 @@ class Command(BaseCommand):
             ToolModuleType.objects.create(
                 id=id,
                 name=name,
-                module_type_id=module_type_id,
+                module_type=module_type_id,
                 hash_code=hash_code,
-                r_modules_group_id=tool_module_group,
-            )
-
-    @staticmethod
-    def add_tool_sensor_type(tool_sensor_type_data):
-        for tool_sensor_type_element in tool_sensor_type_data:
-            id = tool_sensor_type_element["id"]
-            name = tool_sensor_type_element["name"]
-            sensor_id = tool_sensor_type_element["sensor_id"]
-            ToolSensorType.objects.create(
-                id=id,
-                name=name,
-                sensor_id=sensor_id,
+                r_modules_group=tool_module_group,
             )
 
     @staticmethod
@@ -77,16 +66,6 @@ class Command(BaseCommand):
             dbsn_ = tool_module_element["dbsn_"]
             dbcomment_ = tool_module_element["dbcomment_"]
             dbtname_ = tool_module_element["dbtname_"]
-            dbtlength_ = tool_module_element["dbtlength"]
-            dbtweight_ = tool_module_element["dbtweight"]
-            dbtmax_od_ = tool_module_element["dbtmax_od_"]
-            dbtmax_od_collapsed_ = tool_module_element["dbtmax_od_collapsed_"]
-            dbtmax_od_opened_ = tool_module_element["dbtmax_od_opened_"]
-            dbtimage_h_shift = tool_module_element["dbtimage_h_shift"]
-            dbtimage_h_scale = tool_module_element["dbtimage_h_scale"]
-            dbtimage_h_y1 = tool_module_element["dbtimage_h_y1"]
-            dbtimage_h_y2 = tool_module_element["dbtimage_h_y2"]
-            dbtcomp_str = tool_module_element["dbtcomp_str"]
             image_path = (
                 f"api/management/data/Image2D/{tool_module_element['dbtimage2d_']}"
             )
@@ -97,27 +76,56 @@ class Command(BaseCommand):
 
             tool_module = ToolModule(
                 id=id,
-                r_module_type_id=tool_module_type,
+                r_module_type=tool_module_type,
                 sn=sn_,
                 dbdate=dbdate_,
                 dbversion=dbversion_,
                 dbsn=dbsn_,
                 dbcomment=dbcomment_,
                 dbtname=dbtname_,
-                dbtlength=dbtlength_,
-                dbtweight=dbtweight_,
-                dbtmax_od=dbtmax_od_,
-                dbtmax_od_collapsed=dbtmax_od_collapsed_,
-                dbtmax_od_opened=dbtmax_od_opened_,
-                dbtimage_h_shift=dbtimage_h_shift,
-                dbtimage_h_scale=dbtimage_h_scale,
-                dbtimage_h_y1=dbtimage_h_y1,
-                dbtimage_h_y2=dbtimage_h_y2,
-                dbtcomp_str=dbtcomp_str,
                 image=image_str,
             )
             tool_modules.append(tool_module)
         return tool_modules
+
+    @staticmethod
+    def add_parameter_type(parameter_type_data):
+        for parameter_type_element in parameter_type_data:
+            name = parameter_type_element["name"]
+            ParameterType.objects.create(parameter_name=name)
+
+    @staticmethod
+    def add_parameter(parameter_data):
+        parameters = []
+        for parameter_element in parameter_data:
+            unit = parameter_element["unit"]
+            toolmodule = ToolModule.objects.filter(
+                sn=parameter_element["toolmodule"]
+            ).first()
+            parameter_type = ParameterType.objects.filter(
+                parameter_name=parameter_element["parameter_type"]
+            ).first()
+            parameter_value = parameter_element["parameter_value"]
+            parameter = Parameter(
+                # unit=unit,
+                toolmodule=toolmodule,
+                parameter_type=parameter_type,
+                parameter_value=parameter_value,
+            )
+            parameters.append(parameter)
+        return parameters
+
+    @staticmethod
+    def add_tool_sensor_type(tool_sensor_type_data):
+        for tool_sensor_type_element in tool_sensor_type_data:
+            id = tool_sensor_type_element["id"]
+            name = tool_sensor_type_element["name"]
+            sensor_id = tool_sensor_type_element["sensor_id"]
+            ToolSensorType.objects.create(
+                id=id,
+                name=name,
+                sensor_id=sensor_id,
+            )
 
     @staticmethod
     def add_tool_installed_sensor(tool_installed_sensor_data):
@@ -141,12 +149,14 @@ class Command(BaseCommand):
         return sensors
 
     def handle(self, *args, **kwargs):
-        tool_module_group_filepath = "api/management/data/tool_module_group.json"
-        tool_module_type_filepath = "api/management/data/tool_module_type.json"
-        tool_sensor_type_filepath = "api/management/data/tool_sensor_type.json"
-        tool_module_filepath = "api/management/data/tool_module.json"
+        tool_module_group_filepath = "api/management/data/Base/tool_module_group.json"
+        tool_module_type_filepath = "api/management/data/Base/tool_module_type.json"
+        tool_module_filepath = "api/management/data/Base/tool_module.json"
+        parameter_type_filepath = "api/management/data/Base/parameter_type.json"
+        parameter_filepath = "api/management/data/Base/parameter.json"
+        tool_sensor_type_filepath = "api/management/data/Base/tool_sensor_type.json"
         tool_installed_sensor_filepath = (
-            "api/management/data/tool_installed_sensor.json"
+            "api/management/data/Base/tool_installed_sensor.json"
         )
 
         with open(
@@ -158,6 +168,14 @@ class Command(BaseCommand):
             tool_module_type_filepath, "r", encoding="utf-8"
         ) as tool_module_type_file:
             tool_module_type_data = json.load(tool_module_type_file)
+
+        with open(
+            parameter_type_filepath, "r", encoding="utf-8"
+        ) as parameter_type_file:
+            parameter_type_data = json.load(parameter_type_file)
+
+        with open(parameter_filepath, "r", encoding="utf-8") as parameter_file:
+            parameter_data = json.load(parameter_file)
 
         with open(
             tool_sensor_type_filepath, "r", encoding="utf-8"
@@ -176,14 +194,18 @@ class Command(BaseCommand):
         print("ToolModules created")
         self.add_tool_module_type(tool_module_type_data)
         print("ToolModuleTypes created")
-        self.add_tool_sensor_type(tool_sensor_type_data)
-        print("ToolSensorTypes created")
         ToolModule.objects.bulk_create(self.add_tool_module(tool_module_data))
         print("ToolModules created")
-        ToolInstalledSensor.objects.bulk_create(
-            self.add_tool_installed_sensor(tool_installed_sensor_data)
-        )
-        print("ToolInstalledSensors created")
+        self.add_parameter_type(parameter_type_data)
+        print("ParameterType created")
+        Parameter.objects.bulk_create(self.add_parameter(parameter_data))
+        print("Parameters created")
+        # self.add_tool_sensor_type(tool_sensor_type_data)
+        # print("ToolSensorTypes created")
+        # ToolInstalledSensor.objects.bulk_create(
+        #     self.add_tool_installed_sensor(tool_installed_sensor_data)
+        # )
+        # print("ToolInstalledSensors created")
 
         manager_group = Group.objects.create(name="manager")
         user_group = Group.objects.create(name="user")
