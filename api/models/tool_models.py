@@ -63,4 +63,4 @@ class Parameter(models.Model):
     parameter_value = models.FloatField(null=True, blank=True)
 
     def __str__(self):
-        return self.parameter_value
+        return str(self.parameter_type.parameter_name)

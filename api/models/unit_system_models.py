@@ -10,7 +10,7 @@ class ResourceString(models.Model):
     es = models.TextField(null=True, blank=True)
 
     def __str__(self):
-        return str(self.ru)
+        return str(self.en)
 
 
 class Unit(models.Model):
@@ -22,7 +22,7 @@ class Unit(models.Model):
     id_unisum = models.IntegerField(null=True, blank=True)
 
     def __str__(self):
-        return str(self.name.ru)
+        return str(self.name)
 
 
 class UnitSystem(models.Model):
@@ -30,7 +30,7 @@ class UnitSystem(models.Model):
     name = models.ForeignKey(ResourceString, on_delete=models.CASCADE)
 
     def __str__(self):
-        return str(self.name.ru)
+        return str(self.name.en)
 
 
 class Measure(models.Model):
@@ -49,7 +49,9 @@ class MeasureUnit(models.Model):
     unit = models.ForeignKey(Unit, on_delete=models.CASCADE)
 
     def __str__(self):
-        return str(self.id)
+        if self.measure:
+            return f"{self.measure.name.en.capitalize()} - {self.unit.name}"
+        return f"Нет связи - {self.unit.name}"
 
 
 class UnitSystemMeasureUnit(models.Model):
