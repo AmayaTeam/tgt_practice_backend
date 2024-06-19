@@ -1,42 +1,42 @@
 [
   {
-    "name": "dbtlength",
+    "name": "Length",
     "default_measure": "Distance"
   },
   {
-    "name": "dbtweight",
+    "name": "Weight",
     "default_measure": "Mass"
   },
   {
-    "name": "dbtmax_od_",
+    "name": "OD",
     "default_measure": "Diameter"
   },
   {
-    "name": "dbtmax_od_collapsed_",
+    "name": "OD Collapsed",
     "default_measure": "Diameter"
   },
   {
-    "name": "dbtmax_od_opened_",
+    "name": "OD Opened",
     "default_measure": "Diameter"
   },
   {
-    "name": "dbtimage_h_shift",
+    "name": "h Shift",
     "default_measure": "Distance"
   },
   {
-    "name": "dbtimage_h_scale",
+    "name": "h Scale",
     "default_measure": "Distance"
   },
   {
-    "name": "dbtimage_h_y1",
+    "name": "Image h_y1",
     "default_measure": "Distance"
   },
   {
-    "name": "dbtimage_h_y2",
+    "name": "Image h_y2",
     "default_measure": "Distance"
   },
   {
-    "name": "dbtcomp_str",
+    "name": "COMP STR",
     "default_measure": "Mass"
   }
 ]

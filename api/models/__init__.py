@@ -7,5 +7,6 @@ from .unit_system_models import (
     UnitSystemMeasureUnit,
     Measure,
     MeasureUnit,
+    ConversionFactor,
 )
 from .user_models import Profile

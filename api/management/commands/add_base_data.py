@@ -103,8 +103,8 @@ class Command(BaseCommand):
     def add_parameter(parameter_data):
         parameters = []
         for parameter_element in parameter_data:
-            if (parameter_element["parameter_type"] == "dbtcomp_str"
-                    or parameter_element["parameter_type"] == "dbtweight"):
+            if (parameter_element["parameter_type"] == "COMP STR"
+                    or parameter_element["parameter_type"] == "Weight"):
                 unit = Unit.objects.filter(name__en="kg").first()
             else:
                 unit = Unit.objects.filter(name__en="mm").first()
