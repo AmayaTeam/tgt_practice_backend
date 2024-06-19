@@ -29,11 +29,12 @@ class CreateToolInstalledSensor(graphene.Mutation):
             tool_sensor_type = ToolSensorType.objects.get(pk=input.r_toolsensortype_id)
         except ObjectDoesNotExist:
             raise Exception("Tool sensor type not found")
-
+        # get in try-except unit
         tool_installed_sensor = ToolInstalledSensor.objects.create(
-            r_toolmodule_id=tool_module,
-            r_toolsensortype_id=tool_sensor_type,
+            r_toolmodule=tool_module,
+            r_toolsensortype=tool_sensor_type,
             record_point=input.record_point,
+            # unit =
         )
         return ToolInstalledSensorPayload(tool_installed_sensor=tool_installed_sensor)
 
@@ -51,7 +52,7 @@ class UpdateToolInstalledSensor(graphene.Mutation):
             tool_installed_sensor = ToolInstalledSensor.objects.get(pk=input.id)
         except ObjectDoesNotExist:
             raise Exception("Tool installed sensor not found")
-
+        # get current unit, convert and update unit and record_point
         tool_installed_sensor.record_point = input.record_point
         tool_installed_sensor.save()
 

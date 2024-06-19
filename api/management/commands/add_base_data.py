@@ -6,6 +6,7 @@ from django.contrib.auth.models import User, Group, Permission
 from django.core.management import BaseCommand
 import json
 
+from api.models.unit_system_models import Measure, Unit
 from api.models.sensor_models import ToolSensorType, ToolInstalledSensor
 from api.models.tool_models import (
     ToolModuleGroup,
@@ -92,13 +93,22 @@ class Command(BaseCommand):
     def add_parameter_type(parameter_type_data):
         for parameter_type_element in parameter_type_data:
             name = parameter_type_element["name"]
-            ParameterType.objects.create(parameter_name=name)
+            default_measure = Measure.objects.filter(name__en=parameter_type_element["default_measure"]).first()
+            ParameterType.objects.create(
+                parameter_name=name,
+                default_measure=default_measure
+            )
 
     @staticmethod
     def add_parameter(parameter_data):
         parameters = []
         for parameter_element in parameter_data:
-            unit = parameter_element["unit"]
+            if (parameter_element["parameter_type"] == "dbtcomp_str"
+                    or parameter_element["parameter_type"] == "dbtweight"):
+                unit = Unit.objects.filter(name__en="kg").first()
+            else:
+                unit = Unit.objects.filter(name__en="mm").first()
+
             toolmodule = ToolModule.objects.filter(
                 sn=parameter_element["toolmodule"]
             ).first()
@@ -107,7 +117,7 @@ class Command(BaseCommand):
             ).first()
             parameter_value = parameter_element["parameter_value"]
             parameter = Parameter(
-                # unit=unit,
+                unit=unit,
                 toolmodule=toolmodule,
                 parameter_type=parameter_type,
                 parameter_value=parameter_value,
@@ -124,7 +134,7 @@ class Command(BaseCommand):
             ToolSensorType.objects.create(
                 id=id,
                 name=name,
-                sensor_id=sensor_id,
+                sensor=sensor_id,
             )
 
     @staticmethod
@@ -138,12 +148,14 @@ class Command(BaseCommand):
             toolsensortype = ToolSensorType.objects.filter(
                 id=r_toolsensortype_id
             ).first()
-            record_point_ = tool_installed_sensor_element["record_point_"]
+            record_point_ = float(tool_installed_sensor_element["record_point_"])
+            unit = Unit.objects.filter(name__en=tool_installed_sensor_element["unit"]).first()
             sensor = ToolInstalledSensor(
                 id=id,
-                r_toolmodule_id=tool_module,
-                r_toolsensortype_id=toolsensortype,
+                r_toolmodule=tool_module,
+                r_toolsensortype=toolsensortype,
                 record_point=record_point_,
+                unit=unit,
             )
             sensors.append(sensor)
         return sensors
@@ -200,12 +212,12 @@ class Command(BaseCommand):
         print("ParameterType created")
         Parameter.objects.bulk_create(self.add_parameter(parameter_data))
         print("Parameters created")
-        # self.add_tool_sensor_type(tool_sensor_type_data)
-        # print("ToolSensorTypes created")
-        # ToolInstalledSensor.objects.bulk_create(
-        #     self.add_tool_installed_sensor(tool_installed_sensor_data)
-        # )
-        # print("ToolInstalledSensors created")
+        self.add_tool_sensor_type(tool_sensor_type_data)
+        print("ToolSensorTypes created")
+        ToolInstalledSensor.objects.bulk_create(
+            self.add_tool_installed_sensor(tool_installed_sensor_data)
+        )
+        print("ToolInstalledSensors created")
 
         manager_group = Group.objects.create(name="manager")
         user_group = Group.objects.create(name="user")

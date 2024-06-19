@@ -15,7 +15,8 @@ from api.models.unit_system_models import (
     UnitSystem,
     Measure,
     MeasureUnit,
-    UnitSystemMeasureUnit
+    UnitSystemMeasureUnit,
+    ConversionFactor
 )
 
 
@@ -42,7 +43,8 @@ class ToolModuleAdmin(admin.ModelAdmin):
         "dbversion",
         "dbsn",
         "dbcomment",
-        "dbtname"
+        "dbtname",
+        "status"
     )
     search_fields = (
         "sn",
@@ -50,7 +52,8 @@ class ToolModuleAdmin(admin.ModelAdmin):
         "dbversion",
         "dbsn",
         "dbcomment",
-        "dbtname"
+        "dbtname",
+        "status"
     )
     list_display_links = ("sn",)
 
@@ -64,15 +67,15 @@ class ToolSensorTypeAdmin(admin.ModelAdmin):
 
 @admin.register(ToolInstalledSensor)
 class ToolInstalledSensorAdmin(admin.ModelAdmin):
-    list_display = ("r_toolmodule", "r_toolsensortype", "record_point")
-    search_fields = ("r_toolmodule", "r_toolsensortype", "record_point")
+    list_display = ("r_toolmodule", "r_toolsensortype", "record_point", "unit")
+    search_fields = ("r_toolmodule", "r_toolsensortype", "record_point", "unit")
     list_display_links = ("r_toolmodule", "r_toolsensortype")
 
 
 @admin.register(ParameterType)
 class ParameterTypeAdmin(admin.ModelAdmin):
-    list_display = ("parameter_name",)
-    search_fields = ("parameter_name",)
+    list_display = ("parameter_name", "default_measure")
+    search_fields = ("parameter_name", "default_measure")
     list_display_links = ("parameter_name",)
 
 
@@ -123,6 +126,13 @@ class UnitSystemMeasureUnit(admin.ModelAdmin):
     list_display = ("measure_unit", "unit_system")
     search_fields = ("measure_unit", "unit_system")
     list_display_links = ("measure_unit", "unit_system")
+
+
+@admin.register(ConversionFactor)
+class ConversionFactorAdmin(admin.ModelAdmin):
+    list_display = ("from_unit", "to_unit", "factor_1", "factor_2")
+    search_fields = ("from_unit", "to_unit", "factor_1", "factor_2")
+    list_display_links = ("from_unit", "to_unit")
 
 
 @admin.register(Profile)

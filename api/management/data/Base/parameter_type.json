@@ -1,32 +1,42 @@
 [
   {
-    "name": "dbtlength"
+    "name": "dbtlength",
+    "default_measure": "Distance"
   },
   {
-    "name": "dbtweight"
+    "name": "dbtweight",
+    "default_measure": "Mass"
   },
   {
-    "name": "dbtmax_od_"
+    "name": "dbtmax_od_",
+    "default_measure": "Diameter"
   },
   {
-    "name": "dbtmax_od_collapsed_"
+    "name": "dbtmax_od_collapsed_",
+    "default_measure": "Diameter"
   },
   {
-    "name": "dbtmax_od_opened_"
+    "name": "dbtmax_od_opened_",
+    "default_measure": "Diameter"
   },
   {
-    "name": "dbtimage_h_shift"
+    "name": "dbtimage_h_shift",
+    "default_measure": "Distance"
   },
   {
-    "name": "dbtimage_h_scale"
+    "name": "dbtimage_h_scale",
+    "default_measure": "Distance"
   },
   {
-    "name": "dbtimage_h_y1"
+    "name": "dbtimage_h_y1",
+    "default_measure": "Distance"
   },
   {
-    "name": "dbtimage_h_y2"
+    "name": "dbtimage_h_y2",
+    "default_measure": "Distance"
   },
   {
-    "name": "dbtcomp_str"
+    "name": "dbtcomp_str",
+    "default_measure": "Mass"
   }
 ]

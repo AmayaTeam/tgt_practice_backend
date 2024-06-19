@@ -7,7 +7,10 @@ from api.models.unit_system_models import (
     ResourceString,
     Unit,
     UnitSystem,
-    Measure, MeasureUnit, UnitSystemMeasureUnit
+    Measure,
+    MeasureUnit,
+    UnitSystemMeasureUnit,
+    ConversionFactor
 )
 
 
@@ -111,6 +114,23 @@ class Command(BaseCommand):
             unit_system_measure_units.append(unit_system_measure_unit)
         return unit_system_measure_units
 
+    @staticmethod
+    def add_conversion_factor(conversion_factor_data):
+        conversion_factors = []
+        for conversion_factor_element in conversion_factor_data:
+            from_unit = Unit.objects.filter(name__en=conversion_factor_element["from_unit"]).first()
+            to_unit = Unit.objects.filter(name__en=conversion_factor_element["to_unit"]).first()
+            factor_1 = conversion_factor_element["factor_1"]
+            factor_2 = conversion_factor_element["factor_2"]
+            conversion_factor = ConversionFactor(
+                from_unit=from_unit,
+                to_unit=to_unit,
+                factor_1=factor_1,
+                factor_2=factor_2
+            )
+            conversion_factors.append(conversion_factor)
+        return conversion_factors
+
     def handle(self, *args, **kwargs):
         resource_string_filepath = "api/management/data/UnitSystem/resource_string.json"
         unit_file_path = "api/management/data/UnitSystem/unit.json"
@@ -118,14 +138,15 @@ class Command(BaseCommand):
         measure_file_path = "api/management/data/UnitSystem/measure.json"
         measure_unit_file_path = "api/management/data/UnitSystem/measure_unit.json"
         unit_system_measure_unit_file_path = "api/management/data/UnitSystem/unit_system_measure_unit.json"
+        conversion_factor_file_path = "api/management/data/UnitSystem/conversion_factor.json"
 
         with open(
-            resource_string_filepath, "r", encoding="utf-8"
+                resource_string_filepath, "r", encoding="utf-8"
         ) as resource_string_file:
             resource_string_data = json.load(resource_string_file)
 
         with open(
-            measure_file_path, "r", encoding="utf-8"
+                measure_file_path, "r", encoding="utf-8"
         ) as measure_file:
             measure_data = json.load(measure_file)
 
@@ -140,14 +161,19 @@ class Command(BaseCommand):
             unit_system_data = json.load(unit_system_file)
 
         with open(
-            measure_unit_file_path, "r", encoding="utf-8"
+                measure_unit_file_path, "r", encoding="utf-8"
         ) as measure_unit_file:
             measure_unit_data = json.load(measure_unit_file)
 
         with open(
-            unit_system_measure_unit_file_path, "r", encoding="utf-8"
+                unit_system_measure_unit_file_path, "r", encoding="utf-8"
         ) as unit_system_measure_unit_file:
             unit_system_measure_unit_data = json.load(unit_system_measure_unit_file)
+
+        with open(
+            conversion_factor_file_path, "r", encoding="utf-8"
+        ) as conversion_factor_file:
+            conversion_factor_data = json.load(conversion_factor_file)
 
         ResourceString.objects.bulk_create(self.add_resource_string(resource_string_data))
         print("ResourceString created")
@@ -161,3 +187,6 @@ class Command(BaseCommand):
         print("MeasureUnit created")
         UnitSystemMeasureUnit.objects.bulk_create(self.add_unit_system_measure_unit(unit_system_measure_unit_data))
         print("UnitSystemMeasureUnit created")
+        ConversionFactor.objects.bulk_create(self.add_conversion_factor(conversion_factor_data))
+        print("ConversionFactor created")
+

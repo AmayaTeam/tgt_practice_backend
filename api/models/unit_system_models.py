@@ -73,4 +73,4 @@ class ConversionFactor(models.Model):
     factor_2 = models.FloatField(null=True, blank=True)
 
     def __str__(self):
-        return str(f"{self.factor_1} {self.factor_2}" "")
+        return f"{self.from_unit} - {self.to_unit}"

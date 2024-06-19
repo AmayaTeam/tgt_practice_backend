@@ -1,7 +1,7 @@
 import uuid
 from django.db import models
 
-from .unit_system_models import Unit
+from .unit_system_models import Unit, Measure
 
 
 class ToolModuleGroup(models.Model):
@@ -39,6 +39,7 @@ class ToolModule(models.Model):
     dbcomment = models.TextField(null=True, blank=True)
     dbtname = models.TextField(null=True, blank=True)
     image = models.TextField(null=True, blank=True)
+    status = models.TextField(null=True, blank=True)
 
     def __str__(self):
         return self.sn
@@ -50,6 +51,7 @@ class ToolModule(models.Model):
 class ParameterType(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     parameter_name = models.TextField(null=True, blank=True)
+    default_measure = models.ForeignKey(Measure, on_delete=models.CASCADE, null=True, blank=True)
 
     def __str__(self):
         return self.parameter_name
