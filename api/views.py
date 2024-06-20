@@ -3,7 +3,7 @@ import string
 
 from django.conf import settings
 from django.http import HttpResponse
-from django.contrib.auth import authenticate
+from django.contrib.auth import login, logout
 from django.contrib.auth.models import User, Group
 from django.shortcuts import redirect
 from graphene_django.views import GraphQLView
@@ -12,18 +12,14 @@ import graphdoc
 
 __version__ = "0.2.0"
 
-from graphql_jwt.refresh_token.shortcuts import create_refresh_token
-from graphql_jwt.shortcuts import get_token
 
-
-@settings.AUTH.login_required
-def index(request, *, context):
+def index(request):
     return redirect("call_api")
 
 
 def generate_random_password(length=12):
     characters = string.ascii_letters + string.digits
-    return "".join(random.choice(characters) for i in range(length))
+    return "".join(random.choice(characters) for _ in range(length))
 
 
 @settings.AUTH.login_required(scopes=["User.Read", "Directory.Read.All"])
@@ -56,12 +52,8 @@ def call_api(request, *, context):
             user.set_password(random_password)
             user.save()
 
-        jwt_token = get_token(user)
-        refresh_token = create_refresh_token(user)
-        authenticate(request, username=user.username, password=user.password)
-
-        # Prepare the URL with tokens as query parameters
-        redirect_url = f"http://localhost:3000/home?jwt_token={jwt_token}&refresh_token={refresh_token}"
+        login(request, user)
+        redirect_url = "http://localhost:3000/home"
 
         return redirect(redirect_url)
 
@@ -69,3 +61,9 @@ def call_api(request, *, context):
 def graphql_docs(request):
     html = graphdoc.to_doc(GraphQLView().schema.graphql_schema)
     return HttpResponse(html, content_type="text/html")
+
+
+@settings.AUTH.login_required
+def logout_user(request, *, context):
+    logout(request)
+    return redirect("http://localhost:8000/logout")

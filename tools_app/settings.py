@@ -11,6 +11,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.getenv("SECRET_KEY")
 DEBUG = os.getenv("DEBUG", "False").lower() in ("true", "1", "t")
 ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS", "").split(",")
+CSRF_TRUSTED_ORIGINS = ["http://localhost:3000"]
 
 INSTALLED_APPS = [
     "django.contrib.admin",
@@ -23,8 +24,6 @@ INSTALLED_APPS = [
     "graphene_django",
     "api",
     "identity",
-    "graphql_jwt",
-    "graphql_jwt.refresh_token.apps.RefreshTokenConfig",
 ]
 
 MIDDLEWARE = [
@@ -105,12 +104,10 @@ GRAPHENE = {
     "SCHEMA": "api.schema.schema",
     "MIDDLEWARE": [
         "api.middleware.DebugMiddleware",
-        "graphql_jwt.middleware.JSONWebTokenMiddleware",
     ],
 }
 
 AUTHENTICATION_BACKENDS = [
-    "graphql_jwt.backends.JSONWebTokenBackend",
     "django.contrib.auth.backends.ModelBackend",
 ]
 
