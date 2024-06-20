@@ -110,7 +110,7 @@ class Command(BaseCommand):
                 unit = Unit.objects.filter(name__en="mm").first()
 
             toolmodule = ToolModule.objects.filter(
-                sn=parameter_element["toolmodule"]
+                id=parameter_element["toolmodule"]
             ).first()
             parameter_type = ParameterType.objects.filter(
                 parameter_name=parameter_element["parameter_type"]
