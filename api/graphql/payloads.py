@@ -6,6 +6,7 @@ from .types import (
     ToolModuleTypeObject,
     ToolSensorTypeObject,
     ParameterObject,
+    ProfileObject,
 )
 
 
@@ -34,4 +35,8 @@ class ToolSensorTypePayload(graphene.ObjectType):
 
 class ParameterPayload(graphene.ObjectType):
     parameter = graphene.Field(ParameterObject)
+
+class ProfilePayload(graphene.ObjectType):
+    profile = graphene.Field(ProfileObject)
+
 

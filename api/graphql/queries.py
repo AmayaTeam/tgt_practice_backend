@@ -8,7 +8,8 @@ from .types import (
     ToolSensorTypeObject,
     ToolInstalledSensorObject,
     UserType,
-    GroupType, UnitSystemObject,
+    GroupType,
+    UnitSystemObject, ProfileObject,
 )
 from api.models import (
     ToolModuleGroup,
@@ -17,6 +18,7 @@ from api.models import (
     ToolSensorType,
     ToolInstalledSensor,
     UnitSystem,
+    Profile,
 )
 
 
@@ -28,6 +30,7 @@ class Query(graphene.ObjectType):
     tool_installed_sensors = graphene.List(ToolInstalledSensorObject)
 
     tool_modules_by_id = graphene.Field(ToolModuleObject, id=graphene.String())
+    profile_by_id = graphene.Field(ProfileObject, user_id=graphene.String())
 
     unit_systems = graphene.List(UnitSystemObject)
 
@@ -62,3 +65,6 @@ class Query(graphene.ObjectType):
 
     def resolve_unit_systems(self, info, **kwargs):
         return UnitSystem.objects.all()
+
+    def resolve_profile_by_id(root, info, user_id):
+        return Profile.objects.get(user__id=user_id)
