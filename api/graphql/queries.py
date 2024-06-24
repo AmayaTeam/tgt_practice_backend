@@ -18,7 +18,7 @@ from api.models import (
     ToolSensorType,
     ToolInstalledSensor,
     UnitSystem,
-    Profile,
+    Profile, UnitSystemMeasureUnit, ConversionFactor,
 )
 
 
@@ -30,6 +30,7 @@ class Query(graphene.ObjectType):
     tool_installed_sensors = graphene.List(ToolInstalledSensorObject)
 
     tool_modules_by_id = graphene.Field(ToolModuleObject, id=graphene.String())
+    tool_modules_by_id_with_unit_system = graphene.Field(ToolModuleObject, id=graphene.String(), unit_system=graphene.String(required=True))
     profile_by_id = graphene.Field(ProfileObject, user_id=graphene.String())
 
     unit_systems = graphene.List(UnitSystemObject)
@@ -68,3 +69,49 @@ class Query(graphene.ObjectType):
 
     def resolve_profile_by_id(root, info, user_id):
         return Profile.objects.get(user__id=user_id)
+
+    @staticmethod
+    def get_unit_for_measure_and_unit_system(measure, unit_system):
+        # Найти соответствующую единицу измерения для заданной системы единиц
+        try:
+            unit_system_measure_unit = UnitSystemMeasureUnit.objects.get(
+                measure_unit__measure=measure,
+                unit_system=unit_system
+            )
+            return unit_system_measure_unit.measure_unit.unit
+        except UnitSystemMeasureUnit.DoesNotExist:
+            return measure.default_unit
+
+    @staticmethod
+    def get_conversion_factor(from_unit, to_unit):
+        # Найти коэффициент конвертации между двумя единицами
+        try:
+            return ConversionFactor.objects.get(from_unit=from_unit, to_unit=to_unit)
+        except ConversionFactor.DoesNotExist:
+            try:
+                # Если не найдено, ищем обратную конвертацию
+                conversion_factor = ConversionFactor.objects.get(from_unit=to_unit, to_unit=from_unit)
+                return ConversionFactor(from_unit=from_unit, to_unit=to_unit, factor_1=conversion_factor.factor_2,
+                                        factor_2=conversion_factor.factor_1)
+            except ConversionFactor.DoesNotExist:
+                return None
+
+    @staticmethod
+    def convert_value(value, factor_1, factor_2):
+        return (factor_1 / factor_2) * value
+
+    def resolve_tool_modules_by_id_with_unit_system(root, info, id, unit_system):
+        tool_module = ToolModule.objects.get(pk=id)
+
+        # Конвертируем значения параметров
+        for parameter in tool_module.parameter_set.all():
+            from_unit = parameter.unit
+            to_unit = Query.get_unit_for_measure_and_unit_system(parameter.parameter_type.default_measure, unit_system)
+            conversion_factor = Query.get_conversion_factor(from_unit, to_unit)
+
+            if conversion_factor:
+                parameter.parameter_value = Query.convert_value(parameter.parameter_value, conversion_factor.factor_1,
+                                                                conversion_factor.factor_2)
+                parameter.unit = to_unit
+
+        return tool_module
