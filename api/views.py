@@ -17,11 +17,6 @@ def index(request):
     return redirect("call_api")
 
 
-def generate_random_password(length=12):
-    characters = string.ascii_letters + string.digits
-    return "".join(random.choice(characters) for _ in range(length))
-
-
 @settings.AUTH.login_required(scopes=["User.Read", "Directory.Read.All"])
 def call_api(request, *, context):
     if context["access_token"]:
@@ -47,9 +42,6 @@ def call_api(request, *, context):
             else:
                 group, _ = Group.objects.get_or_create(name="user")
             user.groups.add(group)
-            # Set a random password for the newly created user
-            random_password = generate_random_password()
-            user.set_password(random_password)
             user.save()
 
         login(request, user)
@@ -63,7 +55,6 @@ def graphql_docs(request):
     return HttpResponse(html, content_type="text/html")
 
 
-@settings.AUTH.login_required
-def logout_user(request, *, context):
+def logout_user(request):
     logout(request)
-    return redirect("http://localhost:8000/logout")
+    return redirect("http://localhost:3000")
