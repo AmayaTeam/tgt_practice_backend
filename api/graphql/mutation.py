@@ -1,5 +1,4 @@
 import graphene
-import graphql_jwt
 
 from api.graphql.mutations.parameter import UpdateParameter
 from api.graphql.mutations.profile import UpdateProfile
@@ -32,10 +31,6 @@ from api.graphql.mutations.tool_sensor_type import (
 
 
 class Mutation(graphene.ObjectType):
-    token_auth = graphql_jwt.ObtainJSONWebToken.Field()
-    verify_token = graphql_jwt.Verify.Field()
-    refresh_token = graphql_jwt.Refresh.Field()
-
     create_tool_installed_sensor = CreateToolInstalledSensor.Field()
     update_tool_installed_sensor = UpdateToolInstalledSensor.Field()
     delete_tool_installed_sensor = DeleteToolInstalledSensor.Field()
