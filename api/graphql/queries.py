@@ -1,6 +1,7 @@
 import graphene
 from django.contrib.auth.models import Group
 from api.graphql.decorators import query_permission_required
+from api.graphql.conversion_utils import ConversionUtils
 
 from .types import (
     ToolModuleGroupObject,
@@ -77,43 +78,16 @@ class Query(graphene.ObjectType):
     def resolve_profile_by_id(root, info, user_id):
         return Profile.objects.get(user__id=user_id)
 
-    @staticmethod
-    def get_unit_for_measure_and_unit_system(measure, unit_system):
-        try:
-            unit_system_measure_unit = UnitSystemMeasureUnit.objects.get(
-                measure_unit__measure=measure,
-                unit_system=unit_system
-            )
-            return unit_system_measure_unit.measure_unit.unit
-        except UnitSystemMeasureUnit.DoesNotExist:
-            return measure.default_unit
-
-    @staticmethod
-    def get_conversion_factor(from_unit, to_unit):
-        try:
-            return ConversionFactor.objects.get(from_unit=from_unit, to_unit=to_unit)
-        except ConversionFactor.DoesNotExist:
-            try:
-                conversion_factor = ConversionFactor.objects.get(from_unit=to_unit, to_unit=from_unit)
-                return ConversionFactor(from_unit=from_unit, to_unit=to_unit, factor_1=conversion_factor.factor_2,
-                                        factor_2=conversion_factor.factor_1)
-            except ConversionFactor.DoesNotExist:
-                return None
-
-    @staticmethod
-    def convert_value(value, factor_1, factor_2):
-        return (factor_1 / factor_2) * value
-
     def resolve_tool_modules_by_id_with_unit_system(root, info, id, unit_system):
         tool_module = ToolModule.objects.get(pk=id)
 
         for parameter in tool_module.parameter_set.all():
             from_unit = parameter.unit
-            to_unit = Query.get_unit_for_measure_and_unit_system(parameter.parameter_type.default_measure, unit_system)
-            conversion_factor = Query.get_conversion_factor(from_unit, to_unit)
+            to_unit = ConversionUtils.get_unit_for_measure_and_unit_system(parameter.parameter_type.default_measure, unit_system)
+            conversion_factor = ConversionUtils.get_conversion_factor(from_unit, to_unit)
 
             if conversion_factor:
-                parameter.parameter_value = Query.convert_value(parameter.parameter_value, conversion_factor.factor_1,
+                parameter.parameter_value = ConversionUtils.convert_value(parameter.parameter_value, conversion_factor.factor_1,
                                                                 conversion_factor.factor_2)
                 parameter.unit = to_unit
                 parameter.save()
