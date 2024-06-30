@@ -13,7 +13,7 @@ urlpatterns = [
     path("", views.index),
     path("logout_user", views.logout_user, name="logout_user"),
     path("call_api", views.call_api, name="call_api"),
-    path("graphql/", csrf_protect(GraphQLView.as_view(graphiql=False, schema=schema))),
+    path("graphql/", csrf_protect(GraphQLView.as_view(graphiql=True, schema=schema))),
     path("docs", graphql_docs, name="graphql_docs"),
     path("admin/", admin.site.urls),
 ]
