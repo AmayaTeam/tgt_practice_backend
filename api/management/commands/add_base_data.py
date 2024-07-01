@@ -163,12 +163,17 @@ class Command(BaseCommand):
     def handle(self, *args, **kwargs):
         tool_module_group_filepath = "api/management/data/Base/tool_module_group.json"
         tool_module_type_filepath = "api/management/data/Base/tool_module_type.json"
-        tool_module_filepath = "api/management/data/Base/tool_module.json"
+        # tool_module_filepath = "api/management/data/Base/tool_module.json"
+        tool_module_filepath = "api/management/data/Large/tool_module_large.json"
         parameter_type_filepath = "api/management/data/Base/parameter_type.json"
-        parameter_filepath = "api/management/data/Base/parameter.json"
+        # parameter_filepath = "api/management/data/Base/parameter_large.json"
+        parameter_filepath = "api/management/data/Large/parameter_large.json"
         tool_sensor_type_filepath = "api/management/data/Base/tool_sensor_type.json"
+        # tool_installed_sensor_filepath = (
+        #     "api/management/data/Base/sensor_large.json"
+        # )
         tool_installed_sensor_filepath = (
-            "api/management/data/Base/tool_installed_sensor.json"
+            "api/management/data/Large/sensor_large.json"
         )
 
         with open(
@@ -203,7 +208,7 @@ class Command(BaseCommand):
             tool_installed_sensor_data = json.load(tool_installed_sensor_file)
 
         self.add_tool_module_group(tool_module_group_data)
-        print("ToolModules created")
+        print("ToolModulesGroup created")
         self.add_tool_module_type(tool_module_type_data)
         print("ToolModuleTypes created")
         ToolModule.objects.bulk_create(self.add_tool_module(tool_module_data))

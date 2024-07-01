@@ -2,7 +2,7 @@ import json
 
 
 def convert_data(data):
-    """Конвертирует список объектов в формат parameter.json."""
+    """Конвертирует список объектов в формат parameter_large.json."""
     parameters = []
     for item in data:
         parameters.append(
@@ -92,14 +92,14 @@ def convert_data(data):
 with open("Base/tool_module_old.json", "r") as f:
     data = json.load(f)
 
-# Конвертируйте данные в формат parameter.json
+# Конвертируйте данные в формат parameter_large.json
 parameters = convert_data(data)
 
 # Сохраните результаты в новый файл
 with open("Base/parameter.json", "w") as f:
     json.dump(parameters, f, indent=4)
 
-print("Данные успешно конвертированы в parameter.json!")
+print("Данные успешно конвертированы в parameter_large.json!")
 
 # import json
 #
@@ -120,9 +120,9 @@ print("Данные успешно конвертированы в parameter.jso
 #
 # # Замените "data.json" на путь к вашему файлу
 # remove_empty_lines("tool_module.json")
-# with open("Base/tool_installed_sensor.json", "r") as f:
+# with open("Base/sensor_large.json", "r") as f:
 #     data = json.load(f)
 #     for i in data:
 #         i["unit"] = "mm"
-# with open("Base/tool_installed_sensor.json", "w") as f2:
+# with open("Base/sensor_large.json", "w") as f2:
 #     json.dump(data, f2, indent=4)
