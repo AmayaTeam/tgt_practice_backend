@@ -166,15 +166,15 @@ class Command(BaseCommand):
         # tool_module_filepath = "api/management/data/Base/tool_module.json"
         tool_module_filepath = "api/management/data/Large/tool_module_large.json"
         parameter_type_filepath = "api/management/data/Base/parameter_type.json"
-        # parameter_filepath = "api/management/data/Base/parameter_large.json"
-        parameter_filepath = "api/management/data/Large/parameter_large.json"
+        parameter_filepath = "api/management/data/Base/parameter.json"
+        # parameter_filepath = "api/management/data/Large/parameter_large.json"
         tool_sensor_type_filepath = "api/management/data/Base/tool_sensor_type.json"
-        # tool_installed_sensor_filepath = (
-        #     "api/management/data/Base/sensor_large.json"
-        # )
         tool_installed_sensor_filepath = (
-            "api/management/data/Large/sensor_large.json"
+            "api/management/data/Base/tool_installed_sensor.json"
         )
+        # tool_installed_sensor_filepath = (
+        #     "api/management/data/Large/sensor_large.json"
+        # )
 
         with open(
             tool_module_group_filepath, "r", encoding="utf-8"

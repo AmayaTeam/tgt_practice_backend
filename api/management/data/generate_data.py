@@ -21,8 +21,10 @@ def duplicate_and_save(input_file, output_file):
     ]
 
     for obj in data:
-        # Дублируем объект 8 раз
-        for _ in range(8):
+        new_obj = obj.copy()
+        duplicated_data.append(new_obj)
+        # Дублируем объект 7 раз
+        for _ in range(7):
             new_obj = obj.copy()
             new_obj["id"] = str(uuid.uuid4())
             duplicated_data.append(new_obj)
