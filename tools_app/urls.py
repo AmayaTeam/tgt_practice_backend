@@ -2,6 +2,8 @@ from django.contrib import admin
 from django.urls import path
 from django.views.decorators.csrf import csrf_protect
 from graphene_django.views import GraphQLView
+from django.conf import settings
+from django.conf.urls.static import static
 
 from api import views
 from api.schema import schema
@@ -16,4 +18,4 @@ urlpatterns = [
     path("graphql/", csrf_protect(GraphQLView.as_view(graphiql=True, schema=schema))),
     path("docs", graphql_docs, name="graphql_docs"),
     path("admin/", admin.site.urls),
-]
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
