@@ -2,9 +2,10 @@ import random
 import string
 
 from django.conf import settings
-from django.http import HttpResponse
+from django.http import HttpResponse, JsonResponse
 from django.contrib.auth import login, logout
 from django.contrib.auth.models import User, Group
+from django.middleware.csrf import get_token
 from django.shortcuts import redirect
 from graphene_django.views import GraphQLView
 import requests
@@ -47,7 +48,23 @@ def call_api(request, *, context):
         login(request, user)
         redirect_url = "http://localhost:3000/home"
 
+        user_agent = request.META.get('HTTP_USER_AGENT', '').lower()
+        if 'mozilla' in user_agent:
+            # Redirect to frontend if the client is a browser
+            return redirect("http://localhost:3000/home")
+        else:
+            # Return session ID and CSRF token if the client is a desktop application
+            sessionid = request.COOKIES.get("sessionid")
+            csrftoken = request.COOKIES.get("csrftoken")
+            return JsonResponse({"csrftoken": csrftoken, "sessionid": sessionid})
+
         return redirect(redirect_url)
+
+
+def csrf_and_session_id(request):
+    sessionid = request.COOKIES.get("sessionid")
+    csrftoken = request.COOKIES.get("csrftoken")
+    return JsonResponse({'csrftoken': csrftoken, 'sessionid': sessionid})
 
 
 def graphql_docs(request):
