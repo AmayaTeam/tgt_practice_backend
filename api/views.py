@@ -62,8 +62,35 @@ def call_api(request, *, context):
 
 
 def csrf_and_session_id(request):
-    sessionid = request.COOKIES.get("sessionid")
-    csrftoken = request.COOKIES.get("csrftoken")
+    access_token = request.headers["Authorization"]
+    print(access_token)
+    api_result = requests.get(
+        "https://graph.microsoft.com/v1.0/me/appRoleAssignments",
+        headers={"Authorization": access_token},
+        timeout=30,
+    )
+    api_result2 = requests.get(
+        "https://graph.microsoft.com/v1.0/me",
+        headers={"Authorization": access_token},
+        timeout=30,
+    )
+
+    user_info = api_result2.json()
+    print(user_info)
+    user, created = User.objects.get_or_create(
+        username=user_info["userPrincipalName"]
+    )
+    if created:
+        app_role_id = api_result.json()["value"][0]["appRoleId"]
+        if app_role_id == "0be6dabc-574d-4913-8652-befb6d290ed5":
+            group, _ = Group.objects.get_or_create(name="manager")
+        else:
+            group, _ = Group.objects.get_or_create(name="user")
+        user.groups.add(group)
+        user.save()
+    login(request, user)
+    csrftoken = get_token(request)
+    sessionid = request.session._get_or_create_session_key()
     return JsonResponse({'csrftoken': csrftoken, 'sessionid': sessionid})
 
 

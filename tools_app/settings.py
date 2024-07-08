@@ -126,3 +126,6 @@ AUTH = Auth(
     b2c_edit_profile_user_flow=os.getenv("EDITPROFILE_USER_FLOW"),
     b2c_reset_password_user_flow=os.getenv("RESETPASSWORD_USER_FLOW"),
 )
+
+SESSION_ENGINE = 'django.contrib.sessions.backends.db'
+SESSION_COOKIE_NAME = 'sessionid'
