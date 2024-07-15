@@ -1,5 +1,6 @@
 from api.models import UnitSystemMeasureUnit, ConversionFactor
 
+
 class ConversionUtils:
     @staticmethod
     def get_unit_for_measure_and_unit_system(measure, unit_system):
