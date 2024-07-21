@@ -9,16 +9,6 @@ class CreateToolModuleInput(graphene.InputObjectType):
     dbdate = graphene.Date()
     dbversion = graphene.String()
     dbcomment = graphene.String()
-    dbtlength = graphene.Float()
-    dbtweight = graphene.Float()
-    dbtmax_od = graphene.Float()
-    dbtmax_od_collapsed = graphene.Float()
-    dbtmax_od_opened = graphene.Float()
-    dbtimage_h_shift = graphene.Float()
-    dbtimage_h_scale = graphene.Float()
-    dbtimage_h_y1 = graphene.Float()
-    dbtimage_h_y2 = graphene.Float()
-    dbtcomp_str = graphene.Float()
     image = graphene.String()
 
 
@@ -32,16 +22,6 @@ class UpdateToolModuleInput(graphene.InputObjectType):
     dbdate = graphene.Date()
     dbversion = graphene.String()
     dbcomment = graphene.String()
-    dbtlength = graphene.Float()
-    dbtweight = graphene.Float()
-    dbtmax_od = graphene.Float()
-    dbtmax_od_collapsed = graphene.Float()
-    dbtmax_od_opened = graphene.Float()
-    dbtimage_h_shift = graphene.Float()
-    dbtimage_h_scale = graphene.Float()
-    dbtimage_h_y1 = graphene.Float()
-    dbtimage_h_y2 = graphene.Float()
-    dbtcomp_str = graphene.Float()
     image = graphene.String()
 
 
