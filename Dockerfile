@@ -13,4 +13,5 @@ COPY . /app
 
 RUN poetry install
 
-RUN poetry run python manage.py collectstatic --noinput --clear
+COPY ./entrypoint.sh /
+ENTRYPOINT ["sh", "/entrypoint.sh"]
